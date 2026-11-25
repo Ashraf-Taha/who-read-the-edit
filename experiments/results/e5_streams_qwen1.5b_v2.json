@@ -1,0 +1,6187 @@
+{
+ "meta": {
+  "written": "2026-11-23T14:24:26",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "docs": 6,
+ "repair_shares": [
+  0.1,
+  0.2
+ ],
+ "estimates": [
+  "sketch",
+  "flat"
+ ],
+ "reader_first": [
+  false,
+  true
+ ],
+ "arrival": [
+  {
+   "id": "5abf63f15542997ec76fd3ea",
+   "answer": "October 1922",
+   "arrival": [
+    4,
+    5,
+    0,
+    2,
+    3,
+    1
+   ],
+   "inversions": 10,
+   "doc_tokens": 1382,
+   "last_doc_tokens": 235,
+   "stale_tokens": 1001,
+   "doc_lengths": [
+    146,
+    235,
+    245,
+    191,
+    174,
+    391
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 54,
+   "stale_segments": 4,
+   "truth_answer": "1924",
+   "append": {
+    "kl_last": 0.394591904549033,
+    "top1_last": true,
+    "answer": "1922"
+   },
+   "speculate": {
+    "kl_last": 0.05422789315057584,
+    "top1_last": true,
+    "answer": "1924"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0034214935398713424,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 101
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.032109534243026074,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 101
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.005763587572120387,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 101
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.047741007018251985,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 101
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0003808494423767918,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 201
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.032050221676691686,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 201
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0008728297813902824,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 201
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.054287304806252865,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 201
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "1924",
+    "tokens": 1001
+   }
+  },
+  {
+   "id": "5a7555215542996c70cfaee1",
+   "answer": "Hey Pa! There's a Goat on the Roof",
+   "arrival": [
+    5,
+    2,
+    1,
+    0,
+    3,
+    4
+   ],
+   "inversions": 8,
+   "doc_tokens": 1140,
+   "last_doc_tokens": 146,
+   "stale_tokens": 1021,
+   "doc_lengths": [
+    119,
+    212,
+    190,
+    40,
+    146,
+    433
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 55,
+   "stale_segments": 5,
+   "truth_answer": "Hey Pa! There's a Goat on the Roof",
+   "append": {
+    "kl_last": 0.024417247205456703,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof"
+   },
+   "speculate": {
+    "kl_last": 0.043641801692452645,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.04032540387626651,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof came to market first.",
+    "tokens": 103
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.021288546419496884,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 103
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.03299246929696517,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof came to market first.",
+    "tokens": 103
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.044414283367799956,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 103
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.05735252953922813,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof came to market first.",
+    "tokens": 205
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.012098659155675333,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 205
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.05878428151397133,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof came to market first.",
+    "tokens": 205
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.037386829890084176,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 205
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 1021
+   }
+  },
+  {
+   "id": "5a8595a85542992a431d1b48",
+   "answer": "Great Exuma",
+   "arrival": [
+    5,
+    3,
+    0,
+    2,
+    1,
+    4
+   ],
+   "inversions": 9,
+   "doc_tokens": 1053,
+   "last_doc_tokens": 95,
+   "stale_tokens": 584,
+   "doc_lengths": [
+    250,
+    219,
+    41,
+    279,
+    95,
+    169
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 51,
+   "stale_segments": 4,
+   "truth_answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+   "append": {
+    "kl_last": 0.34583431424600114,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F"
+   },
+   "speculate": {
+    "kl_last": 0.06380388637593055,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.020997723402013974,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 59
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.022458676949092045,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 59
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.00712295651924138,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 59
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.03616727218623791,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 59
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.00545350390338774,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 117
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.009983930470693455,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 117
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0057506918367116735,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 117
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.016915186502472975,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 117
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+    "tokens": 584
+   }
+  },
+  {
+   "id": "5a7fb7985542994857a767d2",
+   "answer": "Claudio Javier L\u00f3pez",
+   "arrival": [
+    1,
+    0,
+    4,
+    3,
+    2,
+    5
+   ],
+   "inversions": 4,
+   "doc_tokens": 486,
+   "last_doc_tokens": 107,
+   "stale_tokens": 447,
+   "doc_lengths": [
+    39,
+    123,
+    79,
+    83,
+    55,
+    107
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 49,
+   "stale_segments": 5,
+   "truth_answer": "Claudio L\u00f3pez",
+   "append": {
+    "kl_last": 0.0006276340644097562,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez"
+   },
+   "speculate": {
+    "kl_last": 0.005331456569699319,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 6.406562929832714e-05,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 45
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.005331456569699319,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 45
+   },
+   "repair_flat@0.1": {
+    "kl_last": 9.708977221110357e-05,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 45
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.005331456569699319,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 45
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 3.9782603139737704e-05,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 90
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.005331456569699319,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 90
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.00011421607893302463,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 90
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.005331456569699319,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 90
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 447
+   }
+  },
+  {
+   "id": "5ae73d235542991e8301cc29",
+   "answer": "Free Range Films",
+   "arrival": [
+    3,
+    4,
+    5,
+    1,
+    0,
+    2
+   ],
+   "inversions": 10,
+   "doc_tokens": 834,
+   "last_doc_tokens": 214,
+   "stale_tokens": 703,
+   "doc_lengths": [
+    131,
+    86,
+    214,
+    149,
+    127,
+    127
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 50,
+   "stale_segments": 5,
+   "truth_answer": "WestWind Pictures",
+   "append": {
+    "kl_last": 2.086350290932615,
+    "top1_last": false,
+    "answer": "Free Range Films"
+   },
+   "speculate": {
+    "kl_last": 0.25391292203964877,
+    "top1_last": true,
+    "answer": "WestWind Films"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.01922334324412829,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 71
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.26966205807997534,
+    "top1_last": true,
+    "answer": "WestWind Films",
+    "tokens": 71
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0022328498296794157,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 71
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.27222862476514864,
+    "top1_last": true,
+    "answer": "WestWind Films",
+    "tokens": 71
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.03451815041122186,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 141
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.19662912196016882,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 141
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.013521316668187029,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 141
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12091786333960436,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 141
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "WestWind Pictures",
+    "tokens": 703
+   }
+  },
+  {
+   "id": "5ab47cd75542991751b4d78d",
+   "answer": "2002",
+   "arrival": [
+    3,
+    2,
+    0,
+    4,
+    1,
+    5
+   ],
+   "inversions": 6,
+   "doc_tokens": 909,
+   "last_doc_tokens": 154,
+   "stale_tokens": 583,
+   "doc_lengths": [
+    159,
+    167,
+    148,
+    151,
+    130,
+    154
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 55,
+   "stale_segments": 4,
+   "truth_answer": "2009",
+   "append": {
+    "kl_last": 5.282971657033328e-05,
+    "top1_last": true,
+    "answer": "2002"
+   },
+   "speculate": {
+    "kl_last": 0.009741153024410273,
+    "top1_last": true,
+    "answer": "2002"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0010632043780253824,
+    "top1_last": true,
+    "answer": "2009",
+    "tokens": 59
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.009741153024410273,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 59
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0016091649332710158,
+    "top1_last": true,
+    "answer": "2009",
+    "tokens": 59
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.009741153024410273,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 59
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0009028447996450135,
+    "top1_last": true,
+    "answer": "2009",
+    "tokens": 117
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.009741153024410273,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 117
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0011202255629914374,
+    "top1_last": true,
+    "answer": "2009",
+    "tokens": 117
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.009741153024410273,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 117
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "2009",
+    "tokens": 583
+   }
+  },
+  {
+   "id": "5a8efb5a55429918e830d172",
+   "answer": "Jamnagar",
+   "arrival": [
+    0,
+    3,
+    4,
+    1,
+    5,
+    2
+   ],
+   "inversions": 5,
+   "doc_tokens": 580,
+   "last_doc_tokens": 75,
+   "stale_tokens": 377,
+   "doc_lengths": [
+    43,
+    85,
+    75,
+    106,
+    209,
+    62
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 44,
+   "stale_segments": 3,
+   "truth_answer": "India",
+   "append": {
+    "kl_last": 0.006798049505767468,
+    "top1_last": true,
+    "answer": "India"
+   },
+   "speculate": {
+    "kl_last": 0.05515192433506366,
+    "top1_last": true,
+    "answer": "India"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0007291652675340582,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 38
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.037437445556155365,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 38
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0009226871193245053,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 38
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.043426828972454576,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 38
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0011596570491731878,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 76
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0032985760289722986,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 76
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.00048380861136146825,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 76
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.03680140600603495,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 76
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 377
+   }
+  },
+  {
+   "id": "5a7ae2f2554299042af8f6aa",
+   "answer": "football",
+   "arrival": [
+    0,
+    5,
+    4,
+    3,
+    1,
+    2
+   ],
+   "inversions": 9,
+   "doc_tokens": 670,
+   "last_doc_tokens": 83,
+   "stale_tokens": 377,
+   "doc_lengths": [
+    48,
+    162,
+    83,
+    114,
+    88,
+    175
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 54,
+   "stale_segments": 3,
+   "truth_answer": "Betting with the BayArena in Leverkusen, Germany, has been played",
+   "append": {
+    "kl_last": 0.059707478982285,
+    "top1_last": false,
+    "answer": "Football"
+   },
+   "speculate": {
+    "kl_last": 0.14005157083968553,
+    "top1_last": true,
+    "answer": "Bayer 04 Leverkusen"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.12023374425770617,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 38
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.1335505378084932,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 38
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.06033322019134689,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 38
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.2480846259851806,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 38
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.05440258062111143,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 76
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.13528119557764667,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 76
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.01009752179388608,
+    "top1_last": true,
+    "answer": "Bayer 04 Leverkusen",
+    "tokens": 76
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.25616495246753246,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 76
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Betting with the BayArena in Leverkusen, Germany, has been played",
+    "tokens": 377
+   }
+  },
+  {
+   "id": "5a7b88b45542997c3ec97201",
+   "answer": "Terrence Jones",
+   "arrival": [
+    2,
+    5,
+    4,
+    0,
+    3,
+    1
+   ],
+   "inversions": 10,
+   "doc_tokens": 850,
+   "last_doc_tokens": 169,
+   "stale_tokens": 526,
+   "doc_lengths": [
+    155,
+    169,
+    172,
+    155,
+    146,
+    53
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 50,
+   "stale_segments": 4,
+   "truth_answer": "Garnett Thompson",
+   "append": {
+    "kl_last": 3.4639150269685266,
+    "top1_last": false,
+    "answer": "Salim Stoudamire"
+   },
+   "speculate": {
+    "kl_last": 0.10536058739760717,
+    "top1_last": true,
+    "answer": "Garnett Thompson"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.01961749600460193,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 53
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.1574357790187604,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 53
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.01845976143189528,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 53
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.1574357790187604,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 53
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.008389785123766393,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 106
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.17264272674440911,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 106
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0060350271497334315,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 106
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.01707135227594005,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 106
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Garnett Thompson",
+    "tokens": 526
+   }
+  },
+  {
+   "id": "5a8f7a135542992414482adc",
+   "answer": "12 mi southeast of Rome",
+   "arrival": [
+    4,
+    2,
+    0,
+    3,
+    5,
+    1
+   ],
+   "inversions": 8,
+   "doc_tokens": 756,
+   "last_doc_tokens": 190,
+   "stale_tokens": 470,
+   "doc_lengths": [
+    96,
+    190,
+    118,
+    202,
+    74,
+    76
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 51,
+   "stale_segments": 4,
+   "truth_answer": "Felsina",
+   "append": {
+    "kl_last": 1.3990009617012704,
+    "top1_last": false,
+    "answer": "Alba Longa"
+   },
+   "speculate": {
+    "kl_last": 0.2895629116113255,
+    "top1_last": false,
+    "answer": "Alba Longa"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.09140376585765946,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 47
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.22024248603507773,
+    "top1_last": false,
+    "answer": "Alba Longa",
+    "tokens": 47
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.10655892085563035,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 47
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.24989725276434704,
+    "top1_last": false,
+    "answer": "Alba Longa",
+    "tokens": 47
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.07183990241894764,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 94
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.056509605350966184,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 94
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.06053777655639445,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 94
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.16876003817531302,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 94
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Felsina",
+    "tokens": 470
+   }
+  },
+  {
+   "id": "5ae554ce55429960a22e02b7",
+   "answer": "You Can Be a Star",
+   "arrival": [
+    5,
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "inversions": 11,
+   "doc_tokens": 775,
+   "last_doc_tokens": 98,
+   "stale_tokens": 662,
+   "doc_lengths": [
+    113,
+    89,
+    98,
+    107,
+    194,
+    174
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 63,
+   "stale_segments": 5,
+   "truth_answer": "Jerry Lee Lewis",
+   "append": {
+    "kl_last": 3.153515264001775,
+    "top1_last": false,
+    "answer": "\"American Idol\" season 8 finalist Danny Gokey"
+   },
+   "speculate": {
+    "kl_last": 1.3449079063997746,
+    "top1_last": false,
+    "answer": "\"Song to Say Goodbye\""
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.3220383709024797,
+    "top1_last": false,
+    "answer": "\"Song to Say Goodbye\"",
+    "tokens": 67
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.7787152956479525,
+    "top1_last": false,
+    "answer": "\"American Idol\" season 8 finalist Danny Gokey",
+    "tokens": 67
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.3195170977713182,
+    "top1_last": false,
+    "answer": "\" I Will Not Say Goodbye \" is a song written in part by a",
+    "tokens": 67
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.9672110037892635,
+    "top1_last": false,
+    "answer": "\"Song to Say Goodbye\"",
+    "tokens": 67
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.11301730761109734,
+    "top1_last": false,
+    "answer": "\" I Will Not Say Goodbye \" is a song written in part by a",
+    "tokens": 133
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.753888064623577,
+    "top1_last": false,
+    "answer": "Danny Gokey",
+    "tokens": 133
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.17948005725286942,
+    "top1_last": false,
+    "answer": "Lari White",
+    "tokens": 133
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.8853015387042474,
+    "top1_last": false,
+    "answer": "\"Song to Say Goodbye\"",
+    "tokens": 133
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Jerry Lee Lewis",
+    "tokens": 662
+   }
+  },
+  {
+   "id": "5ac07327554299012d1db5f2",
+   "answer": "an American football quarterback",
+   "arrival": [
+    4,
+    2,
+    5,
+    0,
+    1,
+    3
+   ],
+   "inversions": 9,
+   "doc_tokens": 545,
+   "last_doc_tokens": 33,
+   "stale_tokens": 332,
+   "doc_lengths": [
+    119,
+    94,
+    85,
+    33,
+    127,
+    87
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 42,
+   "stale_segments": 4,
+   "truth_answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+   "append": {
+    "kl_last": 0.052364018266827565,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is Kaep."
+   },
+   "speculate": {
+    "kl_last": 0.00810310453886441,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is \"Kap"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0013237537912031863,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 34
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.008430779898384096,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is \"Kap",
+    "tokens": 34
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0014238879845859106,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 34
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.007164053878861118,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is \"Kap",
+    "tokens": 34
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.00020111780914561206,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent.",
+    "tokens": 67
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.008623296171661179,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is \"Kap",
+    "tokens": 67
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.00039458958771731675,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 67
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.006985007024374518,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback. His preferred nickname is \"Kap",
+    "tokens": 67
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 332
+   }
+  },
+  {
+   "id": "5ade858a55429975fa854eea",
+   "answer": "tennis",
+   "arrival": [
+    2,
+    5,
+    3,
+    1,
+    4,
+    0
+   ],
+   "inversions": 10,
+   "doc_tokens": 422,
+   "last_doc_tokens": 66,
+   "stale_tokens": 356,
+   "doc_lengths": [
+    66,
+    51,
+    46,
+    140,
+    54,
+    65
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 48,
+   "stale_segments": 5,
+   "truth_answer": "Tennis",
+   "append": {
+    "kl_last": 0.01763510712473274,
+    "top1_last": true,
+    "answer": "Tennis"
+   },
+   "speculate": {
+    "kl_last": 0.029449763263843288,
+    "top1_last": true,
+    "answer": "Tennis"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.004800622972535194,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 36
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.028055969202388016,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 36
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.019287794020934966,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 36
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.02289856891247284,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 36
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.007869185062939398,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 72
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.02457829635823333,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 72
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.011700620433998637,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 72
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.02958275747719924,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 72
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 356
+   }
+  },
+  {
+   "id": "5ae61e7555429929b0807adf",
+   "answer": "MMA",
+   "arrival": [
+    1,
+    4,
+    3,
+    2,
+    0,
+    5
+   ],
+   "inversions": 7,
+   "doc_tokens": 993,
+   "last_doc_tokens": 91,
+   "stale_tokens": 766,
+   "doc_lengths": [
+    227,
+    72,
+    180,
+    209,
+    214,
+    91
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 53,
+   "stale_segments": 5,
+   "truth_answer": "Carlos Newton",
+   "append": {
+    "kl_last": 0.28484918231390677,
+    "top1_last": true,
+    "answer": "Carlos Newton"
+   },
+   "speculate": {
+    "kl_last": 0.13554550995993356,
+    "top1_last": true,
+    "answer": "Carlos Newton"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.02368192032195257,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 77
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.13554550995993356,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 77
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.1578542148620659,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 77
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.13554550995993356,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 77
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.011746718750990946,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 154
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.030438599199405975,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 154
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.023787481993050252,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 154
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.18032070085338409,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 154
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Carlos Newton",
+    "tokens": 766
+   }
+  },
+  {
+   "id": "5ac289ff5542996366519a02",
+   "answer": "Marsilea",
+   "arrival": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "inversions": 7,
+   "doc_tokens": 1052,
+   "last_doc_tokens": 198,
+   "stale_tokens": 816,
+   "doc_lengths": [
+    236,
+    213,
+    233,
+    55,
+    117,
+    198
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 51,
+   "stale_segments": 5,
+   "truth_answer": "Brabejum is the genus of more individual species of plants.",
+   "append": {
+    "kl_last": 0.05097451349364626,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants."
+   },
+   "speculate": {
+    "kl_last": 0.05677034113575013,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0029721019150084284,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 82
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.05677034113575013,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 82
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0033627512781690973,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 82
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.05677034113575013,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 82
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.002826243455850349,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 164
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.05677034113575013,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 164
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0024383158567491195,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 164
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.05677034113575013,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 164
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Brabejum is the genus of more individual species of plants.",
+    "tokens": 816
+   }
+  },
+  {
+   "id": "5ac0b1835542992a796ded65",
+   "answer": "Viglen",
+   "arrival": [
+    1,
+    2,
+    3,
+    4,
+    0,
+    5
+   ],
+   "inversions": 4,
+   "doc_tokens": 683,
+   "last_doc_tokens": 233,
+   "stale_tokens": 632,
+   "doc_lengths": [
+    51,
+    123,
+    107,
+    137,
+    32,
+    233
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 49,
+   "stale_segments": 5,
+   "truth_answer": "Viglen",
+   "append": {
+    "kl_last": 0.432247737988897,
+    "top1_last": false,
+    "answer": "Bordan Tkachuk was the former CEO of Viglen."
+   },
+   "speculate": {
+    "kl_last": 0.06586247761681877,
+    "top1_last": true,
+    "answer": "Viglen"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0036819326146366677,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 64
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.002866636813053514,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 64
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.010523256681036007,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 64
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.03319262897042024,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 64
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0009179863588615938,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 127
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0015739899619782202,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 127
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.003897001264565568,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 127
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.018043914457769625,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 127
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 632
+   }
+  },
+  {
+   "id": "5ae40b2b55429970de88d8b3",
+   "answer": "California Polytechnic State University",
+   "arrival": [
+    0,
+    4,
+    3,
+    5,
+    2,
+    1
+   ],
+   "inversions": 8,
+   "doc_tokens": 1102,
+   "last_doc_tokens": 213,
+   "stale_tokens": 721,
+   "doc_lengths": [
+    168,
+    213,
+    200,
+    108,
+    282,
+    131
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 57,
+   "stale_segments": 4,
+   "truth_answer": "California Polytechnic State University",
+   "append": {
+    "kl_last": 0.3627489277765531,
+    "top1_last": true,
+    "answer": "California Polytechnic State University"
+   },
+   "speculate": {
+    "kl_last": 0.1156736924914717,
+    "top1_last": true,
+    "answer": "California Polytechnic State University"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.004573527582242637,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 73
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.10983859459188317,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 73
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.003287941333479868,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 73
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.11174738804864007,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 73
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0010798899834571479,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 145
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.03936575515252168,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 145
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.006603863383386994,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 145
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.10801754370493957,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 145
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "California Polytechnic State University",
+    "tokens": 721
+   }
+  },
+  {
+   "id": "5ae7e8f55542994a481bbe06",
+   "answer": "Commander James Bond RN",
+   "arrival": [
+    0,
+    1,
+    3,
+    2,
+    4,
+    5
+   ],
+   "inversions": 1,
+   "doc_tokens": 726,
+   "last_doc_tokens": 105,
+   "stale_tokens": 462,
+   "doc_lengths": [
+    49,
+    100,
+    115,
+    245,
+    112,
+    105
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 56,
+   "stale_segments": 3,
+   "truth_answer": "Commander James Bond, CMG, RNVR",
+   "append": {
+    "kl_last": 0.10907663362494935,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional"
+   },
+   "speculate": {
+    "kl_last": 0.04561429228416136,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0013221485522225958,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 47
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.04561429228416136,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 47
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0026530891960068544,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 47
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.04561429228416136,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 47
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.00039924951151257547,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 93
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.04561429228416136,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 93
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0011766277533194116,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 93
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.04561429228416136,
+    "top1_last": true,
+    "answer": "Commander James Bond, RN\u2014code number 007\u2014is a fictional",
+    "tokens": 93
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Commander James Bond, CMG, RNVR",
+    "tokens": 462
+   }
+  },
+  {
+   "id": "5adf4b335542993a75d264a5",
+   "answer": "Rockstar San Diego",
+   "arrival": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "inversions": 10,
+   "doc_tokens": 739,
+   "last_doc_tokens": 166,
+   "stale_tokens": 452,
+   "doc_lengths": [
+    121,
+    166,
+    147,
+    84,
+    123,
+    98
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 51,
+   "stale_segments": 4,
+   "truth_answer": "Capcom",
+   "append": {
+    "kl_last": 5.393620400706309,
+    "top1_last": false,
+    "answer": "Square Enix"
+   },
+   "speculate": {
+    "kl_last": 0.4990728087862861,
+    "top1_last": true,
+    "answer": "Capcom"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0254261711066081,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 46
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.4879174166368074,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 46
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.036364746399992126,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 46
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.4384065570951806,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 46
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.017062402525667694,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 91
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.4514756666909812,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 91
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.01779126641101435,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 91
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.4523408427611916,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 91
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Capcom",
+    "tokens": 452
+   }
+  },
+  {
+   "id": "5a78d16455429974737f78bb",
+   "answer": "Ernst Willi Messerschmid",
+   "arrival": [
+    2,
+    4,
+    3,
+    0,
+    1,
+    5
+   ],
+   "inversions": 7,
+   "doc_tokens": 451,
+   "last_doc_tokens": 96,
+   "stale_tokens": 278,
+   "doc_lengths": [
+    80,
+    93,
+    97,
+    40,
+    45,
+    96
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 48,
+   "stale_segments": 4,
+   "truth_answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+   "append": {
+    "kl_last": 0.1539814499600198,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin"
+   },
+   "speculate": {
+    "kl_last": 0.07222095429596687,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.009068425589130975,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 28
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.07222092772832403,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 28
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.009896174125156688,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 28
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.07222092772832403,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 28
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.018628946805059755,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 56
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.07222095429596687,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 56
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.024006331604671725,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 56
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07222095429596687,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 56
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 278
+   }
+  },
+  {
+   "id": "5abd920e55429924427fd05d",
+   "answer": "yes",
+   "arrival": [
+    2,
+    4,
+    0,
+    3,
+    1,
+    5
+   ],
+   "inversions": 6,
+   "doc_tokens": 589,
+   "last_doc_tokens": 135,
+   "stale_tokens": 381,
+   "doc_lengths": [
+    89,
+    119,
+    36,
+    166,
+    44,
+    135
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 44,
+   "stale_segments": 4,
+   "truth_answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+   "append": {
+    "kl_last": 0.001439395362878043,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors."
+   },
+   "speculate": {
+    "kl_last": 0.3671354898206356,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.004659183310689044,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 39
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.3671354898206356,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 39
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.007044210450146204,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 39
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3671354898206356,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 39
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0015723813442424111,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 77
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.3671354898206356,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 77
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0021179644893105387,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 77
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3671354898206356,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 77
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+    "tokens": 381
+   }
+  },
+  {
+   "id": "5ab67d2055429954757d3304",
+   "answer": "Labrador Retriever",
+   "arrival": [
+    0,
+    4,
+    3,
+    5,
+    1,
+    2
+   ],
+   "inversions": 7,
+   "doc_tokens": 682,
+   "last_doc_tokens": 116,
+   "stale_tokens": 254,
+   "doc_lengths": [
+    128,
+    184,
+    116,
+    130,
+    45,
+    79
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 50,
+   "stale_segments": 3,
+   "truth_answer": "The Labrador Retriever.",
+   "append": {
+    "kl_last": 0.028212929436939434,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog."
+   },
+   "speculate": {
+    "kl_last": 0.05437973295826246,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0009107736920281615,
+    "top1_last": true,
+    "answer": "The Labrador Retriever.",
+    "tokens": 26
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.05522737750643554,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 26
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.004065861361203243,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 26
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.04893735926542159,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 26
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.005462347312962619,
+    "top1_last": true,
+    "answer": "The Labrador Retriever.",
+    "tokens": 51
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.05919928998223678,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 51
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0009819120957248878,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 51
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.05180664261390563,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 51
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "The Labrador Retriever.",
+    "tokens": 254
+   }
+  },
+  {
+   "id": "5ae5db98554299546bf82fa6",
+   "answer": "1.7 billion",
+   "arrival": [
+    4,
+    2,
+    3,
+    1,
+    0,
+    5
+   ],
+   "inversions": 9,
+   "doc_tokens": 924,
+   "last_doc_tokens": 223,
+   "stale_tokens": 753,
+   "doc_lengths": [
+    171,
+    63,
+    153,
+    166,
+    148,
+    223
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 57,
+   "stale_segments": 5,
+   "truth_answer": "1.7 billion views",
+   "append": {
+    "kl_last": 1.0583709052646477,
+    "top1_last": true,
+    "answer": "1.7 billion views"
+   },
+   "speculate": {
+    "kl_last": 1.5069384929757528,
+    "top1_last": true,
+    "answer": "1.7 billion views"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.26369909924483786,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 76
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 1.5069384929757528,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 76
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.22482927178108197,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 76
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 1.5069384929757528,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 76
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.01987764551792493,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 151
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 1.5069384929757528,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 151
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.015217300609874812,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 151
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 1.5069384929757528,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 151
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "1.7 billion views",
+    "tokens": 753
+   }
+  },
+  {
+   "id": "5ae0613d5542993d6555eb22",
+   "answer": "Monticello",
+   "arrival": [
+    4,
+    3,
+    2,
+    1,
+    5,
+    0
+   ],
+   "inversions": 11,
+   "doc_tokens": 1090,
+   "last_doc_tokens": 119,
+   "stale_tokens": 971,
+   "doc_lengths": [
+    119,
+    420,
+    106,
+    166,
+    136,
+    143
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 44,
+   "stale_segments": 5,
+   "truth_answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+   "append": {
+    "kl_last": 0.3632726042087976,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near Monticello, the primary residence of Thomas Jefferson"
+   },
+   "speculate": {
+    "kl_last": 0.06680474352557988,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.03416259365430256,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 98
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.06860764082052061,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 98
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.08014396644509347,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 98
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.06412831977327509,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 98
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.019518246522478983,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 195
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.08403241713303511,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 195
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.02689469329083441,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 195
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.06657401466505601,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 195
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, which is Mont",
+    "tokens": 971
+   }
+  },
+  {
+   "id": "5ae6233c5542992ae0d1623e",
+   "answer": "schoolmaster at J. L. Young's Adelaide Educational Institution and at Saint Peter's College.",
+   "arrival": [
+    0,
+    5,
+    1,
+    2,
+    4,
+    3
+   ],
+   "inversions": 5,
+   "doc_tokens": 581,
+   "last_doc_tokens": 137,
+   "stale_tokens": 184,
+   "doc_lengths": [
+    58,
+    96,
+    106,
+    137,
+    61,
+    123
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 49,
+   "stale_segments": 2,
+   "truth_answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+   "append": {
+    "kl_last": 0.002793273622057711,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St"
+   },
+   "speculate": {
+    "kl_last": 0.06031049008830067,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0009380200609571355,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 19
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.002495858255700442,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 19
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.003226068770342162,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 19
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.04655017044341906,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 19
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0004405871747858583,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 37
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0008859725893936279,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 37
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0007662921534540846,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 37
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.04633238732631517,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 37
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Thomas Boutflower Bennet was a schoolmaster at The Collegiate School of St",
+    "tokens": 184
+   }
+  },
+  {
+   "id": "5ae5d008554299546bf82f7d",
+   "answer": "StubHub Center",
+   "arrival": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "inversions": 7,
+   "doc_tokens": 833,
+   "last_doc_tokens": 73,
+   "stale_tokens": 262,
+   "doc_lengths": [
+    213,
+    98,
+    187,
+    73,
+    151,
+    111
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 61,
+   "stale_segments": 2,
+   "truth_answer": "StubHub Center",
+   "append": {
+    "kl_last": 0.07664906515994997,
+    "top1_last": true,
+    "answer": "StubHub Center"
+   },
+   "speculate": {
+    "kl_last": 0.013011850487819467,
+    "top1_last": true,
+    "answer": "StubHub Center"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0004594103067543896,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 27
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0013399245135038108,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 27
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0014441656533629465,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 27
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.004796032639202428,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 27
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0003327761677991958,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 53
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0014494642457774834,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 53
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0003977231361543804,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 53
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.004883705506349841,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 53
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 262
+   }
+  },
+  {
+   "id": "5a8ba3ff55429971feec4744",
+   "answer": "Mayor of the City of New York",
+   "arrival": [
+    4,
+    5,
+    2,
+    1,
+    0,
+    3
+   ],
+   "inversions": 11,
+   "doc_tokens": 703,
+   "last_doc_tokens": 82,
+   "stale_tokens": 631,
+   "doc_lengths": [
+    72,
+    112,
+    183,
+    82,
+    97,
+    157
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 47,
+   "stale_segments": 5,
+   "truth_answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+   "append": {
+    "kl_last": 0.8108935444301226,
+    "top1_last": false,
+    "answer": "The White House"
+   },
+   "speculate": {
+    "kl_last": 0.32727181453155363,
+    "top1_last": false,
+    "answer": "The White House"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.027512513088526667,
+    "top1_last": true,
+    "answer": "Stokely Webster's paintings can be found at the White House.",
+    "tokens": 64
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.3364258958320555,
+    "top1_last": false,
+    "answer": "The White House",
+    "tokens": 64
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.022693093957197125,
+    "top1_last": true,
+    "answer": "Stokely Webster's paintings can be found at the White House.",
+    "tokens": 64
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3701013723044112,
+    "top1_last": false,
+    "answer": "The White House",
+    "tokens": 64
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.03813591736296232,
+    "top1_last": true,
+    "answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+    "tokens": 127
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.3683230431048955,
+    "top1_last": false,
+    "answer": "The official residence of Stokely Webster is the Government House in Santa Fe,",
+    "tokens": 127
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.05828024759162202,
+    "top1_last": true,
+    "answer": "Stokely Webster's paintings can be found in the White House.",
+    "tokens": 127
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3414867229300633,
+    "top1_last": false,
+    "answer": "The official residence of Stokely Webster is the Government House in Santa Fe,",
+    "tokens": 127
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+    "tokens": 631
+   }
+  },
+  {
+   "id": "5adc5b875542996e68525328",
+   "answer": "2006 season",
+   "arrival": [
+    0,
+    5,
+    1,
+    4,
+    2,
+    3
+   ],
+   "inversions": 6,
+   "doc_tokens": 925,
+   "last_doc_tokens": 101,
+   "stale_tokens": 399,
+   "doc_lengths": [
+    78,
+    151,
+    196,
+    101,
+    121,
+    278
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 58,
+   "stale_segments": 2,
+   "truth_answer": "2006",
+   "append": {
+    "kl_last": 0.004397486461107029,
+    "top1_last": true,
+    "answer": "2006"
+   },
+   "speculate": {
+    "kl_last": 0.004702386303946619,
+    "top1_last": true,
+    "answer": "2006"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.001878797063438214,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 40
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0011552837024160398,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 40
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.002068598199171306,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 40
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.004762979316719902,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 40
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0019289648215300118,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 80
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0003913705747794499,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 80
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0018688813051622726,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 80
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.005277875197406794,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 80
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "2006",
+    "tokens": 399
+   }
+  },
+  {
+   "id": "5a7319e755429901807daf86",
+   "answer": "most total touchdowns in NCAA history",
+   "arrival": [
+    2,
+    4,
+    1,
+    0,
+    5,
+    3
+   ],
+   "inversions": 7,
+   "doc_tokens": 713,
+   "last_doc_tokens": 111,
+   "stale_tokens": 591,
+   "doc_lengths": [
+    122,
+    93,
+    102,
+    111,
+    104,
+    181
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 43,
+   "stale_segments": 5,
+   "truth_answer": "Casey Austin Keenum holds the NCAA record for most total passing yards, touchdowns",
+   "append": {
+    "kl_last": 0.049377791405610924,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for total passing yards, touchdowns,"
+   },
+   "speculate": {
+    "kl_last": 0.02618206529989267,
+    "top1_last": true,
+    "answer": "Case Keenum holds the NCAA record for total passing yards, touchdowns, and complet"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.050248964638964014,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for total passing yards, touchdowns,",
+    "tokens": 60
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.014307671506903801,
+    "top1_last": true,
+    "answer": "Case Keenum holds the NCAA record for total passing yards, touchdowns, and complet",
+    "tokens": 60
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.049977546072791965,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for total passing yards, touchdowns,",
+    "tokens": 60
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.023715401978104,
+    "top1_last": true,
+    "answer": "Case Keenum holds the NCAA record for total passing yards, touchdowns, and complet",
+    "tokens": 60
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.03734814230908935,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum",
+    "tokens": 119
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.012004486037213179,
+    "top1_last": true,
+    "answer": "Case Keenum holds the NCAA record for total passing yards, touchdowns, and complet",
+    "tokens": 119
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.031074119893252088,
+    "top1_last": true,
+    "answer": "Case Keenum",
+    "tokens": 119
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.01990367907207869,
+    "top1_last": true,
+    "answer": "Case Keenum holds the NCAA record for total passing yards, touchdowns, and complet",
+    "tokens": 119
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for most total passing yards, touchdowns",
+    "tokens": 591
+   }
+  },
+  {
+   "id": "5a7d61775542991319bc93b9",
+   "answer": "Lord Combermere",
+   "arrival": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    3
+   ],
+   "inversions": 5,
+   "doc_tokens": 847,
+   "last_doc_tokens": 126,
+   "stale_tokens": 212,
+   "doc_lengths": [
+    186,
+    240,
+    83,
+    126,
+    158,
+    54
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 61,
+   "stale_segments": 2,
+   "truth_answer": "Stapleton Cotton",
+   "append": {
+    "kl_last": 0.0971534237968136,
+    "top1_last": false,
+    "answer": "Sir Claude Auchinleck"
+   },
+   "speculate": {
+    "kl_last": 0.021978367886489263,
+    "top1_last": false,
+    "answer": "Field Marshal Stapleton Cotton"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.002659909654432812,
+    "top1_last": true,
+    "answer": "Stapleton Cotton",
+    "tokens": 22
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.017050973064757058,
+    "top1_last": false,
+    "answer": "Field Marshal Stapleton Cotton",
+    "tokens": 22
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.006068507467403252,
+    "top1_last": true,
+    "answer": "Stapleton Cotton",
+    "tokens": 22
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.021092909125642878,
+    "top1_last": false,
+    "answer": "Field Marshal Stapleton Cotton",
+    "tokens": 22
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0005711255463986941,
+    "top1_last": true,
+    "answer": "Stapleton Cotton",
+    "tokens": 43
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.017260456079481623,
+    "top1_last": false,
+    "answer": "Field Marshal Stapleton Cotton",
+    "tokens": 43
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.002666755374863602,
+    "top1_last": true,
+    "answer": "Stapleton Cotton",
+    "tokens": 43
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.021164841217132246,
+    "top1_last": false,
+    "answer": "Field Marshal Stapleton Cotton",
+    "tokens": 43
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Stapleton Cotton",
+    "tokens": 212
+   }
+  },
+  {
+   "id": "5a7730015542994aec3b7210",
+   "answer": "SpongeBob SquarePants",
+   "arrival": [
+    2,
+    1,
+    5,
+    3,
+    4,
+    0
+   ],
+   "inversions": 8,
+   "doc_tokens": 1040,
+   "last_doc_tokens": 195,
+   "stale_tokens": 845,
+   "doc_lengths": [
+    195,
+    122,
+    160,
+    207,
+    279,
+    77
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 50,
+   "stale_segments": 5,
+   "truth_answer": "Legends of Bikini Bottom",
+   "append": {
+    "kl_last": 4.971097089477255,
+    "top1_last": false,
+    "answer": "SpongeBob SquarePants"
+   },
+   "speculate": {
+    "kl_last": 0.35496636873709697,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.009709366203568257,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 85
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.15002596104435886,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 85
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0157488368995448,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 85
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.2601703987864839,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 85
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.000693982726221364,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 169
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.021085609212078426,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 169
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.000438848813646682,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 169
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12332899132709775,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 169
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Legends of Bikini Bottom",
+    "tokens": 845
+   }
+  },
+  {
+   "id": "5a83d7535542993344746093",
+   "answer": "Los Angeles Xtreme, San Francisco Demons and Memphis Maniax",
+   "arrival": [
+    1,
+    5,
+    4,
+    3,
+    0,
+    2
+   ],
+   "inversions": 10,
+   "doc_tokens": 809,
+   "last_doc_tokens": 173,
+   "stale_tokens": 656,
+   "doc_lengths": [
+    153,
+    173,
+    173,
+    174,
+    80,
+    56
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 46,
+   "stale_segments": 5,
+   "truth_answer": "The document does not provide information about teams that played in the same division as Chad",
+   "append": {
+    "kl_last": 0.4940218044764219,
+    "top1_last": true,
+    "answer": "The Las Vegas Outlaws played in the same division as Chad Clements."
+   },
+   "speculate": {
+    "kl_last": 0.09811729061781836,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, and"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.08899381635020279,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+    "tokens": 66
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.07113593298391248,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, and",
+    "tokens": 66
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.021300189775064315,
+    "top1_last": true,
+    "answer": "The document does not provide information about teams that played in the same division as Chad",
+    "tokens": 66
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.08075720562425465,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, and",
+    "tokens": 66
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.020303520365119274,
+    "top1_last": true,
+    "answer": "The Berlin Thunder, Las Vegas Outlaws, and Ottawa Renegades played in",
+    "tokens": 132
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.058027227478783375,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+    "tokens": 132
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.022907977316118038,
+    "top1_last": true,
+    "answer": "The Berlin Thunder, Las Vegas Outlaws, and Ottawa Renegades played in",
+    "tokens": 132
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07368660209318426,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, and",
+    "tokens": 132
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "The document does not provide information about teams that played in the same division as Chad",
+    "tokens": 656
+   }
+  },
+  {
+   "id": "5a84574455429933447460e6",
+   "answer": "2015",
+   "arrival": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5
+   ],
+   "inversions": 1,
+   "doc_tokens": 1214,
+   "last_doc_tokens": 189,
+   "stale_tokens": 449,
+   "doc_lengths": [
+    175,
+    222,
+    143,
+    225,
+    260,
+    189
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 60,
+   "stale_segments": 2,
+   "truth_answer": "2015",
+   "append": {
+    "kl_last": 2.1862082416517436e-05,
+    "top1_last": true,
+    "answer": "2015"
+   },
+   "speculate": {
+    "kl_last": 4.182796523409603e-06,
+    "top1_last": true,
+    "answer": "2015"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 7.78105182790809e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 45
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 4.182796523409603e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 45
+   },
+   "repair_flat@0.1": {
+    "kl_last": 8.742821668729952e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 45
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 4.182796523409603e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 45
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 8.92245139323796e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 90
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 4.182796523409603e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 90
+   },
+   "repair_flat@0.2": {
+    "kl_last": 8.715138270007806e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 90
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 4.182796523409603e-06,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 90
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 449
+   }
+  },
+  {
+   "id": "5ac2583b55429951e9e68565",
+   "answer": "Xawery \u017bu\u0142awski",
+   "arrival": [
+    2,
+    1,
+    4,
+    3,
+    0,
+    5
+   ],
+   "inversions": 6,
+   "doc_tokens": 395,
+   "last_doc_tokens": 42,
+   "stale_tokens": 261,
+   "doc_lengths": [
+    134,
+    37,
+    48,
+    61,
+    73,
+    42
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 52,
+   "stale_segments": 5,
+   "truth_answer": "Brian G. Hutton has more scope of profession as he directed both \"Kelly",
+   "append": {
+    "kl_last": 0.018654672192634995,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both \"Kelly"
+   },
+   "speculate": {
+    "kl_last": 0.011702913581230732,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both comedy films"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0223205330274074,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both a comedy",
+    "tokens": 27
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.011703098876688592,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both comedy films",
+    "tokens": 27
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.026462190133989788,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both comedy films",
+    "tokens": 27
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.01170309861166953,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both comedy films",
+    "tokens": 27
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.060454449192835005,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed multiple films,",
+    "tokens": 53
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.014851137318644389,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both the comedy",
+    "tokens": 53
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.014839887331675648,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both the comedy",
+    "tokens": 53
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.014563430380300772,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both comedy films",
+    "tokens": 53
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Brian G. Hutton has more scope of profession as he directed both \"Kelly",
+    "tokens": 261
+   }
+  },
+  {
+   "id": "5a843cf35542996488c2e51b",
+   "answer": "film",
+   "arrival": [
+    0,
+    2,
+    5,
+    4,
+    3,
+    1
+   ],
+   "inversions": 7,
+   "doc_tokens": 572,
+   "last_doc_tokens": 73,
+   "stale_tokens": 466,
+   "doc_lengths": [
+    33,
+    73,
+    83,
+    147,
+    137,
+    99
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 47,
+   "stale_segments": 4,
+   "truth_answer": "Film industry",
+   "append": {
+    "kl_last": 0.04038149185750625,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry."
+   },
+   "speculate": {
+    "kl_last": 0.26321716504626524,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.006086762972442799,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 47
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.08843742741796094,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 47
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.02257285567996628,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 47
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.17030116293910708,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 47
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0075054538186540565,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 94
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.07991801282166443,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 94
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.01818743432504353,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 94
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12814675566421269,
+    "top1_last": false,
+    "answer": "William Todd Field and Zoltan Korda both worked in the film industry.",
+    "tokens": 94
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Film industry",
+    "tokens": 466
+   }
+  },
+  {
+   "id": "5ac41b9e5542995c82c4acc4",
+   "answer": "flowers",
+   "arrival": [
+    1,
+    5,
+    2,
+    0,
+    4,
+    3
+   ],
+   "inversions": 7,
+   "doc_tokens": 1012,
+   "last_doc_tokens": 141,
+   "stale_tokens": 920,
+   "doc_lengths": [
+    92,
+    120,
+    122,
+    141,
+    216,
+    321
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 45,
+   "stale_segments": 5,
+   "truth_answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+   "append": {
+    "kl_last": 0.2220534108926984,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family"
+   },
+   "speculate": {
+    "kl_last": 0.037445041737751296,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0007987756475460331,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 92
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.05161284259932137,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from orchid species.",
+    "tokens": 92
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0005656040417778606,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 92
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.020231193115443236,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 92
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0005394886316984473,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 184
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.050022719854716215,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from orchid species.",
+    "tokens": 184
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0004220681018450483,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 184
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.01880423964071521,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 184
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Chamelaucium and Vanilla are derived from plants in the myrtle family",
+    "tokens": 920
+   }
+  },
+  {
+   "id": "5a75b7bd5542992d0ec05fec",
+   "answer": "Casablanca",
+   "arrival": [
+    3,
+    1,
+    2,
+    4,
+    5,
+    0
+   ],
+   "inversions": 7,
+   "doc_tokens": 639,
+   "last_doc_tokens": 91,
+   "stale_tokens": 548,
+   "doc_lengths": [
+    91,
+    108,
+    124,
+    143,
+    89,
+    84
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 55,
+   "stale_segments": 5,
+   "truth_answer": "\"Casablanca\"",
+   "append": {
+    "kl_last": 0.3605916480732667,
+    "top1_last": false,
+    "answer": "Casablanca"
+   },
+   "speculate": {
+    "kl_last": 0.07089723874154263,
+    "top1_last": false,
+    "answer": "Casablanca"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.007065372486219336,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 55
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.039030182120109884,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 55
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.012608023734040779,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 55
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.03996838050820762,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 55
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.005479416260323915,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 110
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.01557038711064803,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 110
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0020347069966558844,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 110
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.023590865417902385,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 110
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 548
+   }
+  },
+  {
+   "id": "5add433b5542997545bbbd02",
+   "answer": "Shohola Falls",
+   "arrival": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "inversions": 10,
+   "doc_tokens": 897,
+   "last_doc_tokens": 147,
+   "stale_tokens": 599,
+   "doc_lengths": [
+    151,
+    147,
+    199,
+    152,
+    89,
+    159
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 58,
+   "stale_segments": 4,
+   "truth_answer": "Shohola Falls",
+   "append": {
+    "kl_last": 0.030192937486566446,
+    "top1_last": true,
+    "answer": "Shohola Falls"
+   },
+   "speculate": {
+    "kl_last": 0.12592080004227454,
+    "top1_last": true,
+    "answer": "Shohola Falls"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.005384134063847989,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 60
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.1336135917375547,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 60
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0044543151445330265,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 60
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.12295330344339336,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 60
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0005519112017352214,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 120
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.1338691241468458,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 120
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0012115671954928335,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 120
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12069994742373119,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 120
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 599
+   }
+  },
+  {
+   "id": "5ade881f5542992fa25da7af",
+   "answer": "Alan Mathison Turing",
+   "arrival": [
+    4,
+    2,
+    1,
+    5,
+    3,
+    0
+   ],
+   "inversions": 10,
+   "doc_tokens": 648,
+   "last_doc_tokens": 97,
+   "stale_tokens": 551,
+   "doc_lengths": [
+    97,
+    74,
+    51,
+    92,
+    97,
+    237
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 60,
+   "stale_segments": 5,
+   "truth_answer": "Alan Turing",
+   "append": {
+    "kl_last": 0.9317957694414449,
+    "top1_last": true,
+    "answer": "Alan Turing"
+   },
+   "speculate": {
+    "kl_last": 0.044921305309771266,
+    "top1_last": true,
+    "answer": "Alan Turing"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.024663975103033718,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 56
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.12417179737162293,
+    "top1_last": false,
+    "answer": "Heinrich Scholz was a peer of Alan Turing.",
+    "tokens": 56
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.031930695553238526,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 56
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.04875600011153869,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 56
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.02219452199470054,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 111
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.12572463451001797,
+    "top1_last": false,
+    "answer": "Heinrich Scholz was a peer of Alan Turing.",
+    "tokens": 111
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.015442231068103763,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 111
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.04970827256876779,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 111
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 551
+   }
+  },
+  {
+   "id": "5a82e25555429954d2e2ebbf",
+   "answer": "Eva Ibbotson",
+   "arrival": [
+    5,
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "inversions": 10,
+   "doc_tokens": 788,
+   "last_doc_tokens": 80,
+   "stale_tokens": 329,
+   "doc_lengths": [
+    396,
+    63,
+    70,
+    80,
+    84,
+    95
+   ],
+   "reader_tokens": 5,
+   "opening_tokens": 64,
+   "stale_segments": 4,
+   "truth_answer": "Patricia Veryan",
+   "append": {
+    "kl_last": 0.7483682164054188,
+    "top1_last": false,
+    "answer": "Eva Ibbotson"
+   },
+   "speculate": {
+    "kl_last": 0.27635997059465467,
+    "top1_last": true,
+    "answer": "Patricia Veryan"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.20115213936105258,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 33
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.22137000420891786,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 33
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.09813851393700496,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 33
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3091804873308534,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 33
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.11296119977772481,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 66
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.22393491681168665,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 66
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.09296069596195483,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 66
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.28836966906382605,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 66
+   },
+   "sweep": {
+    "kl_last": 0.0,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 329
+   }
+  }
+ ],
+ "merge": [
+  {
+   "id": "5abf63f15542997ec76fd3ea",
+   "answer": "October 1922",
+   "tokens": 1503,
+   "stale_tokens": 785,
+   "reader_tokens": 30,
+   "shared_segments": 5,
+   "truth_answer": "Joseph Stalin seized power.",
+   "merge": {
+    "kl_last": 0.20977637573252406,
+    "top1_last": false,
+    "answer": "1922"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.022279938099071493,
+    "top1_last": true,
+    "answer": "Joseph Stalin seized power.",
+    "tokens": 79
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.057040459274798685,
+    "top1_last": false,
+    "answer": "1922",
+    "tokens": 79
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.06893415163298042,
+    "top1_last": true,
+    "answer": "Joseph Stalin seized power.",
+    "tokens": 79
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.07862646617817255,
+    "top1_last": false,
+    "answer": "1922",
+    "tokens": 79
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.019582323813358955,
+    "top1_last": true,
+    "answer": "Joseph Stalin seized power and ended the civil war in 1953.",
+    "tokens": 157
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.06318812536473424,
+    "top1_last": false,
+    "answer": "1922",
+    "tokens": 157
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.04996422336330582,
+    "top1_last": false,
+    "answer": "The Russian Civil War ended in 1923 when the remains of the",
+    "tokens": 157
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.05993134474745681,
+    "top1_last": true,
+    "answer": "Joseph Stalin seized power.",
+    "tokens": 157
+   }
+  },
+  {
+   "id": "5a7555215542996c70cfaee1",
+   "answer": "Hey Pa! There's a Goat on the Roof",
+   "tokens": 1286,
+   "stale_tokens": 673,
+   "reader_tokens": 31,
+   "shared_segments": 5,
+   "truth_answer": "Hey Pa! There's a Goat on the Roof",
+   "merge": {
+    "kl_last": 0.19595814785806254,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof came to market first."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.012896397370309218,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 68
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.025043481692375788,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 68
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.04199563227923748,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 68
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.06503036847343563,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 68
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0014595484641576834,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 135
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0033917650785125313,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 135
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.000608110946636841,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 135
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.06510142378078933,
+    "top1_last": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "tokens": 135
+   }
+  },
+  {
+   "id": "5a8595a85542992a431d1b48",
+   "answer": "Great Exuma",
+   "tokens": 1199,
+   "stale_tokens": 597,
+   "reader_tokens": 27,
+   "shared_segments": 5,
+   "truth_answer": "The music festival Billy McFarland was charged with wire fraud for was held at",
+   "merge": {
+    "kl_last": 0.17203842985783663,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.13573885640878217,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park.",
+    "tokens": 60
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.05452252847670163,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park.",
+    "tokens": 60
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.24775676657290413,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park.",
+    "tokens": 60
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.05029319591014918,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park.",
+    "tokens": 60
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0932138991807773,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for supposed to take",
+    "tokens": 120
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.19342278321343878,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for supposed to take",
+    "tokens": 120
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.5839504037029357,
+    "top1_last": false,
+    "answer": "Newington Armory, located within Sydney Olympic Park.",
+    "tokens": 120
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12284175712427425,
+    "top1_last": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for supposed to take",
+    "tokens": 120
+   }
+  },
+  {
+   "id": "5a7fb7985542994857a767d2",
+   "answer": "Claudio Javier L\u00f3pez",
+   "tokens": 611,
+   "stale_tokens": 278,
+   "reader_tokens": 25,
+   "shared_segments": 5,
+   "truth_answer": "Claudio L\u00f3pez",
+   "merge": {
+    "kl_last": 0.3491422501626645,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.12543613798109854,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 28
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.32458302335936057,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 28
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.010282345358883761,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 28
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3692214681460582,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 28
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.026082035905063847,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 56
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0666073515464164,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 56
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.017466958067792,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 56
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.22652007209607627,
+    "top1_last": true,
+    "answer": "Claudio L\u00f3pez",
+    "tokens": 56
+   }
+  },
+  {
+   "id": "5ae73d235542991e8301cc29",
+   "answer": "Free Range Films",
+   "tokens": 980,
+   "stale_tokens": 457,
+   "reader_tokens": 26,
+   "shared_segments": 5,
+   "truth_answer": "Free Range Films",
+   "merge": {
+    "kl_last": 0.601945562561305,
+    "top1_last": true,
+    "answer": "Free Range Films"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.6683198349233439,
+    "top1_last": true,
+    "answer": "Free Range Films",
+    "tokens": 46
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.6110399966578346,
+    "top1_last": true,
+    "answer": "Free Range Films",
+    "tokens": 46
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.7657742304948245,
+    "top1_last": false,
+    "answer": "Solar Films",
+    "tokens": 46
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.4870089610244952,
+    "top1_last": true,
+    "answer": "Free Range Films",
+    "tokens": 46
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.4320796051738774,
+    "top1_last": true,
+    "answer": "Free Range Films",
+    "tokens": 92
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 1.5040121230169248,
+    "top1_last": false,
+    "answer": "Solar Films",
+    "tokens": 92
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.07397857042866268,
+    "top1_last": true,
+    "answer": "Free Range Films",
+    "tokens": 92
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.7745732877477438,
+    "top1_last": false,
+    "answer": "Solar Films",
+    "tokens": 92
+   }
+  },
+  {
+   "id": "5ab47cd75542991751b4d78d",
+   "answer": "2002",
+   "tokens": 1055,
+   "stale_tokens": 489,
+   "reader_tokens": 31,
+   "shared_segments": 5,
+   "truth_answer": "2002",
+   "merge": {
+    "kl_last": 0.00819720337076353,
+    "top1_last": true,
+    "answer": "2002"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.004688683185122816,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 49
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0014439861875671796,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 49
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0021261856943953724,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 49
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0018073595319506165,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 49
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.00029637220101007733,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 98
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0007483108543234528,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 98
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.010162464521519768,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 98
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0013510769006440425,
+    "top1_last": true,
+    "answer": "2002",
+    "tokens": 98
+   }
+  },
+  {
+   "id": "5a8efb5a55429918e830d172",
+   "answer": "Jamnagar",
+   "tokens": 726,
+   "stale_tokens": 431,
+   "reader_tokens": 20,
+   "shared_segments": 5,
+   "truth_answer": "India",
+   "merge": {
+    "kl_last": 0.011678361407538052,
+    "top1_last": true,
+    "answer": "India"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.009671763070331622,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 44
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.00311775121240428,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 44
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.014531511027684867,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 44
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.008669321347494452,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 44
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0015668757763422343,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 87
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.013302949941506742,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 87
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.014495544040440905,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 87
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.004712159698799725,
+    "top1_last": true,
+    "answer": "India",
+    "tokens": 87
+   }
+  },
+  {
+   "id": "5a7ae2f2554299042af8f6aa",
+   "answer": "football",
+   "tokens": 769,
+   "stale_tokens": 405,
+   "reader_tokens": 30,
+   "shared_segments": 5,
+   "truth_answer": "Bayer Leverkusen.",
+   "merge": {
+    "kl_last": 3.102504981467822,
+    "top1_last": false,
+    "answer": "Football (soccer)"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 3.450204202647634,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 41
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 2.8213696092422222,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 41
+   },
+   "repair_flat@0.1": {
+    "kl_last": 3.0273762344219923,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 41
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 2.275509376278624,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 41
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.05159169393768087,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen",
+    "tokens": 81
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.6887391026437486,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 81
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0037408315811004768,
+    "top1_last": true,
+    "answer": "Bayer Leverkusen.",
+    "tokens": 81
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 2.0874517551331864,
+    "top1_last": false,
+    "answer": "Football (soccer)",
+    "tokens": 81
+   }
+  },
+  {
+   "id": "5a7b88b45542997c3ec97201",
+   "answer": "Terrence Jones",
+   "tokens": 996,
+   "stale_tokens": 408,
+   "reader_tokens": 26,
+   "shared_segments": 5,
+   "truth_answer": "Salim Stoudamire",
+   "merge": {
+    "kl_last": 0.010804104097724082,
+    "top1_last": true,
+    "answer": "Salim Stoudamire"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.006856055468296015,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 41
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.013053212452231589,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 41
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.004846675351068386,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 41
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.009622530514652363,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 41
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0008809249390887868,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 82
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.024402774800312967,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 82
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.00037059923449044415,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 82
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.01607073518457025,
+    "top1_last": true,
+    "answer": "Salim Stoudamire",
+    "tokens": 82
+   }
+  },
+  {
+   "id": "5a8f7a135542992414482adc",
+   "answer": "12 mi southeast of Rome",
+   "tokens": 902,
+   "stale_tokens": 406,
+   "reader_tokens": 27,
+   "shared_segments": 5,
+   "truth_answer": "Alba Longa",
+   "merge": {
+    "kl_last": 0.018487847856644517,
+    "top1_last": true,
+    "answer": "Alba Longa"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.011360725214449282,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 41
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.026903299472125223,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 41
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.015816623843662857,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 41
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.019438954863758906,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 41
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.013270756201476056,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 82
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.01622428006227303,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 82
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.00781055156451369,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 82
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.021595239147671166,
+    "top1_last": true,
+    "answer": "Alba Longa",
+    "tokens": 82
+   }
+  },
+  {
+   "id": "5ae554ce55429960a22e02b7",
+   "answer": "You Can Be a Star",
+   "tokens": 894,
+   "stale_tokens": 502,
+   "reader_tokens": 39,
+   "shared_segments": 5,
+   "truth_answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+   "merge": {
+    "kl_last": 0.1927513243144114,
+    "top1_last": false,
+    "answer": "\"You Can Be a Star\""
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.027635963763052926,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+    "tokens": 51
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.09691049348007273,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+    "tokens": 51
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0651356729021893,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written by Lari White,",
+    "tokens": 51
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.11596934153394138,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written by Lari White,",
+    "tokens": 51
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.02381276660329016,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+    "tokens": 101
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.05002939626989315,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+    "tokens": 101
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.019972396417693033,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written in part by a music",
+    "tokens": 101
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.13001053369962254,
+    "top1_last": true,
+    "answer": "\"Song to Say Goodbye\" is a song written by Lari White,",
+    "tokens": 101
+   }
+  },
+  {
+   "id": "5ac07327554299012d1db5f2",
+   "answer": "an American football quarterback",
+   "tokens": 672,
+   "stale_tokens": 282,
+   "reader_tokens": 18,
+   "shared_segments": 5,
+   "truth_answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+   "merge": {
+    "kl_last": 0.0015628180589418754,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0018855529376757827,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 29
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0016433865067854126,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 29
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0017620690908212388,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 29
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0018164586687674338,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 29
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0006026420533745715,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 57
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.002545591545481754,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 57
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0003696406063896264,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 57
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0011217331553670816,
+    "top1_last": true,
+    "answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+    "tokens": 57
+   }
+  },
+  {
+   "id": "5ade858a55429975fa854eea",
+   "answer": "tennis",
+   "tokens": 546,
+   "stale_tokens": 293,
+   "reader_tokens": 24,
+   "shared_segments": 5,
+   "truth_answer": "Tennis",
+   "merge": {
+    "kl_last": 0.0023598933689579927,
+    "top1_last": true,
+    "answer": "Tennis"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0016487412301727932,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 30
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0007504855167541845,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 30
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.0011124499061426,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 30
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0009022265955844083,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 30
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.000969872859281729,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 59
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0004654736481426449,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 59
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0008907272610306579,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 59
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0006708792691885935,
+    "top1_last": true,
+    "answer": "Tennis",
+    "tokens": 59
+   }
+  },
+  {
+   "id": "5ae61e7555429929b0807adf",
+   "answer": "MMA",
+   "tokens": 1139,
+   "stale_tokens": 568,
+   "reader_tokens": 29,
+   "shared_segments": 5,
+   "truth_answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+   "merge": {
+    "kl_last": 0.17456741304969453,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.38262300707834984,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 57
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.3896610386741407,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 57
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.56145260122676,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 57
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.4024064357729945,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 57
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.12727401158409535,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 114
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.2443979088678232,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 114
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.5070902846467353,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 114
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3967449974340015,
+    "top1_last": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one of the",
+    "tokens": 114
+   }
+  },
+  {
+   "id": "5ac289ff5542996366519a02",
+   "answer": "Marsilea",
+   "tokens": 1198,
+   "stale_tokens": 424,
+   "reader_tokens": 27,
+   "shared_segments": 5,
+   "truth_answer": "Brabejum",
+   "merge": {
+    "kl_last": 0.21014487787766448,
+    "top1_last": true,
+    "answer": "Brabejum"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.003214398017335185,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 43
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.6100844066562561,
+    "top1_last": false,
+    "answer": "Marsilea",
+    "tokens": 43
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.05242318740525185,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 43
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.2657296209968384,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 43
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.005751481428050607,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 85
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.00836284864370514,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 85
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.006881240878805105,
+    "top1_last": true,
+    "answer": "Brabejum",
+    "tokens": 85
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.4107430812962561,
+    "top1_last": false,
+    "answer": "Marsilea",
+    "tokens": 85
+   }
+  },
+  {
+   "id": "5ac0b1835542992a796ded65",
+   "answer": "Viglen",
+   "tokens": 829,
+   "stale_tokens": 456,
+   "reader_tokens": 25,
+   "shared_segments": 5,
+   "truth_answer": "Viglen",
+   "merge": {
+    "kl_last": 0.13179780787086506,
+    "top1_last": true,
+    "answer": "Viglen"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.021021371326628752,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 46
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.05595150762596317,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 46
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.02784173855429318,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 46
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.05410488399232718,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 46
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0027799860201275276,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 92
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.04503364560730517,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 92
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.009107258724156539,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 92
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.057967168837085366,
+    "top1_last": true,
+    "answer": "Viglen",
+    "tokens": 92
+   }
+  },
+  {
+   "id": "5ae40b2b55429970de88d8b3",
+   "answer": "California Polytechnic State University",
+   "tokens": 1248,
+   "stale_tokens": 575,
+   "reader_tokens": 33,
+   "shared_segments": 5,
+   "truth_answer": "Polytechnic University of the Philippines was founded as a vocational high school.",
+   "merge": {
+    "kl_last": 0.05205007003766232,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.024157436136092763,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in",
+    "tokens": 58
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.07069584094843415,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines",
+    "tokens": 58
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.020395982991891833,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in",
+    "tokens": 58
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.08570656724943122,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in",
+    "tokens": 58
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.016730672212635266,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in",
+    "tokens": 115
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.1716307855579534,
+    "top1_last": false,
+    "answer": "California Polytechnic State University",
+    "tokens": 115
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.001921514677569281,
+    "top1_last": true,
+    "answer": "Polytechnic University of the Philippines was founded as a vocational high school in",
+    "tokens": 115
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.11535560769183266,
+    "top1_last": false,
+    "answer": "Cal Poly SLO",
+    "tokens": 115
+   }
+  },
+  {
+   "id": "5ae7e8f55542994a481bbe06",
+   "answer": "Commander James Bond RN",
+   "tokens": 872,
+   "stale_tokens": 516,
+   "reader_tokens": 32,
+   "shared_segments": 5,
+   "truth_answer": "Commander James Bond",
+   "merge": {
+    "kl_last": 0.34202236634713523,
+    "top1_last": false,
+    "answer": "James Bond"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.30790879620785294,
+    "top1_last": true,
+    "answer": "Commander James Bond, CMG, RNVR",
+    "tokens": 52
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.2929339150992987,
+    "top1_last": true,
+    "answer": "Commander James Bond, CMG, RNVR",
+    "tokens": 52
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.18963710880467646,
+    "top1_last": false,
+    "answer": "James Bond",
+    "tokens": 52
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3112255635231476,
+    "top1_last": true,
+    "answer": "Commander James Bond, CMG, RNVR",
+    "tokens": 52
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.024787139523672817,
+    "top1_last": true,
+    "answer": "Commander James Bond",
+    "tokens": 104
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.33095919454392225,
+    "top1_last": true,
+    "answer": "Commander James Bond, CMG, RNVR",
+    "tokens": 104
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.051662965791001,
+    "top1_last": true,
+    "answer": "Commander James Bond",
+    "tokens": 104
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.20949585699026058,
+    "top1_last": false,
+    "answer": "James Bond",
+    "tokens": 104
+   }
+  },
+  {
+   "id": "5adf4b335542993a75d264a5",
+   "answer": "Rockstar San Diego",
+   "tokens": 885,
+   "stale_tokens": 359,
+   "reader_tokens": 27,
+   "shared_segments": 5,
+   "truth_answer": "Rockstar San Diego",
+   "merge": {
+    "kl_last": 0.7269225708238978,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.8688327176983265,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 36
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.813520156960968,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 36
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.8889626934806197,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 36
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.8917965451652168,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 36
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 1.1692323778055516,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 72
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.716407015543703,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 72
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.891141138302093,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 72
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.867272664804351,
+    "top1_last": false,
+    "answer": "Paul DeBoy is known for an appearance in the Western action-adventure game developed",
+    "tokens": 72
+   }
+  },
+  {
+   "id": "5a78d16455429974737f78bb",
+   "answer": "Ernst Willi Messerschmid",
+   "tokens": 597,
+   "stale_tokens": 235,
+   "reader_tokens": 24,
+   "shared_segments": 5,
+   "truth_answer": "Ernst Messerschmid is older than Philippe Perrin. Ernst Messers",
+   "merge": {
+    "kl_last": 0.4224524740950503,
+    "top1_last": false,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.3637977957758207,
+    "top1_last": false,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 24
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.5061290748789573,
+    "top1_last": false,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 24
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.1780764746936193,
+    "top1_last": true,
+    "answer": "Ernst Messerschmid",
+    "tokens": 24
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.29807809566401366,
+    "top1_last": false,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 24
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0073311075878041915,
+    "top1_last": true,
+    "answer": "Ernst Messerschmid is older than Philippe Perrin.",
+    "tokens": 47
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.2904799178017236,
+    "top1_last": false,
+    "answer": "Philippe Perrin is older than Ernst Messerschmid. Philippe Perrin",
+    "tokens": 47
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.02383275050451739,
+    "top1_last": true,
+    "answer": "Ernst Messerschmid",
+    "tokens": 47
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.18030449822254135,
+    "top1_last": true,
+    "answer": "Ernst Messerschmid is older than Philippe Perrin.",
+    "tokens": 47
+   }
+  },
+  {
+   "id": "5abd920e55429924427fd05d",
+   "answer": "yes",
+   "tokens": 735,
+   "stale_tokens": 399,
+   "reader_tokens": 20,
+   "shared_segments": 5,
+   "truth_answer": "No.",
+   "merge": {
+    "kl_last": 0.2888140403310841,
+    "top1_last": true,
+    "answer": "No."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.01005459934619338,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 40
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.09149727251751612,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 40
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.05132513541748503,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 40
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.1784357095572511,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 40
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0023539650290455433,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 80
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.004868462957696031,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 80
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0036327390155734417,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 80
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07003474972628793,
+    "top1_last": true,
+    "answer": "No.",
+    "tokens": 80
+   }
+  },
+  {
+   "id": "5ab67d2055429954757d3304",
+   "answer": "Labrador Retriever",
+   "tokens": 828,
+   "stale_tokens": 308,
+   "reader_tokens": 26,
+   "shared_segments": 5,
+   "truth_answer": "The Labrador Retriever is a type of gun dog.",
+   "merge": {
+    "kl_last": 0.0007654137159055548,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.00969472012581515,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 31
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0005904483232228666,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 31
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.009081613553584663,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 31
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0008294189974958099,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 31
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.013283324512357541,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 62
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.00020255794059200936,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 62
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.010319837620771629,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 62
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0009120876631508886,
+    "top1_last": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "tokens": 62
+   }
+  },
+  {
+   "id": "5ae5db98554299546bf82fa6",
+   "answer": "1.7 billion",
+   "tokens": 1070,
+   "stale_tokens": 591,
+   "reader_tokens": 33,
+   "shared_segments": 5,
+   "truth_answer": "60 million views.",
+   "merge": {
+    "kl_last": 1.4104269105415363,
+    "top1_last": false,
+    "answer": "775 million views."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.42510004502620896,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 60
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.6595202931117289,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 60
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.4425429247711958,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 60
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.7516673580716745,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 60
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.4134881349542675,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 119
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.197550715450113,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 119
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.3911443141721292,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 119
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3925522332249349,
+    "top1_last": true,
+    "answer": "60 million views.",
+    "tokens": 119
+   }
+  },
+  {
+   "id": "5ae0613d5542993d6555eb22",
+   "answer": "Monticello",
+   "tokens": 1236,
+   "stale_tokens": 499,
+   "reader_tokens": 20,
+   "shared_segments": 5,
+   "truth_answer": "Monticello",
+   "merge": {
+    "kl_last": 0.3676269423151308,
+    "top1_last": false,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, Monticello"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.07108916907214377,
+    "top1_last": true,
+    "answer": "Monticello",
+    "tokens": 50
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.8196822619325742,
+    "top1_last": false,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, Monticello",
+    "tokens": 50
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.13953485379208666,
+    "top1_last": true,
+    "answer": "Monticello",
+    "tokens": 50
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.753185355848121,
+    "top1_last": false,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, Monticello",
+    "tokens": 50
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.022427255427079053,
+    "top1_last": true,
+    "answer": "Monticello",
+    "tokens": 100
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.13909270898473242,
+    "top1_last": true,
+    "answer": "Monticello",
+    "tokens": 100
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.04582323676985552,
+    "top1_last": true,
+    "answer": "Monticello",
+    "tokens": 100
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.7501258295534745,
+    "top1_last": false,
+    "answer": "Castle Hill is a plantation near the primary residence of Thomas Jefferson, Monticello",
+    "tokens": 100
+   }
+  },
+  {
+   "id": "5ae6233c5542992ae0d1623e",
+   "answer": "schoolmaster at J. L. Young's Adelaide Educational Institution and at Saint Peter's College.",
+   "tokens": 727,
+   "stale_tokens": 375,
+   "reader_tokens": 25,
+   "shared_segments": 5,
+   "truth_answer": "Schoolmaster",
+   "merge": {
+    "kl_last": 0.10575111744292234,
+    "top1_last": true,
+    "answer": "Schoolmaster"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.03545665352530072,
+    "top1_last": true,
+    "answer": "Schoolmaster",
+    "tokens": 38
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.06848262063353214,
+    "top1_last": false,
+    "answer": "Thomas Boutflower Bennett was a schoolmaster at St Peter's College, Adelaide.",
+    "tokens": 38
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.039233574790448006,
+    "top1_last": true,
+    "answer": "Schoolmaster",
+    "tokens": 38
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.08782620319106967,
+    "top1_last": true,
+    "answer": "Schoolmaster",
+    "tokens": 38
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.01494338772036308,
+    "top1_last": true,
+    "answer": "Schoolmaster",
+    "tokens": 75
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.04762754524282467,
+    "top1_last": false,
+    "answer": "Thomas Boutflower Bennett was a schoolmaster at St Peter's College, Adelaide.",
+    "tokens": 75
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.020996257966958084,
+    "top1_last": true,
+    "answer": "Schoolmaster",
+    "tokens": 75
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07365078227980423,
+    "top1_last": false,
+    "answer": "Thomas Boutflower Bennett was a schoolmaster at St Peter's College, Adelaide.",
+    "tokens": 75
+   }
+  },
+  {
+   "id": "5ae5d008554299546bf82f7d",
+   "answer": "StubHub Center",
+   "tokens": 979,
+   "stale_tokens": 389,
+   "reader_tokens": 37,
+   "shared_segments": 5,
+   "truth_answer": "StubHub Center",
+   "merge": {
+    "kl_last": 0.16042089382704305,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.14399326579723232,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 39
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.4211359837126565,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 39
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.17408637019617437,
+    "top1_last": false,
+    "answer": "The StubHub Center in Carson, California.",
+    "tokens": 39
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.41289454791673436,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 39
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.10869378399802382,
+    "top1_last": true,
+    "answer": "StubHub Center",
+    "tokens": 78
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.3524122853298431,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 78
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.031189905733256165,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 78
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.710422688016261,
+    "top1_last": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "tokens": 78
+   }
+  },
+  {
+   "id": "5a8ba3ff55429971feec4744",
+   "answer": "Mayor of the City of New York",
+   "tokens": 849,
+   "stale_tokens": 390,
+   "reader_tokens": 23,
+   "shared_segments": 5,
+   "truth_answer": "The official residence of Stokely Webster is Gracie Mansion in New York City",
+   "merge": {
+    "kl_last": 0.10115671827185428,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the official residence of the Governor"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.08267129660008649,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+    "tokens": 39
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.1545964361975869,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the official residence of the Governor",
+    "tokens": 39
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.10025932541320218,
+    "top1_last": true,
+    "answer": "The official residence of Stokely Webster is the Government House in Barbados.",
+    "tokens": 39
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.10604520733158528,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the official residence of the Governor",
+    "tokens": 39
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.04646889596390452,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the official residence of the Mayor",
+    "tokens": 78
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.1304676520226317,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+    "tokens": 78
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.12437841399683965,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the permanent collections of many museums",
+    "tokens": 78
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.12131599435085548,
+    "top1_last": false,
+    "answer": "Stokely Webster's paintings can be found in the official residence of the Governor",
+    "tokens": 78
+   }
+  },
+  {
+   "id": "5adc5b875542996e68525328",
+   "answer": "2006 season",
+   "tokens": 1071,
+   "stale_tokens": 554,
+   "reader_tokens": 34,
+   "shared_segments": 5,
+   "truth_answer": "2006 St. Louis Cardinals season",
+   "merge": {
+    "kl_last": 0.006838790661870622,
+    "top1_last": true,
+    "answer": "2006"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.001957889572474232,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 56
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.0019734479679953793,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 56
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.006501902933786351,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 56
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0028835757909770787,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 56
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0011091291699538075,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 111
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0017140790367236834,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 111
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0003218317632090694,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 111
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0029864825819620805,
+    "top1_last": true,
+    "answer": "2006 St. Louis Cardinals season",
+    "tokens": 111
+   }
+  },
+  {
+   "id": "5a7319e755429901807daf86",
+   "answer": "most total touchdowns in NCAA history",
+   "tokens": 859,
+   "stale_tokens": 450,
+   "reader_tokens": 19,
+   "shared_segments": 5,
+   "truth_answer": "Case Keenum holds the NCAA record for most total touchdowns in NCAA history.",
+   "merge": {
+    "kl_last": 0.4514022267790854,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.2474951983201218,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 45
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.42790671617979187,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 45
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.2065059779166953,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 45
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.34120659246347407,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 45
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.09427635691025729,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 90
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.5237435968374211,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 90
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.1371022020114496,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 90
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3792305768253437,
+    "top1_last": true,
+    "answer": "Casey Austin Keenum holds the NCAA record for the most total touchdowns in NCAA",
+    "tokens": 90
+   }
+  },
+  {
+   "id": "5a7d61775542991319bc93b9",
+   "answer": "Lord Combermere",
+   "tokens": 993,
+   "stale_tokens": 392,
+   "reader_tokens": 37,
+   "shared_segments": 5,
+   "truth_answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+   "merge": {
+    "kl_last": 0.03848933340558516,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.02576391168417308,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 40
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.045135939168369506,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 40
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.01705582693591065,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 40
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.07372151042130023,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 40
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.004411122839870086,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 79
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.01247652445859674,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 79
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.005307332220471765,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 79
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.02479046466090274,
+    "top1_last": true,
+    "answer": "Field Marshal Sir Claude John Eyre Auchinleck",
+    "tokens": 79
+   }
+  },
+  {
+   "id": "5a7730015542994aec3b7210",
+   "answer": "SpongeBob SquarePants",
+   "tokens": 1186,
+   "stale_tokens": 617,
+   "reader_tokens": 26,
+   "shared_segments": 5,
+   "truth_answer": "SpongeBob SquarePants",
+   "merge": {
+    "kl_last": 0.004401761098138527,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.0009886247228976144,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 62
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.006040640968618813,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 62
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.002425747235009082,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 62
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.0026911635175597293,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 62
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.0005186502358788882,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 124
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0010670580368577123,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 124
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0009116262494365029,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 124
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.004393670966863656,
+    "top1_last": true,
+    "answer": "SpongeBob SquarePants",
+    "tokens": 124
+   }
+  },
+  {
+   "id": "5a83d7535542993344746093",
+   "answer": "Los Angeles Xtreme, San Francisco Demons and Memphis Maniax",
+   "tokens": 955,
+   "stale_tokens": 364,
+   "reader_tokens": 22,
+   "shared_segments": 5,
+   "truth_answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+   "merge": {
+    "kl_last": 0.3349660646073578,
+    "top1_last": true,
+    "answer": "The 2009-2010 Season of BAI Basket"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.1171514711046861,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+    "tokens": 37
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.24427499413047157,
+    "top1_last": true,
+    "answer": "The Las Vegas Outlaws played in the Western Division of the XFL.",
+    "tokens": 37
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.13745249320500766,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws and Ottawa",
+    "tokens": 37
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.344716796932258,
+    "top1_last": true,
+    "answer": "The 2009-2010 Season of BAI Basket",
+    "tokens": 37
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.07247122456403828,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+    "tokens": 73
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.19075197346798314,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+    "tokens": 73
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0640381962856653,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws and Ottawa",
+    "tokens": 73
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.14584184550872653,
+    "top1_last": true,
+    "answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws and Ottawa",
+    "tokens": 73
+   }
+  },
+  {
+   "id": "5a84574455429933447460e6",
+   "answer": "2015",
+   "tokens": 1345,
+   "stale_tokens": 713,
+   "reader_tokens": 36,
+   "shared_segments": 5,
+   "truth_answer": "2015",
+   "merge": {
+    "kl_last": 0.00010660636292030576,
+    "top1_last": true,
+    "answer": "2015"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 2.1040987097415357e-05,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 72
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 1.5041785275992224e-05,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 72
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.00010088026342112364,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 72
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.00032468356393003357,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 72
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 1.432977969295254e-05,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 143
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 3.509044928517298e-05,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 143
+   },
+   "repair_flat@0.2": {
+    "kl_last": 9.095015812222266e-05,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 143
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.0002355508384726034,
+    "top1_last": true,
+    "answer": "2015",
+    "tokens": 143
+   }
+  },
+  {
+   "id": "5ac2583b55429951e9e68565",
+   "answer": "Xawery \u017bu\u0142awski",
+   "tokens": 541,
+   "stale_tokens": 230,
+   "reader_tokens": 28,
+   "shared_segments": 5,
+   "truth_answer": "Xawery \u017bu\u0142awski",
+   "merge": {
+    "kl_last": 0.27940893102490205,
+    "top1_last": false,
+    "answer": "Brian G. Hutton"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.06973889578341921,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 23
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.3596331965295847,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 23
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.12207803593573363,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 23
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.3299458951387508,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 23
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.051375222505531476,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 46
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.5156398978799084,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 46
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.005424670099251384,
+    "top1_last": true,
+    "answer": "Xawery \u017bu\u0142awski",
+    "tokens": 46
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.3197969066300531,
+    "top1_last": false,
+    "answer": "Brian G. Hutton",
+    "tokens": 46
+   }
+  },
+  {
+   "id": "5a843cf35542996488c2e51b",
+   "answer": "film",
+   "tokens": 718,
+   "stale_tokens": 437,
+   "reader_tokens": 23,
+   "shared_segments": 5,
+   "truth_answer": "Film industry.",
+   "merge": {
+    "kl_last": 0.01616629584238604,
+    "top1_last": true,
+    "answer": "Film industry."
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.013176576621501552,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 44
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.015338752146283996,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 44
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.009582835752343975,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 44
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.009543505780939638,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 44
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.004873234598905146,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 88
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.010532486013577216,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 88
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0061401180214306905,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 88
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.016305325717321715,
+    "top1_last": true,
+    "answer": "Film industry.",
+    "tokens": 88
+   }
+  },
+  {
+   "id": "5ac41b9e5542995c82c4acc4",
+   "answer": "flowers",
+   "tokens": 1158,
+   "stale_tokens": 732,
+   "reader_tokens": 21,
+   "shared_segments": 5,
+   "truth_answer": "Chamelaucium is derived from orchids of the genus \"Cham",
+   "merge": {
+    "kl_last": 0.1315698784877184,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from orchids of the genus \"Vanilla"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.014199310867182752,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from the Mexican species \"V. planif",
+    "tokens": 74
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.02057559062240253,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from orchids of the genus \"Vanilla",
+    "tokens": 74
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.020391239818904342,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from orchids of the genus \"Vanilla",
+    "tokens": 74
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.07875550129727517,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from orchids of the genus \"Vanilla",
+    "tokens": 74
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.000671485233144697,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from the Mexican species \"V. planif",
+    "tokens": 147
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.0005633424176395125,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from the Mexican species \"V. planif",
+    "tokens": 147
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0007380362005241533,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from the Mexican species \"V. planif",
+    "tokens": 147
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07314923242846849,
+    "top1_last": true,
+    "answer": "Chamelaucium is derived from orchids of the genus \"Vanilla",
+    "tokens": 147
+   }
+  },
+  {
+   "id": "5a75b7bd5542992d0ec05fec",
+   "answer": "Casablanca",
+   "tokens": 785,
+   "stale_tokens": 370,
+   "reader_tokens": 31,
+   "shared_segments": 5,
+   "truth_answer": "\"Casablanca\"",
+   "merge": {
+    "kl_last": 0.04892679285430486,
+    "top1_last": true,
+    "answer": "\"Casablanca\""
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.016099266457949242,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 37
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.03437846909643287,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 37
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.014844213581569794,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 37
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.04185764280626528,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 37
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.004909789707865179,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 74
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.020593354463291358,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 74
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.013173861860303244,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 74
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.02798915652422217,
+    "top1_last": true,
+    "answer": "\"Casablanca\"",
+    "tokens": 74
+   }
+  },
+  {
+   "id": "5add433b5542997545bbbd02",
+   "answer": "Shohola Falls",
+   "tokens": 1043,
+   "stale_tokens": 454,
+   "reader_tokens": 34,
+   "shared_segments": 5,
+   "truth_answer": "Shohola Falls",
+   "merge": {
+    "kl_last": 0.09272952556201686,
+    "top1_last": true,
+    "answer": "Shohola Falls"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.07495958659073924,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 46
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.07117440475746234,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 46
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.1153299142547719,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 46
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.08711216672303686,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 46
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.02607454921743101,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 91
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.027028131424095214,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 91
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.0889310681967923,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 91
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.07107307644433841,
+    "top1_last": true,
+    "answer": "Shohola Falls",
+    "tokens": 91
+   }
+  },
+  {
+   "id": "5ade881f5542992fa25da7af",
+   "answer": "Alan Mathison Turing",
+   "tokens": 784,
+   "stale_tokens": 470,
+   "reader_tokens": 36,
+   "shared_segments": 5,
+   "truth_answer": "Alan Turing",
+   "merge": {
+    "kl_last": 0.006542400996615178,
+    "top1_last": true,
+    "answer": "Alan Turing"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.01686579403889071,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 47
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.00677060986612423,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 47
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.00460390212480907,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 47
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.00630861568683055,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 47
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.004725409345869999,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 94
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.006965582617309992,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 94
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.008208369961183057,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 94
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.006673618663966454,
+    "top1_last": true,
+    "answer": "Alan Turing",
+    "tokens": 94
+   }
+  },
+  {
+   "id": "5a82e25555429954d2e2ebbf",
+   "answer": "Eva Ibbotson",
+   "tokens": 908,
+   "stale_tokens": 287,
+   "reader_tokens": 40,
+   "shared_segments": 5,
+   "truth_answer": "Patricia Valeria Bannister",
+   "merge": {
+    "kl_last": 0.31235724171062407,
+    "top1_last": true,
+    "answer": "Patricia Veryan"
+   },
+   "repair_sketch@0.1": {
+    "kl_last": 0.09116188198344008,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 29
+   },
+   "repair_sketch_first@0.1": {
+    "kl_last": 0.35471041556480437,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 29
+   },
+   "repair_flat@0.1": {
+    "kl_last": 0.11500838700915995,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 29
+   },
+   "repair_flat_first@0.1": {
+    "kl_last": 0.34732035474539474,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 29
+   },
+   "repair_sketch@0.2": {
+    "kl_last": 0.06296845648199995,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 58
+   },
+   "repair_sketch_first@0.2": {
+    "kl_last": 0.2607916972753393,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 58
+   },
+   "repair_flat@0.2": {
+    "kl_last": 0.009213578848067906,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 58
+   },
+   "repair_flat_first@0.2": {
+    "kl_last": 0.316508621444935,
+    "top1_last": true,
+    "answer": "Patricia Veryan",
+    "tokens": 58
+   }
+  }
+ ]
+}

@@ -1,0 +1,5862 @@
+{
+ "meta": {
+  "written": "2026-11-23T23:56:38",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "dataset": "THUDM/AgentInstruct@e252cf78ced8a0ea5f62cfd591784cdbbddbac8a",
+ "max_tokens": 3000,
+ "min_results": 4,
+ "policies": [
+  "latest_exposure",
+  "bridge"
+ ],
+ "effect": true,
+ "rows": [
+  {
+   "id": "os/os_36",
+   "env": "os",
+   "tokens": 1746,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 380,
+    "observation2": 389
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 681,
+    "picked": "turn13",
+    "answer": "Think: Now I get the answer, it is 2.",
+    "segment_share": {
+     "turn9": 0.030465946809363608,
+     "observation2": 0.19959883759431993,
+     "turn11": 0.07809066561804419,
+     "observation3": 0.35034262891187906,
+     "turn13": 0.341501923204275
+    },
+    "results": {
+     "stale": {
+      "kl_first": 4.450004963923156e-06,
+      "kl_tf": 0.002820530742407937,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.557125055028896e-05,
+      "kl_tf": 0.01727669569881473,
+      "top1_first": true,
+      "top1_tf": 0.875
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.0336048775237534e-06,
+       "kl_tf": 0.003118249207226609,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.560067856215197e-06,
+       "kl_tf": 0.0029115143972202125,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.0346267677428066e-06,
+       "kl_tf": 0.0032073089900679884,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.6703368820591957e-06,
+       "kl_tf": 0.0018139456522404782,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.3062708934233314e-06,
+       "kl_tf": 0.001203909413355019,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 3.021352744288335e-06,
+       "kl_tf": 0.0024267324077234865,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 231,
+    "picked": "turn13",
+    "answer": "Think: Now I get the answer, it is 2.",
+    "segment_share": {
+     "turn11": 0.1042446492066197,
+     "observation3": 0.4385841603495584,
+     "turn13": 0.45717120241106424
+    },
+    "results": {
+     "stale": {
+      "kl_first": 4.336050024314986e-06,
+      "kl_tf": 0.0032114845019661806,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.3037428504995907e-05,
+      "kl_tf": 0.022750024372312543,
+      "top1_first": true,
+      "top1_tf": 0.875
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.6486287045200167e-06,
+       "kl_tf": 0.0020745255773930026,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.223515980413734e-06,
+       "kl_tf": 0.0022949170769308025,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.9370932344747678e-06,
+       "kl_tf": 0.001178395078339513,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.760951307064486e-06,
+       "kl_tf": 0.003223771489551554,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.871270069196265e-06,
+       "kl_tf": 0.0026898369230855717,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.2242191475671037e-06,
+       "kl_tf": 0.0024376239152860252,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_73",
+   "env": "os",
+   "tokens": 1355,
+   "new_result": 6,
+   "cleared_tokens": {
+    "observation1": 62,
+    "observation2": 87
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 632,
+    "picked": "turn17",
+    "answer": "Think: Now I get the answer, it is 5.",
+    "segment_share": {
+     "turn9": 0.027736057312744637,
+     "observation2": 0.12794470381311096,
+     "turn11": 0.025057596304246494,
+     "observation3": 0.08716654600813008,
+     "turn13": 0.04939964095200128,
+     "observation4": 0.12697737233778655,
+     "turn15": 0.060570743491517094,
+     "observation5": 0.20493853944498036,
+     "turn17": 0.2902088097478122
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.4432128895170916e-06,
+      "kl_tf": 0.0002857356155839255,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 1.528799729927551e-05,
+      "kl_tf": 0.0008078754509971954,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.739611105518633e-06,
+       "kl_tf": 0.00023178399075876125,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 4.444064915568559e-06,
+       "kl_tf": 0.00017410062928825974,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.749851326745531e-06,
+       "kl_tf": 0.00020759408639795855,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.038372273045712e-06,
+       "kl_tf": 0.00024438535213755497,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 4.800283008075472e-06,
+       "kl_tf": 0.0002156823431398698,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 5.663011317842927e-06,
+       "kl_tf": 0.00016747281774593311,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 455,
+    "picked": "turn17",
+    "answer": "Think: Now I get the answer, it is 5.",
+    "segment_share": {
+     "turn11": 0.030479595804041373,
+     "observation3": 0.10085858752627326,
+     "turn13": 0.059422360308714145,
+     "observation4": 0.14750235203184864,
+     "turn15": 0.0723660712673924,
+     "observation5": 0.2373487839837387,
+     "turn17": 0.35202218326322116
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.7272230403824585e-06,
+      "kl_tf": 0.0011355388593702561,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 1.2994307130849946e-05,
+      "kl_tf": 0.0021980561342508018,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.2776243917920513e-06,
+       "kl_tf": 0.0008869096444451558,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.922633787533751e-06,
+       "kl_tf": 0.000780396900534749,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.96697373423751e-06,
+       "kl_tf": 0.0007625499692941433,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.8703889454588086e-06,
+       "kl_tf": 0.0011137892416931288,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.857333541271903e-06,
+       "kl_tf": 0.0011335192050829215,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 3.0338439827553664e-06,
+       "kl_tf": 0.0008180072407770894,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_108",
+   "env": "os",
+   "tokens": 1040,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 53,
+    "observation2": 68
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 314,
+    "picked": "turn13",
+    "answer": "Think: The log file `mylog.log` now contains the boot time of",
+    "segment_share": {
+     "turn9": 0.04200816421087914,
+     "observation2": 0.20687678358099237,
+     "turn11": 0.24134078659530123,
+     "observation3": 0.23694751500668146,
+     "turn13": 0.2728266227796761
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.2464356226643823e-05,
+      "kl_tf": 0.001719573633454112,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 4.057498791925356e-05,
+      "kl_tf": 0.0027420698304871267,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 1.0417867594262226e-05,
+       "kl_tf": 0.0014824383291518512,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.078391810029775e-05,
+       "kl_tf": 0.0013646257457142652,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.2165949804227445e-05,
+       "kl_tf": 0.0012928352940292163,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 6.518180990412011e-06,
+       "kl_tf": 0.0017740321966225531,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 6.3808659035651275e-06,
+       "kl_tf": 0.001765508586531662,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 6.721004225607039e-06,
+       "kl_tf": 0.0010340357416355785,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 192,
+    "picked": "turn13",
+    "answer": "Think: The log file `mylog.log` now contains the boot time of",
+    "segment_share": {
+     "turn11": 0.3342380085152795,
+     "observation3": 0.3069588512496309,
+     "turn13": 0.35880316012651264
+    },
+    "results": {
+     "stale": {
+      "kl_first": 6.235881452433389e-06,
+      "kl_tf": 0.0014280152108364385,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 4.4377296269384255e-05,
+      "kl_tf": 0.0023407492721753374,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 6.9010005106132705e-06,
+       "kl_tf": 0.0014265142536407454,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 5.692285619578616e-06,
+       "kl_tf": 0.0013625768594553102,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.704295270059201e-06,
+       "kl_tf": 0.001438241902639144,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 7.579692673783372e-06,
+       "kl_tf": 0.0013123523993760144,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.973017708561437e-06,
+       "kl_tf": 0.0010642942695873044,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.803426920615882e-06,
+       "kl_tf": 0.0011058131197562461,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_54",
+   "env": "os",
+   "tokens": 1028,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 100,
+    "observation2": 67
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 326,
+    "picked": "observation3",
+    "answer": "Think: Now I get the answer, it is 7.",
+    "segment_share": {
+     "turn9": 0.04515386156477187,
+     "observation2": 0.24628373998524167,
+     "turn11": 0.07125312987110187,
+     "observation3": 0.3034700163287591,
+     "turn13": 0.3338392297175051
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.917894057789009e-05,
+      "kl_tf": 0.0018535107317026274,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.0988979049879298e-05,
+      "kl_tf": 0.0007872253989701167,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.725926893578596e-05,
+       "kl_tf": 0.0023308153451575366,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.383224222939802e-05,
+       "kl_tf": 0.0023319233193126216,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.3330647722618442e-05,
+       "kl_tf": 0.0020440085038764847,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.961387545480494e-05,
+       "kl_tf": 0.0017684613211180517,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 9.170119649941192e-05,
+       "kl_tf": 0.000990095226993522,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 5.543876651551292e-05,
+       "kl_tf": 0.0008872023808715406,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 204,
+    "picked": "observation3",
+    "answer": "Think: Now I get the answer, it is 7.",
+    "segment_share": {
+     "turn11": 0.10374357338522101,
+     "observation3": 0.415279842195217,
+     "turn13": 0.48097657772656593
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.1998006402811854e-06,
+      "kl_tf": 0.0013032991094003576,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 8.371219228309332e-06,
+      "kl_tf": 0.0014534463721265507,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 1.0884451612523826e-06,
+       "kl_tf": 0.0011977138796361861,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.123566989604095e-07,
+       "kl_tf": 0.0014261927689363035,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.2068782864310132e-06,
+       "kl_tf": 0.0014862598470667889,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 5.344330030356991e-06,
+       "kl_tf": 0.0013240180058295675,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.8616502440157847e-06,
+       "kl_tf": 0.0013399011878360457,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.287982428259788e-06,
+       "kl_tf": 0.0012343535246095794,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_6",
+   "env": "os",
+   "tokens": 1106,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 109,
+    "observation2": 51
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 364,
+    "picked": "turn15",
+    "answer": "Think: Fourth file contains \"Linux\" once. Now, I'll check the",
+    "segment_share": {
+     "turn9": 0.049541517305412064,
+     "observation2": 0.20024686498080124,
+     "turn11": 0.048298720007801985,
+     "observation3": 0.1488726811635085,
+     "turn13": 0.06664469947165415,
+     "observation4": 0.21543013268680042,
+     "turn15": 0.2709653655481088
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0004970379376692443,
+      "kl_tf": 0.23993888691661713,
+      "top1_first": true,
+      "top1_tf": 0.875
+     },
+     "edit_effect": {
+      "kl_first": 0.0002651505725323905,
+      "kl_tf": 0.21892700270931406,
+      "top1_first": true,
+      "top1_tf": 0.875
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0002147349257065624,
+       "kl_tf": 0.07604540556588024,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.00016051612181588418,
+       "kl_tf": 0.06886483112845158,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.00018117142591214718,
+       "kl_tf": 0.07010353035992029,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003780183002584544,
+       "kl_tf": 0.2241607212184023,
+       "top1_first": true,
+       "top1_tf": 0.875
+      },
+      "0.1": {
+       "kl_first": 0.0005503283199313617,
+       "kl_tf": 0.22320517885510205,
+       "top1_first": true,
+       "top1_tf": 0.875
+      },
+      "0.2": {
+       "kl_first": 0.00025658025831762333,
+       "kl_tf": 0.20764065202807486,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 250,
+    "picked": "turn15",
+    "answer": "Think: Now I have checked all the text files in the home directory. The",
+    "segment_share": {
+     "turn11": 0.06525230001706123,
+     "observation3": 0.1946524499192924,
+     "turn13": 0.08841835526745477,
+     "observation4": 0.2856830456694467,
+     "turn15": 0.36599391160683464
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00029000205135183785,
+      "kl_tf": 0.006636610820453708,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.0005152193953971552,
+      "kl_tf": 0.009227763291182484,
+      "top1_first": true,
+      "top1_tf": 0.8125
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0002824296927904173,
+       "kl_tf": 0.006488522083764634,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.0003691394063296072,
+       "kl_tf": 0.006353009714399376,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.0002480050996852975,
+       "kl_tf": 0.0054740381461086006,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.00030233954200960364,
+       "kl_tf": 0.007159632056798362,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.00020875741160750763,
+       "kl_tf": 0.007052017950219975,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 7.295437114871161e-05,
+       "kl_tf": 0.005570194301969542,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_126",
+   "env": "os",
+   "tokens": 1220,
+   "new_result": 6,
+   "cleared_tokens": {
+    "observation1": 47,
+    "observation2": 91
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 570,
+    "picked": "turn17",
+    "answer": "Think: The output is 0, which means there are no directories under the",
+    "segment_share": {
+     "turn9": 0.016193229542482188,
+     "observation2": 0.10585695803643907,
+     "turn11": 0.02405876709490845,
+     "observation3": 0.08105925013529358,
+     "turn13": 0.028954869371223053,
+     "observation4": 0.12885771342563362,
+     "turn15": 0.08297279471453053,
+     "observation5": 0.23818712230540273,
+     "turn17": 0.2938591650130784
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.8365779651713446e-05,
+      "kl_tf": 0.0013555705543065967,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 7.055116876178869e-05,
+      "kl_tf": 0.0016791923307625384,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 5.42700722143006e-05,
+       "kl_tf": 0.0008324917707827081,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00010196719434839448,
+       "kl_tf": 0.0006097344779753043,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.632030346774337e-05,
+       "kl_tf": 0.0004789504922360632,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 9.655951765052717e-06,
+       "kl_tf": 0.001538852449447379,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.3174139827312536e-05,
+       "kl_tf": 0.0014163721158681843,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.500650446571448e-05,
+       "kl_tf": 0.0008942059870726581,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 435,
+    "picked": "turn17",
+    "answer": "Think: The output is 0, which means there are no directories under the",
+    "segment_share": {
+     "turn11": 0.02797661372715166,
+     "observation3": 0.08859445678380401,
+     "turn13": 0.033414694060380896,
+     "observation4": 0.1438359842067846,
+     "turn15": 0.09383227803080353,
+     "observation5": 0.2684562859735116,
+     "turn17": 0.3438896851175093
+    },
+    "results": {
+     "stale": {
+      "kl_first": 6.265464538295572e-05,
+      "kl_tf": 0.0020395029787073854,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0002868774768298881,
+      "kl_tf": 0.003117094026130522,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.337455217488201e-05,
+       "kl_tf": 0.0017618367000563338,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.3943419772013744e-05,
+       "kl_tf": 0.0018018772867824597,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.3610426783701309e-05,
+       "kl_tf": 0.000944774983961629,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.00013750931927506967,
+       "kl_tf": 0.001950889374232885,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 6.360301152476158e-05,
+       "kl_tf": 0.0016783183295003856,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.7637345349890725e-05,
+       "kl_tf": 0.0015395793031047873,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_139",
+   "env": "os",
+   "tokens": 1315,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 84,
+    "observation2": 114
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 526,
+    "picked": "turn13",
+    "answer": "Think: Now I have the answer, it is \"log_dir/file6.log",
+    "segment_share": {
+     "turn9": 0.057039291926315384,
+     "observation2": 0.16272311662501576,
+     "turn11": 0.09148412098102868,
+     "observation3": 0.21833692283299627,
+     "turn13": 0.470416613845287
+    },
+    "results": {
+     "stale": {
+      "kl_first": 7.100390532462146e-05,
+      "kl_tf": 0.01028825453703843,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 4.102135549562459e-05,
+      "kl_tf": 0.005353040931410624,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 5.2644387005989504e-05,
+       "kl_tf": 0.009871626609533272,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 3.9423598204615636e-05,
+       "kl_tf": 0.010099000667810663,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 4.602103116579156e-05,
+       "kl_tf": 0.010134676467491083,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.361327283415506e-05,
+       "kl_tf": 0.009509573153859202,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 1.7994330585107145e-05,
+       "kl_tf": 0.010198522409442752,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 1.053990504095005e-05,
+       "kl_tf": 0.003947632988097589,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 338,
+    "picked": "turn13",
+    "answer": "Think: Now I get the answer, it is \"log_dir/file6.log",
+    "segment_share": {
+     "turn11": 0.11752982335282852,
+     "observation3": 0.2743141787572115,
+     "turn13": 0.6081559778081111
+    },
+    "results": {
+     "stale": {
+      "kl_first": 6.417473545325847e-05,
+      "kl_tf": 0.0031029554214417098,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00012758176276789386,
+      "kl_tf": 0.019188040399846396,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 8.466424146503669e-05,
+       "kl_tf": 0.0031605198154265202,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 6.473951723075006e-05,
+       "kl_tf": 0.0034229498592831644,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 6.781688774938502e-05,
+       "kl_tf": 0.0033687512370887806,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.63518449571131e-05,
+       "kl_tf": 0.00471367199284037,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 5.6371136047326175e-05,
+       "kl_tf": 0.0016908403083596537,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.4268055104510594e-05,
+       "kl_tf": 0.0005613233963645661,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "os/os_63",
+   "env": "os",
+   "tokens": 1471,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 159,
+    "observation2": 135
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 669,
+    "picked": "turn15",
+    "answer": "Think: Now I get the answer, it is /root/max_txts_dir",
+    "segment_share": {
+     "turn9": 0.03232202255782833,
+     "observation2": 0.1359001283556818,
+     "turn11": 0.03930046494797498,
+     "observation3": 0.15382794876696615,
+     "turn13": 0.07873452904388673,
+     "observation4": 0.26292599066007594,
+     "turn15": 0.2969888576344321
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.7017574645928646e-06,
+      "kl_tf": 0.0017864535310084108,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.0321800187630875e-05,
+      "kl_tf": 0.004233975499804207,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.2069887814552515e-06,
+       "kl_tf": 0.0015657071957818204,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.7313475413707616e-06,
+       "kl_tf": 0.0016132052969256422,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.509667339217221e-06,
+       "kl_tf": 0.0016185276459791235,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 1.5404271396485435e-06,
+       "kl_tf": 0.0014607258856950322,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.521955703898513e-06,
+       "kl_tf": 0.0014229863468434565,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.6694493154034095e-06,
+       "kl_tf": 0.0007861485603750245,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 453,
+    "picked": "turn15",
+    "answer": "Think: Now I get the answer, it is /root/max_txts_dir",
+    "segment_share": {
+     "turn11": 0.047893574001166235,
+     "observation3": 0.1887858445166945,
+     "turn13": 0.09438961820765807,
+     "observation4": 0.31086546521234454,
+     "turn15": 0.35806557752664686
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.7272461880045657e-06,
+      "kl_tf": 0.00283300535918107,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 5.143795759548364e-05,
+      "kl_tf": 0.005448883750142678,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.675861453758694e-06,
+       "kl_tf": 0.0029117097980291638,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.331840345997513e-06,
+       "kl_tf": 0.002822444857464754,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.2335186964027336e-06,
+       "kl_tf": 0.0027086652413166774,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.532192312998917e-06,
+       "kl_tf": 0.002952820730958509,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.2733238322759154e-06,
+       "kl_tf": 0.0025920850987106287,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.927614250346697e-06,
+       "kl_tf": 0.0021659559847648263,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "db/db_435",
+   "env": "db",
+   "tokens": 863,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 6,
+    "observation2": 6
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 382,
+    "picked": "observation4",
+    "answer": "To insert the entries into the 'Employees' table, you can use the following",
+    "segment_share": {
+     "turn5": 0.0949729149891141,
+     "observation2": 0.07683319651089696,
+     "turn7": 0.09012625588834337,
+     "observation3": 0.07588124617827444,
+     "turn9": 0.11425286589251112,
+     "observation4": 0.1280516976970749,
+     "turn11": 0.4198817559003634
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.010673675195591646,
+      "kl_tf": 0.000684125334879971,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.024007580029536547,
+      "kl_tf": 0.001513054055284218,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.009784643572499908,
+       "kl_tf": 0.0006282808328965116,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00981137977269542,
+       "kl_tf": 0.0006299390287562583,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.009830401593302458,
+       "kl_tf": 0.0006314116156524544,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.001390248117962512,
+       "kl_tf": 9.53383793220704e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0014480274612809658,
+       "kl_tf": 9.623697764693815e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0001503707196011741,
+       "kl_tf": 1.0519150091418991e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 285,
+    "picked": "observation4",
+    "answer": "To insert the entries into the 'Employees' table, you can use the following",
+    "segment_share": {
+     "turn7": 0.11061213111991407,
+     "observation3": 0.09064512037823542,
+     "turn9": 0.139054069040763,
+     "observation4": 0.15345892245006929,
+     "turn11": 0.5062297479622546
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.003795524049638885,
+      "kl_tf": 0.00024387370157616942,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.10011023090427579,
+      "kl_tf": 0.006261868243916437,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0034269851201581343,
+       "kl_tf": 0.000221075464271958,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0036188943987656456,
+       "kl_tf": 0.00023366890939282924,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.003816552390655534,
+       "kl_tf": 0.00024618003697611215,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0014675922165833136,
+       "kl_tf": 0.00010046658985876533,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0024043725769651836,
+       "kl_tf": 0.00015650237025621847,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0002491088986864663,
+       "kl_tf": 1.700955443828846e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "db/db_315",
+   "env": "db",
+   "tokens": 681,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 10,
+    "observation2": 10
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 242,
+    "picked": "observation4",
+    "answer": "The id of the youngest user is 805.",
+    "segment_share": {
+     "turn5": 0.054377683565571246,
+     "observation2": 0.039879243353714074,
+     "turn7": 0.06606384198810354,
+     "observation3": 0.036172925827670344,
+     "turn9": 0.14642967117345132,
+     "observation4": 0.20555586903441544,
+     "turn11": 0.4515206714562586
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.011593283426452834,
+      "kl_tf": 0.09784203030948789,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.017451880387379177,
+      "kl_tf": 0.08831873258978278,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.013991420145432639,
+       "kl_tf": 0.09852042273422351,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.013034836861514722,
+       "kl_tf": 0.09967933467891571,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.013884610521678553,
+       "kl_tf": 0.10037892787988488,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.012235428198632412,
+       "kl_tf": 0.09462620206067167,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.03480666935091018,
+       "kl_tf": 0.019484846038208582,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.01445494541516086,
+       "kl_tf": 0.006242014361177135,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 191,
+    "picked": "observation4",
+    "answer": "The id of the youngest user is 805.",
+    "segment_share": {
+     "turn7": 0.07234032326978139,
+     "observation3": 0.04046280558667989,
+     "turn9": 0.1618686471135678,
+     "observation4": 0.22749921365846895,
+     "turn11": 0.49782896313162284
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.021947118385545555,
+      "kl_tf": 0.01234528620663116,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.11180938092666182,
+      "kl_tf": 0.021352897674373178,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0218476733691159,
+       "kl_tf": 0.013190602173607137,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.01680898104257355,
+       "kl_tf": 0.014030893304829598,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.014417570450256188,
+       "kl_tf": 0.014280276769247624,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.02518665616838133,
+       "kl_tf": 0.007991326278271888,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0026907863443250695,
+       "kl_tf": 0.00176622523949389,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0008183358750721264,
+       "kl_tf": 0.0006506527468095328,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "db/db_291",
+   "env": "db",
+   "tokens": 946,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 27,
+    "observation2": 27
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 440,
+    "picked": "observation4",
+    "answer": "Apologies for the confusion. It appears that the 'ProductName' column does not",
+    "segment_share": {
+     "turn5": 0.06804998192476744,
+     "observation2": 0.11976104750921211,
+     "turn7": 0.09093126645393107,
+     "observation3": 0.12392159360001334,
+     "turn9": 0.0961070402770355,
+     "observation4": 0.17489417915003694,
+     "turn11": 0.32633491061875636
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.02476982634085031,
+      "kl_tf": 0.0052017171091903736,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.05011054903711901,
+      "kl_tf": 0.008715170934834548,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.02326420791662486,
+       "kl_tf": 0.005806635680817582,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.022991633813503234,
+       "kl_tf": 0.0057359472894781645,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.02244215595130463,
+       "kl_tf": 0.005649937495404473,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.02757615354554564,
+       "kl_tf": 0.004886873246050235,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.014031456026731318,
+       "kl_tf": 0.002433990521229874,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.004886589251174613,
+       "kl_tf": 0.0010921228765478081,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 329,
+    "picked": "observation4",
+    "answer": "Apologies for the confusion. It appears that the 'ProductName' column does not",
+    "segment_share": {
+     "turn7": 0.11638807419089463,
+     "observation3": 0.14848164898868502,
+     "turn9": 0.12079156546669209,
+     "observation4": 0.20839640381996313,
+     "turn11": 0.40594227374600445
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.056737654766651414,
+      "kl_tf": 0.008655628339268697,
+      "top1_first": false,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.19558442049089964,
+      "kl_tf": 0.021416004197528975,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.053484991250462244,
+       "kl_tf": 0.009230155610649354,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.05121513103838908,
+       "kl_tf": 0.009142528708349074,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.05026590303021716,
+       "kl_tf": 0.009089197080197729,
+       "top1_first": false,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.021815632935194854,
+       "kl_tf": 0.0073042653313921515,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.015576184531264643,
+       "kl_tf": 0.00618303799790384,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.006008013565732547,
+       "kl_tf": 0.0006481143445204863,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "db/db_314",
+   "env": "db",
+   "tokens": 938,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 28,
+    "observation2": 28
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 427,
+    "picked": "observation4",
+    "answer": "The SQL statement to add a new employee named John Doe to the 'Employees'",
+    "segment_share": {
+     "turn5": 0.07851189130590425,
+     "observation2": 0.04085135148847795,
+     "turn7": 0.0667418534956837,
+     "observation3": 0.045114887936414334,
+     "turn9": 0.08943625874435342,
+     "observation4": 0.1634382862448481,
+     "turn11": 0.5159055482989346
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.1370727516927016,
+      "kl_tf": 0.010237596751320036,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.15019614206302886,
+      "kl_tf": 0.012384844996770736,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.133091721168691,
+       "kl_tf": 0.00990020962397708,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.12870572913903394,
+       "kl_tf": 0.009639249633831554,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.12931142670221424,
+       "kl_tf": 0.009618866260351366,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.01058814822630629,
+       "kl_tf": 0.0017700996474299658,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.007515818106821989,
+       "kl_tf": 0.001624964353901059,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0041869605278228115,
+       "kl_tf": 0.0009346837326570003,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 306,
+    "picked": "observation4",
+    "answer": "The SQL statement to add a new employee named John Doe to the 'Employees'",
+    "segment_share": {
+     "turn7": 0.07590997888261589,
+     "observation3": 0.050967752249854274,
+     "turn9": 0.10146782838280084,
+     "observation4": 0.18542387034114394,
+     "turn11": 0.5862305217949738
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.02476897352270257,
+      "kl_tf": 0.003465039319234823,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.061772534929395176,
+      "kl_tf": 0.006650416771533817,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.022354200010160797,
+       "kl_tf": 0.0030009508670230407,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.025206159293621938,
+       "kl_tf": 0.00310681924509818,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.02861619339518418,
+       "kl_tf": 0.0032146414764339486,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.006593185360257853,
+       "kl_tf": 0.0006739127070926619,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0022829777229431162,
+       "kl_tf": 0.0003352450838639456,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0022431707467032835,
+       "kl_tf": 0.000210054627114593,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "db/db_326",
+   "env": "db",
+   "tokens": 956,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 29,
+    "observation2": 29
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 444,
+    "picked": "observation4",
+    "answer": "Apologies for the mistake. Here's the correct SQL query to insert a new",
+    "segment_share": {
+     "turn5": 0.08426310551199395,
+     "observation2": 0.1392802645730795,
+     "turn7": 0.07687101158329082,
+     "observation3": 0.13324825258926903,
+     "turn9": 0.08853747461138363,
+     "observation4": 0.1913680485050646,
+     "turn11": 0.2864318083817637
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.07588281764853902,
+      "kl_tf": 0.004958398756945312,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.01397159189587074,
+      "kl_tf": 0.0012121306346033747,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.07006206897060582,
+       "kl_tf": 0.004580050006264604,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.06955950702081942,
+       "kl_tf": 0.0045502981126880155,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.07598425606342281,
+       "kl_tf": 0.005026759797647607,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.057034003461850384,
+       "kl_tf": 0.00376288509739936,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.02223949179429232,
+       "kl_tf": 0.0015646599076638242,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.019334147459103293,
+       "kl_tf": 0.001299696908591959,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 313,
+    "picked": "observation4",
+    "answer": "Apologies for the mistake. Here's the correct SQL query to insert a new",
+    "segment_share": {
+     "turn7": 0.10358030714301711,
+     "observation3": 0.1640961064966075,
+     "turn9": 0.11802207053088527,
+     "observation4": 0.23526724256232887,
+     "turn11": 0.37903429205551675
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.027286998691172005,
+      "kl_tf": 0.0018527520215300137,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.04716750256372286,
+      "kl_tf": 0.003144290668714602,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.025106127297220615,
+       "kl_tf": 0.001763971166288346,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.02494189470892691,
+       "kl_tf": 0.001752070295839396,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.02349807245743253,
+       "kl_tf": 0.0016217138941895528,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.01381097415377695,
+       "kl_tf": 0.0009484553012467853,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00790535000089768,
+       "kl_tf": 0.0006349810227318325,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.009308666269949577,
+       "kl_tf": 0.0008377816053144736,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_215",
+   "env": "kg",
+   "tokens": 1850,
+   "new_result": 12,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 982,
+    "picked": "observation10",
+    "answer": "Thought: #1 is the final answer to the question, which represents the songs",
+    "segment_share": {
+     "turn5": 0.011553808445258267,
+     "observation2": 0.026045130703144397,
+     "turn7": 0.008313899153055266,
+     "observation3": 0.007729781441753567,
+     "turn9": 0.006710385352821341,
+     "observation4": 0.020121264950537735,
+     "turn11": 0.013294078793635197,
+     "observation5": 0.018962148734516106,
+     "turn13": 0.013248985394160003,
+     "observation6": 0.009400265707264339,
+     "turn15": 0.00836171134246697,
+     "observation7": 0.02565157960411529,
+     "turn17": 0.021264740780754132,
+     "observation8": 0.07660315434117229,
+     "turn19": 0.032746093854987286,
+     "observation9": 0.08732170134254216,
+     "turn21": 0.05382540859267652,
+     "observation10": 0.1349372065926289,
+     "turn23": 0.0891068638194306,
+     "observation11": 0.10624175507096645,
+     "turn25": 0.2285599989917739
+    },
+    "results": {
+     "stale": {
+      "kl_first": 8.977918226712732e-05,
+      "kl_tf": 0.00016952978450364553,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 8.693717832914626e-05,
+      "kl_tf": 0.00025635795144416155,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 7.664293506352577e-05,
+       "kl_tf": 0.00016598968505996252,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.110419364243289e-05,
+       "kl_tf": 0.0001565614388408016,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 7.173199902052574e-05,
+       "kl_tf": 0.0001360936639591477,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.514898330822522e-05,
+       "kl_tf": 0.0001891027946015181,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.50081943834335e-05,
+       "kl_tf": 0.0002212360625038752,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.3417480114982313e-05,
+       "kl_tf": 0.00018139911636688133,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 903,
+    "picked": "observation10",
+    "answer": "Thought: #1 is the final answer to the question, which represents the songs",
+    "segment_share": {
+     "turn7": 0.008537926171966154,
+     "observation3": 0.0078830931440124,
+     "turn9": 0.006899277091273923,
+     "observation4": 0.02170658433301931,
+     "turn11": 0.01364711917762144,
+     "observation5": 0.020759110880876036,
+     "turn13": 0.01372047284678588,
+     "observation6": 0.009591558865514866,
+     "turn15": 0.008624540040016249,
+     "observation7": 0.027555609333091334,
+     "turn17": 0.022159974424460327,
+     "observation8": 0.0784586758050065,
+     "turn19": 0.0338027036356015,
+     "observation9": 0.08878463789472471,
+     "turn21": 0.055428112999086745,
+     "observation10": 0.14315514002806035,
+     "turn23": 0.092578934138844,
+     "observation11": 0.11010600236525125,
+     "turn25": 0.2366005887199698
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.732158885211746e-05,
+      "kl_tf": 0.0015327102942380888,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 6.709434882437156e-05,
+      "kl_tf": 0.001284885225066052,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 4.08876110788792e-05,
+       "kl_tf": 0.0015506206565395783,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 5.018577191714055e-05,
+       "kl_tf": 0.0011061050963675988,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.0368700757379494e-05,
+       "kl_tf": 0.0013068582525382227,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 5.540892421280098e-05,
+       "kl_tf": 0.0011558810538102415,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.067356295227728e-06,
+       "kl_tf": 0.0012183412133404351,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 9.592127123353185e-07,
+       "kl_tf": 0.0010792564832301165,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_187",
+   "env": "kg",
+   "tokens": 2147,
+   "new_result": 12,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1272,
+    "picked": "observation10",
+    "answer": "Thought: #1 is the final answer to the question, which represents the bre",
+    "segment_share": {
+     "turn5": 0.011539642981776805,
+     "observation2": 0.023077887826312603,
+     "turn7": 0.008621093505325982,
+     "observation3": 0.007408229744292786,
+     "turn9": 0.004970038505240831,
+     "observation4": 0.016877827935525343,
+     "turn11": 0.012779924890624175,
+     "observation5": 0.016059387710420557,
+     "turn13": 0.014705861195171732,
+     "observation6": 0.01033582877678903,
+     "turn15": 0.008491383577851602,
+     "observation7": 0.040206178518204,
+     "turn17": 0.02132354129725776,
+     "observation8": 0.09075878910562803,
+     "turn19": 0.029551775150811203,
+     "observation9": 0.11087856129909933,
+     "turn21": 0.04281354210835776,
+     "observation10": 0.10583438882171416,
+     "turn23": 0.08250310440588945,
+     "observation11": 0.1111741455523288,
+     "turn25": 0.23008886596384803
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0002857187422075977,
+      "kl_tf": 0.0007399104575133979,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00011725086024766613,
+      "kl_tf": 0.0008347687304966061,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00025195793109212427,
+       "kl_tf": 0.0006159644161602805,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0002921488525405305,
+       "kl_tf": 0.0006434849193705269,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00022231645730634125,
+       "kl_tf": 0.0005814099300709824,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 9.362913726289091e-05,
+       "kl_tf": 0.0007565433329509562,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 5.0539822595616106e-05,
+       "kl_tf": 0.0006516723581445789,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00011152358704051628,
+       "kl_tf": 0.00046740626588693526,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1193,
+    "picked": "observation10",
+    "answer": "Thought: #1 is the final answer to the question, which represents the bre",
+    "segment_share": {
+     "turn7": 0.008801519483406156,
+     "observation3": 0.007579687368193956,
+     "turn9": 0.005091206749887837,
+     "observation4": 0.01796170654161096,
+     "turn11": 0.012972994737836144,
+     "observation5": 0.017239452577071778,
+     "turn13": 0.015018264118596886,
+     "observation6": 0.01054133185598587,
+     "turn15": 0.008684837891163014,
+     "observation7": 0.04258738670745609,
+     "turn17": 0.022018675586739856,
+     "observation8": 0.09237329636605371,
+     "turn19": 0.030332310331802236,
+     "observation9": 0.11281309650983194,
+     "turn21": 0.044197506015021315,
+     "observation10": 0.1124632156158389,
+     "turn23": 0.08607514166933544,
+     "observation11": 0.11548123343209689,
+     "turn25": 0.23776709270112717
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.3642953198761539e-05,
+      "kl_tf": 0.000832502498568142,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 6.950952023495443e-05,
+      "kl_tf": 0.0008169539290848023,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 1.7762544505159874e-05,
+       "kl_tf": 0.0008008650014737976,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 9.239922621260174e-06,
+       "kl_tf": 0.000764422065472178,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.3611794617150048e-06,
+       "kl_tf": 0.0007112461166480133,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 4.9671190129615994e-06,
+       "kl_tf": 0.0006703663842485465,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.8604669356961027e-06,
+       "kl_tf": 0.0005579628443281974,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.571182596191137e-06,
+       "kl_tf": 0.00046799735711418165,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_216",
+   "env": "kg",
+   "tokens": 1957,
+   "new_result": 11,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1096,
+    "picked": "turn23",
+    "answer": "Thought: #1 is the final answer to the question, which represents the number",
+    "segment_share": {
+     "turn5": 0.01668837165911057,
+     "observation2": 0.03832770711679027,
+     "turn7": 0.014566549278627227,
+     "observation3": 0.009285926920817922,
+     "turn9": 0.008409740804162168,
+     "observation4": 0.021662701892153042,
+     "turn11": 0.019137709071717794,
+     "observation5": 0.025801527471392197,
+     "turn13": 0.017774524629458905,
+     "observation6": 0.0098292664548151,
+     "turn15": 0.011176820022744664,
+     "observation7": 0.022681991701186885,
+     "turn17": 0.03502877974828122,
+     "observation8": 0.044938691197989114,
+     "turn19": 0.03635792823917243,
+     "observation9": 0.0745615404697509,
+     "turn21": 0.06663072880815037,
+     "observation10": 0.1341175750325082,
+     "turn23": 0.3930218983089487
+    },
+    "results": {
+     "stale": {
+      "kl_first": 9.368523192809285e-06,
+      "kl_tf": 0.0008320928830282178,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 3.0809520191727595e-06,
+      "kl_tf": 0.0019926577561336,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.500980106878289e-05,
+       "kl_tf": 0.0007554436532027775,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.4712022040555233e-05,
+       "kl_tf": 0.0007205403527428529,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.4538545454274913e-05,
+       "kl_tf": 0.00052975924076365,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.2839082498091752e-05,
+       "kl_tf": 0.000652170155470106,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.040647793933566e-05,
+       "kl_tf": 0.0005429331574439135,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.7382211905193406e-05,
+       "kl_tf": 0.0004784990825921711,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1017,
+    "picked": "turn23",
+    "answer": "Thought: #1 is the final answer to the question, which represents the number",
+    "segment_share": {
+     "turn7": 0.015074149495298395,
+     "observation3": 0.00969698352382779,
+     "turn9": 0.008819304664916663,
+     "observation4": 0.024405106163663717,
+     "turn11": 0.019869415952236128,
+     "observation5": 0.02914119145721677,
+     "turn13": 0.018464873105276194,
+     "observation6": 0.010264026508176847,
+     "turn15": 0.011617061081372105,
+     "observation7": 0.025531824773785083,
+     "turn17": 0.0362059052273217,
+     "observation8": 0.04783802985446466,
+     "turn19": 0.03790063200700501,
+     "observation9": 0.07778770837243776,
+     "turn21": 0.07008746873172672,
+     "observation10": 0.146846649115508,
+     "turn23": 0.41044959940739917
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.000350615830589006,
+      "kl_tf": 0.001705990940775385,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0007633491630096318,
+      "kl_tf": 0.0017877663743199955,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00026814114655108724,
+       "kl_tf": 0.0017725385948066956,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 4.515699644818746e-06,
+       "kl_tf": 0.0014943498119332369,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 5.1432552325192504e-06,
+       "kl_tf": 0.0016359834715233455,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.9868366042161275e-05,
+       "kl_tf": 0.0017737958640881794,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.414361317763742e-05,
+       "kl_tf": 0.0017524939725012897,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.226487554529617e-05,
+       "kl_tf": 0.0014430972776728799,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_9",
+   "env": "kg",
+   "tokens": 2251,
+   "new_result": 12,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1386,
+    "picked": "turn25",
+    "answer": "Thought: #1 is the final answer to the question, which represents the target",
+    "segment_share": {
+     "turn5": 0.013942034590028624,
+     "observation2": 0.031216936213840415,
+     "turn7": 0.010927484391566513,
+     "observation3": 0.008143797360192483,
+     "turn9": 0.00759027493745253,
+     "observation4": 0.025401637991875402,
+     "turn11": 0.01815473275856721,
+     "observation5": 0.023049248617958665,
+     "turn13": 0.01701866189698818,
+     "observation6": 0.011957049980221734,
+     "turn15": 0.012419699497035329,
+     "observation7": 0.040275218100051725,
+     "turn17": 0.02731510710469541,
+     "observation8": 0.07201183690006792,
+     "turn19": 0.03745850017089957,
+     "observation9": 0.056131987717091936,
+     "turn21": 0.029731897699399327,
+     "observation10": 0.07362629408049384,
+     "turn23": 0.05264756409767834,
+     "observation11": 0.16566713682512027,
+     "turn25": 0.2653128488707187
+    },
+    "results": {
+     "stale": {
+      "kl_first": 4.743528885828028e-06,
+      "kl_tf": 0.0002606377238455317,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 6.099114574307493e-06,
+      "kl_tf": 0.00021898999665988654,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.283203785230859e-06,
+       "kl_tf": 0.0002256867587106555,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.8166493222698368e-06,
+       "kl_tf": 0.00022041684389910522,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.9341469797083815e-06,
+       "kl_tf": 0.00016905333237940857,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 1.2156264999621087e-05,
+       "kl_tf": 0.000250235187192442,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.244261839547014e-05,
+       "kl_tf": 0.00020128113725924118,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.2367801843404755e-05,
+       "kl_tf": 0.0001238459437924982,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1307,
+    "picked": "turn25",
+    "answer": "Thought: #1 is the final answer to the question, which represents the target",
+    "segment_share": {
+     "turn7": 0.011337333100419919,
+     "observation3": 0.00845926423544429,
+     "turn9": 0.007861806691975417,
+     "observation4": 0.027463450458680885,
+     "turn11": 0.01865402326330919,
+     "observation5": 0.02538383801480873,
+     "turn13": 0.01766713667728372,
+     "observation6": 0.012342435194771833,
+     "turn15": 0.012799550988736978,
+     "observation7": 0.04371367764691429,
+     "turn17": 0.028126092380001338,
+     "observation8": 0.07672561191278975,
+     "turn19": 0.038753798533648826,
+     "observation9": 0.05836401092525524,
+     "turn21": 0.0308046852130388,
+     "observation10": 0.08053466725856238,
+     "turn23": 0.054669846957274594,
+     "observation11": 0.17227431946162,
+     "turn25": 0.2740644516838315
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.7581591711080885e-05,
+      "kl_tf": 0.0005637100223786404,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 4.429770803730605e-05,
+      "kl_tf": 0.0004307343159127078,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.805202610846924e-06,
+       "kl_tf": 0.0006040662545865549,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.2619868606370727e-06,
+       "kl_tf": 0.00042483453225927454,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 9.959304654776901e-06,
+       "kl_tf": 0.0003905764688861346,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.853363204376635e-05,
+       "kl_tf": 0.0005767044191527077,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.881376672969411e-05,
+       "kl_tf": 0.00031892391961164344,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.554714976820974e-05,
+       "kl_tf": 7.00543254396956e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_239",
+   "env": "kg",
+   "tokens": 2414,
+   "new_result": 16,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1550,
+    "picked": "turn33",
+    "answer": "Thought: #3 is the final answer to the question, which represents the Apple",
+    "segment_share": {
+     "turn5": 0.009997056823198597,
+     "observation2": 0.021157774660043194,
+     "turn7": 0.007665842979031854,
+     "observation3": 0.005193967013716264,
+     "turn9": 0.003873031025491623,
+     "observation4": 0.013242449906335387,
+     "turn11": 0.010307073310623145,
+     "observation5": 0.021081181218157014,
+     "turn13": 0.01187682146351455,
+     "observation6": 0.006480455632272597,
+     "turn15": 0.005738572279185509,
+     "observation7": 0.02112768415735655,
+     "turn17": 0.02095037059832663,
+     "observation8": 0.043771365375513564,
+     "turn19": 0.01895905504138345,
+     "observation9": 0.06905200291798745,
+     "turn21": 0.022346490377667918,
+     "observation10": 0.04128546644049281,
+     "turn23": 0.027256267756835262,
+     "observation11": 0.02184216062652545,
+     "turn25": 0.015931984857885658,
+     "observation12": 0.03445037747568233,
+     "turn27": 0.029406259653155895,
+     "observation13": 0.044608637859329406,
+     "turn29": 0.04022468403936433,
+     "observation14": 0.02829766720094606,
+     "turn31": 0.04474108910136328,
+     "observation15": 0.10137649860066526,
+     "turn33": 0.2577577566629148
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0017786605155051035,
+      "kl_tf": 0.0007516819036369658,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0005809808410854484,
+      "kl_tf": 0.0008917047964601941,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0015785341805755913,
+       "kl_tf": 0.000690640424561832,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0012987451855385242,
+       "kl_tf": 0.0005810049824337028,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0010613260575418602,
+       "kl_tf": 0.0004802716754357648,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0006720997361677682,
+       "kl_tf": 0.0005440841991218502,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00036380612647683795,
+       "kl_tf": 0.0004647123075476583,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00018292101670717428,
+       "kl_tf": 0.00042293352577391693,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1471,
+    "picked": "turn33",
+    "answer": "Thought: #3 is the final answer to the question, which represents the Apple",
+    "segment_share": {
+     "turn7": 0.007761478348498123,
+     "observation3": 0.00525621260636822,
+     "turn9": 0.003920207412427228,
+     "observation4": 0.013717846476181138,
+     "turn11": 0.010344796209375274,
+     "observation5": 0.02206238917041582,
+     "turn13": 0.012162805212978182,
+     "observation6": 0.0065665287237144515,
+     "turn15": 0.005800077151209274,
+     "observation7": 0.0226621841615739,
+     "turn17": 0.02190159842115249,
+     "observation8": 0.045497182516233727,
+     "turn19": 0.019381040242046312,
+     "observation9": 0.07129250298001458,
+     "turn21": 0.022752118078383923,
+     "observation10": 0.04342602230084424,
+     "turn23": 0.027722884770234324,
+     "observation11": 0.022180664971393625,
+     "turn25": 0.01618598723601729,
+     "observation12": 0.0361032739213651,
+     "turn27": 0.03020744901109148,
+     "observation13": 0.04607816567726697,
+     "turn29": 0.04122699681348606,
+     "observation14": 0.029104997250523176,
+     "turn31": 0.04590826715869785,
+     "observation15": 0.10640662052833143,
+     "turn33": 0.2643696663103461
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00020185193666095812,
+      "kl_tf": 0.0017001957415711205,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 9.910515588071332e-06,
+      "kl_tf": 0.0017243617133724056,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.9972567252056153e-05,
+       "kl_tf": 0.0012178940417408644,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.493615679831745e-06,
+       "kl_tf": 0.0017365849080207343,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.0759993099908806e-05,
+       "kl_tf": 0.001110038734210719,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.018543782433279e-05,
+       "kl_tf": 0.001634188805878095,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.447429797145929e-07,
+       "kl_tf": 0.0012363147086607942,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.1367208461972035e-05,
+       "kl_tf": 0.0010537166961358932,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_69",
+   "env": "kg",
+   "tokens": 2793,
+   "new_result": 10,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1928,
+    "picked": "turn21",
+    "answer": "Thought: Now I need to find ice hockey teams in Canada. To acheive",
+    "segment_share": {
+     "turn5": 0.02232103156936202,
+     "observation2": 0.06639577947615077,
+     "turn7": 0.01737415108049294,
+     "observation3": 0.012744249878319047,
+     "turn9": 0.010987260260656514,
+     "observation4": 0.034387391224174196,
+     "turn11": 0.020936260776619295,
+     "observation5": 0.029796280116742638,
+     "turn13": 0.01900692051838913,
+     "observation6": 0.012636263333009712,
+     "turn15": 0.01182218625618279,
+     "observation7": 0.031716303987694434,
+     "turn17": 0.022831481754157144,
+     "observation8": 0.07797337081198229,
+     "turn19": 0.03613546199749967,
+     "observation9": 0.20018760190224524,
+     "turn21": 0.37274801389060974
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.342414568085378e-05,
+      "kl_tf": 0.0015241298631948476,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 7.819612085680942e-06,
+      "kl_tf": 0.002281581393201701,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 6.53752710825313e-06,
+       "kl_tf": 0.0016916369111770954,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 6.834953928973098e-06,
+       "kl_tf": 0.0009051237314785855,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.7127140172066674e-06,
+       "kl_tf": 0.0005843025620388485,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 6.5097391172674464e-06,
+       "kl_tf": 0.0016066958120361967,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.3669758303734518e-05,
+       "kl_tf": 0.0006903930599978993,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.077420590228843e-06,
+       "kl_tf": 0.0003512849861733826,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1849,
+    "picked": "turn21",
+    "answer": "Thought: Now I need to find ice hockey teams in Canada. To acheive",
+    "segment_share": {
+     "turn7": 0.018942405335763537,
+     "observation3": 0.013883716411373509,
+     "turn9": 0.012018103193303091,
+     "observation4": 0.04331916768444428,
+     "turn11": 0.023514063980316115,
+     "observation5": 0.03849185492567967,
+     "turn13": 0.02161647642552777,
+     "observation6": 0.013888410129902256,
+     "turn15": 0.012998637235671174,
+     "observation7": 0.038850338190131395,
+     "turn17": 0.02530605446943112,
+     "observation8": 0.08415031241739929,
+     "turn19": 0.039630303456996446,
+     "observation9": 0.21531687314260317,
+     "turn21": 0.3980731901916695
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.695761363523707e-05,
+      "kl_tf": 0.002874974557168168,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 1.9846210758469192e-05,
+      "kl_tf": 0.004449356235232474,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 4.3153138040023244e-05,
+       "kl_tf": 0.0020356362515020145,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.121394842342449e-05,
+       "kl_tf": 0.0013110028453063838,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.0706755258315113e-06,
+       "kl_tf": 0.001103213218299962,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.074090940532205e-05,
+       "kl_tf": 0.0017034832367299347,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.594496754510896e-06,
+       "kl_tf": 0.0018011138660084256,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.24757252647059e-08,
+       "kl_tf": 0.0012419375244404685,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_222",
+   "env": "kg",
+   "tokens": 2041,
+   "new_result": 12,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1172,
+    "picked": "turn25",
+    "answer": "Thought: #1 is the final answer to the question, which represents the coat",
+    "segment_share": {
+     "turn5": 0.012162268173762874,
+     "observation2": 0.02674310406137476,
+     "turn7": 0.00785605631661009,
+     "observation3": 0.007359173836103971,
+     "turn9": 0.006456041791593726,
+     "observation4": 0.01886918944133846,
+     "turn11": 0.013819651721411624,
+     "observation5": 0.0181848238047333,
+     "turn13": 0.01254108286161647,
+     "observation6": 0.0092809291793364,
+     "turn15": 0.00953599772121826,
+     "observation7": 0.030208909768081393,
+     "turn17": 0.019187045771171276,
+     "observation8": 0.06504828853696996,
+     "turn19": 0.026843135537209666,
+     "observation9": 0.1284335179116395,
+     "turn21": 0.06558279757108494,
+     "observation10": 0.09959661924503849,
+     "turn23": 0.11125356272167433,
+     "observation11": 0.09773353656788113,
+     "turn25": 0.21330429101269038
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00011430445544151355,
+      "kl_tf": 0.0007673672154967428,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 4.186226644310922e-05,
+      "kl_tf": 0.0008705052793573804,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00014227560618028612,
+       "kl_tf": 0.0007031816348563978,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00014023290291040083,
+       "kl_tf": 0.0006458491212888019,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00013763020395161964,
+       "kl_tf": 0.000495092325763103,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 5.7412168895465917e-05,
+       "kl_tf": 0.0008179223822785683,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.6809031516508083e-05,
+       "kl_tf": 0.0009508261804387761,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.270314362786336e-05,
+       "kl_tf": 0.0006428771452652228,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 1093,
+    "picked": "observation10",
+    "answer": "Thought: #1 is the final answer to the question, which represents the coat",
+    "segment_share": {
+     "turn7": 0.008045522340105271,
+     "observation3": 0.007560359789243716,
+     "turn9": 0.006623515701800604,
+     "observation4": 0.020523152616187434,
+     "turn11": 0.014150784672012326,
+     "observation5": 0.019878414346402105,
+     "turn13": 0.012901053759703353,
+     "observation6": 0.009501855981227632,
+     "turn15": 0.0097735144368894,
+     "observation7": 0.03224581446492374,
+     "turn17": 0.0197647917521854,
+     "observation8": 0.0672655755809236,
+     "turn19": 0.027531948236865788,
+     "observation9": 0.13204455107740395,
+     "turn21": 0.06756652582420275,
+     "observation10": 0.1072792002489432,
+     "turn23": 0.11543984093171586,
+     "observation11": 0.10187214820430744,
+     "turn25": 0.22003141250444527
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.9479839279874764e-05,
+      "kl_tf": 0.0021875744118939697,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.109748507206655e-05,
+      "kl_tf": 0.0018040394052484528,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 1.6308661774866616e-05,
+       "kl_tf": 0.0019085968845787423,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.2595397274232805e-05,
+       "kl_tf": 0.0014985627453657784,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.359772983174244e-05,
+       "kl_tf": 0.0016696370999409779,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 1.4339033023856747e-05,
+       "kl_tf": 0.0017292985856718927,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.715583662692816e-05,
+       "kl_tf": 0.0015176210200341577,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 9.673545305708395e-06,
+       "kl_tf": 0.000996098658772873,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "kg/kg_144",
+   "env": "kg",
+   "tokens": 1677,
+   "new_result": 11,
+   "cleared_tokens": {
+    "observation1": 54,
+    "observation2": 25
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 808,
+    "picked": "turn23",
+    "answer": "Thought: #0 is the final answer to the question, which represents the methods",
+    "segment_share": {
+     "turn5": 0.014842887119287485,
+     "observation2": 0.042817380262436026,
+     "turn7": 0.01034515072871921,
+     "observation3": 0.009119880714857642,
+     "turn9": 0.007900377543182553,
+     "observation4": 0.0259962540002969,
+     "turn11": 0.017619492036903543,
+     "observation5": 0.022148738650003198,
+     "turn13": 0.017503381627280903,
+     "observation6": 0.015246648463974607,
+     "turn15": 0.013383593969196075,
+     "observation7": 0.03937934217640906,
+     "turn17": 0.02409050118574377,
+     "observation8": 0.07870484599758655,
+     "turn19": 0.06976178345003284,
+     "observation9": 0.03596880000943293,
+     "turn21": 0.0590417805410589,
+     "observation10": 0.17590064491776547,
+     "turn23": 0.3202284496626301
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0002491238721426076,
+      "kl_tf": 0.0038479435947260613,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0002637632973154869,
+      "kl_tf": 0.002802486776982794,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00020717367324035626,
+       "kl_tf": 0.0034790120639086037,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00016075196364868203,
+       "kl_tf": 0.0033414942356327073,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 8.628671624848365e-05,
+       "kl_tf": 0.003060951597402056,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.00014740458968420206,
+       "kl_tf": 0.004874810974902679,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00018006596663670894,
+       "kl_tf": 0.0048319165568202595,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00021952486278893355,
+       "kl_tf": 0.005929846514442278,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 729,
+    "picked": "turn23",
+    "answer": "Thought: #0 is the final answer to the question, which represents the methods",
+    "segment_share": {
+     "turn7": 0.010815228495406937,
+     "observation3": 0.009668611002129056,
+     "turn9": 0.008311555055419315,
+     "observation4": 0.031560348280696426,
+     "turn11": 0.01884844686280281,
+     "observation5": 0.0269811434186862,
+     "turn13": 0.01864450360299072,
+     "observation6": 0.015880611391399336,
+     "turn15": 0.01393161924175442,
+     "observation7": 0.045102047360686986,
+     "turn17": 0.025898889208161475,
+     "observation8": 0.08372541007235779,
+     "turn19": 0.07312684484353259,
+     "observation9": 0.03835544840265717,
+     "turn21": 0.06197386143002373,
+     "observation10": 0.18637516389663855,
+     "turn23": 0.33080027652817007
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00021230394567784187,
+      "kl_tf": 0.005993800732489155,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00018982795607869868,
+      "kl_tf": 0.009619329732219411,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0002083316155468898,
+       "kl_tf": 0.006141848758691603,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 8.083563429871026e-05,
+       "kl_tf": 0.004144285162767913,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00018165022188209356,
+       "kl_tf": 0.0065501540040701104,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 9.709241895279388e-05,
+       "kl_tf": 0.004195615903995287,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0001462019101375866,
+       "kl_tf": 0.004602693784381157,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 7.208570570474379e-05,
+       "kl_tf": 0.0040654061427283245,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_205",
+   "env": "webshop",
+   "tokens": 2242,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 551,
+    "observation2": 417
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1007,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.03557111246014576,
+     "observation2": 0.31968308809163914,
+     "turn7": 0.037703137714902156,
+     "observation3": 0.41979419913807936,
+     "turn9": 0.1872484343017216
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.002907796030656161,
+      "kl_tf": 0.009799760854708418,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0017648537361829623,
+      "kl_tf": 0.010983206688949287,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.004434849048306375,
+       "kl_tf": 0.008957737397312353,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.002155752828345979,
+       "kl_tf": 0.012093840499878345,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0009607799722410303,
+       "kl_tf": 0.010366321402059302,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0008157138002235328,
+       "kl_tf": 0.009884799036107646,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0008121201392167576,
+       "kl_tf": 0.009429376816247703,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0002498526310491761,
+       "kl_tf": 0.014850527075321251,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 507,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.05409877023122674,
+     "observation3": 0.6615789523554568,
+     "turn9": 0.2843222235759981
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00122766664685514,
+      "kl_tf": 0.030335652513022865,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0017543548482158292,
+      "kl_tf": 0.01912859717905065,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0011956806057509786,
+       "kl_tf": 0.033065658575897515,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00246804767957295,
+       "kl_tf": 0.03432835695189438,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.001231469325945921,
+       "kl_tf": 0.05077058047685855,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0016312984393302094,
+       "kl_tf": 0.01981513354937421,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0013921912419338094,
+       "kl_tf": 0.02355798612011311,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0008742416016303755,
+       "kl_tf": 0.01637977444723017,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_12",
+   "env": "webshop",
+   "tokens": 2048,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 522,
+    "observation2": 267
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 960,
+    "picked": "turn11",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.018530472574576087,
+     "observation2": 0.21446430075268724,
+     "turn7": 0.024925560457251097,
+     "observation3": 0.1917650040093686,
+     "turn9": 0.03268392902258062,
+     "observation4": 0.32063674510057594,
+     "turn11": 0.19699388891668934
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.005704601719540005,
+      "kl_tf": 0.014886373904052858,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00485685075622734,
+      "kl_tf": 0.015765251325232113,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.006453483688572568,
+       "kl_tf": 0.014717467079781079,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.003736619465703388,
+       "kl_tf": 0.0069606187816119765,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0017202723095155541,
+       "kl_tf": 0.006241600251273287,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0038431812307521416,
+       "kl_tf": 0.012257081817048536,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0037670677437388507,
+       "kl_tf": 0.00790396622796867,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.001964759907263021,
+       "kl_tf": 0.0047558384078214035,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 649,
+    "picked": "turn11",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.031404960156258675,
+     "observation3": 0.24797724291596956,
+     "turn9": 0.04066594546097359,
+     "observation4": 0.4349470022764939,
+     "turn11": 0.24500473825833755
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.006251557539547038,
+      "kl_tf": 0.033412347530958744,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.008007152482049725,
+      "kl_tf": 0.018956044041384887,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.006438318909820449,
+       "kl_tf": 0.03186064458973101,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0064943483361444105,
+       "kl_tf": 0.021729725129130406,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0034481526352278745,
+       "kl_tf": 0.01963967595381195,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.006715030311650029,
+       "kl_tf": 0.02331027482667864,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.006138005482901639,
+       "kl_tf": 0.022650680211320388,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.005012187847846365,
+       "kl_tf": 0.029906436553842602,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_134",
+   "env": "webshop",
+   "tokens": 1560,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 594,
+    "observation2": 195
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 486,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.027728322059596997,
+     "observation2": 0.31246545792690406,
+     "turn7": 0.04428240388425331,
+     "observation3": 0.4192116219345616,
+     "turn9": 0.19631216208492516
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0014184488326050312,
+      "kl_tf": 0.017553625962565374,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00045661468006345937,
+      "kl_tf": 0.025224549548123188,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.000913089088013329,
+       "kl_tf": 0.016076338067216967,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0012797965034318573,
+       "kl_tf": 0.013647162902438593,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0008440955304704961,
+       "kl_tf": 0.005157819621425641,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0005835763357731926,
+       "kl_tf": 0.018841289218275242,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00038233045773589775,
+       "kl_tf": 0.017449694621838353,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0002469297786025495,
+       "kl_tf": 0.018743773867790414,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 259,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.06670523925302381,
+     "observation3": 0.6552079949020287,
+     "turn9": 0.27808676584494746
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0009932491419914005,
+      "kl_tf": 0.06416656640696046,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.0014112028165693582,
+      "kl_tf": 0.03753992697792313,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0011784843355432402,
+       "kl_tf": 0.0713646383494394,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.0019055495886714058,
+       "kl_tf": 0.07828208049212605,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.001338920681742721,
+       "kl_tf": 0.06603717551753985,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0009410129884735012,
+       "kl_tf": 0.08383327043001987,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.000979017438070534,
+       "kl_tf": 0.057075780737380746,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.0009791075329784195,
+       "kl_tf": 0.02626146127899595,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_142",
+   "env": "webshop",
+   "tokens": 2171,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 542,
+    "observation2": 408
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 938,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.030605123984107137,
+     "observation2": 0.31760178523866045,
+     "turn7": 0.03258132800448329,
+     "observation3": 0.4506256655042136,
+     "turn9": 0.16858606015633573
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0018627948385967414,
+      "kl_tf": 0.02270875210132054,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0015612808606535835,
+      "kl_tf": 0.02474549022618384,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0022582919554075763,
+       "kl_tf": 0.02221879895542329,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.001676508656006101,
+       "kl_tf": 0.015073190299597238,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0006471337197560614,
+       "kl_tf": 0.011014889903626209,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0009689828771624484,
+       "kl_tf": 0.025462318510733273,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0006989599929441906,
+       "kl_tf": 0.02013559760957039,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00022110861303294344,
+       "kl_tf": 0.011633777181280652,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 474,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.04594286938865211,
+     "observation3": 0.7111911881788142,
+     "turn9": 0.2428659092552054
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00028937243677636825,
+      "kl_tf": 0.049620637962162484,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.000685310366119291,
+      "kl_tf": 0.02024272177089985,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00027573277746357827,
+       "kl_tf": 0.04851949072738956,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00011369174360364225,
+       "kl_tf": 0.04527067911425248,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0002117937889935532,
+       "kl_tf": 0.03000178710435462,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003506867281057833,
+       "kl_tf": 0.016601376608211895,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0002474714449456612,
+       "kl_tf": 0.023972772579632828,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00011393126838952545,
+       "kl_tf": 0.018686344860487064,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_280",
+   "env": "webshop",
+   "tokens": 2163,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 803,
+    "observation2": 295
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 729,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.0312568663406315,
+     "observation2": 0.3132530120481928,
+     "turn7": 0.0447205188556042,
+     "observation3": 0.40608513124106227,
+     "turn9": 0.20468448965277333
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.006759973377815048,
+      "kl_tf": 0.02082911430400489,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0025047933427024254,
+      "kl_tf": 0.015033665428112748,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.007828988665383367,
+       "kl_tf": 0.018929435363998857,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.006233189518619912,
+       "kl_tf": 0.018068501539429176,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0028744943287196127,
+       "kl_tf": 0.016038425289477878,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.005720372336330981,
+       "kl_tf": 0.01968585300914463,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.004914973161395307,
+       "kl_tf": 0.017259796558966773,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.002936867826174406,
+       "kl_tf": 0.009816854288602702,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 383,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.0658492471222637,
+     "observation3": 0.6466967638611222,
+     "turn9": 0.2874540298385467
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0024722357627647226,
+      "kl_tf": 0.016613726313966376,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.009325783616839408,
+      "kl_tf": 0.03704630493363102,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0025260460057176574,
+       "kl_tf": 0.01645313224696598,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.003819598915697611,
+       "kl_tf": 0.02036676244657761,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.004319734193521947,
+       "kl_tf": 0.017183110856058115,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0048700749427516435,
+       "kl_tf": 0.0132829149929704,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0034462565171309947,
+       "kl_tf": 0.013325887974237702,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0028017981424490815,
+       "kl_tf": 0.011007612509971253,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_148",
+   "env": "webshop",
+   "tokens": 1504,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 617,
+    "observation2": 164
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 442,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.03647925613157516,
+     "observation2": 0.32547965655852007,
+     "turn7": 0.050946751726625675,
+     "observation3": 0.4194609393433378,
+     "turn9": 0.16763339228534163
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0015262625659473947,
+      "kl_tf": 0.04319505406450674,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0018588547142405678,
+      "kl_tf": 0.037513558810722505,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0008315793076846216,
+       "kl_tf": 0.03859665381193739,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0006840986946881462,
+       "kl_tf": 0.03345945492808305,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0008565966071602232,
+       "kl_tf": 0.026178756169898607,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0011920832557378589,
+       "kl_tf": 0.03751479120339191,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0009294253785751626,
+       "kl_tf": 0.030440977764173028,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0004359440510680256,
+       "kl_tf": 0.033388405446992404,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 228,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.07874635255221313,
+     "observation3": 0.6751473527206056,
+     "turn9": 0.24610633572421803
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0014017735149407606,
+      "kl_tf": 0.10330237137437771,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "edit_effect": {
+      "kl_first": 0.002323552317369531,
+      "kl_tf": 0.05700621930510169,
+      "top1_first": true,
+      "top1_tf": 0.9375
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0014416426794600914,
+       "kl_tf": 0.09681704013159678,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.0014571675039342514,
+       "kl_tf": 0.09776559053770502,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.0014337688074170768,
+       "kl_tf": 0.0693710317024617,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.001147866043206411,
+       "kl_tf": 0.0801353384623266,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.1": {
+       "kl_first": 0.0013771507599908514,
+       "kl_tf": 0.055385101258307784,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      },
+      "0.2": {
+       "kl_first": 0.001016712398035906,
+       "kl_tf": 0.0339289170945275,
+       "top1_first": true,
+       "top1_tf": 0.9375
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_275",
+   "env": "webshop",
+   "tokens": 2080,
+   "new_result": 4,
+   "cleared_tokens": {
+    "observation1": 600,
+    "observation2": 358
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 853,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.032134466356666155,
+     "observation2": 0.31285657470134065,
+     "turn7": 0.03806506151065676,
+     "observation3": 0.41784733677567026,
+     "turn9": 0.19909654597231474
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0007501334229522184,
+      "kl_tf": 0.012251665966024948,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00023111557045012613,
+      "kl_tf": 0.006787924553004133,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0007403434379094788,
+       "kl_tf": 0.008353556622303752,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0008185291819893349,
+       "kl_tf": 0.007193379331529562,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00033992254129502594,
+       "kl_tf": 0.003118515081681479,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003793890799929477,
+       "kl_tf": 0.009965251102930171,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0003650841821284721,
+       "kl_tf": 0.009129160901146835,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0002756629062657852,
+       "kl_tf": 0.009109190617756939,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 440,
+    "picked": "turn9",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.05325859321517324,
+     "observation3": 0.6638613409881962,
+     "turn9": 0.28288005955321305
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.001119717969176842,
+      "kl_tf": 0.020147783933048495,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.001852714978577857,
+      "kl_tf": 0.014879896325543089,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.001409577894046034,
+       "kl_tf": 0.01996870614591009,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0008429268267393569,
+       "kl_tf": 0.030114794335081557,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0007020043649211029,
+       "kl_tf": 0.01799978655088093,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.00039510866396124647,
+       "kl_tf": 0.0136213311744394,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0004046186986191548,
+       "kl_tf": 0.008220689149607543,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00035447020090379876,
+       "kl_tf": 0.006994079700601343,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "webshop/webshop_305",
+   "env": "webshop",
+   "tokens": 2646,
+   "new_result": 5,
+   "cleared_tokens": {
+    "observation1": 493,
+    "observation2": 421
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 1446,
+    "picked": "turn11",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn5": 0.02261782004004696,
+     "observation2": 0.2288028603678874,
+     "turn7": 0.020810612176475125,
+     "observation3": 0.21264396339216599,
+     "turn9": 0.034852606973988516,
+     "observation4": 0.3747637207967117,
+     "turn11": 0.10550835674404699
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.004592044978852495,
+      "kl_tf": 0.011806597870415263,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0020197706662556368,
+      "kl_tf": 0.015068376768125214,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.003040565592571854,
+       "kl_tf": 0.009909115334166295,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0013799403902089282,
+       "kl_tf": 0.007633211447491791,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0008390598231352981,
+       "kl_tf": 0.00639050923400102,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.00293546374273498,
+       "kl_tf": 0.014272090463016095,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0017534268702802788,
+       "kl_tf": 0.010914595520666127,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0014358122902094399,
+       "kl_tf": 0.006911485243846711,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 954,
+    "picked": "turn11",
+    "answer": "Thought:",
+    "segment_share": {
+     "turn7": 0.02570274442698113,
+     "observation3": 0.26497011913286894,
+     "turn9": 0.04422834729881797,
+     "observation4": 0.5249323053744641,
+     "turn11": 0.14016660001673997
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0025512000470849713,
+      "kl_tf": 0.008596397553908564,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.004308548997193087,
+      "kl_tf": 0.006819897019564467,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0032179453165837152,
+       "kl_tf": 0.009724357476345412,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.002773473673093315,
+       "kl_tf": 0.00598946177581319,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0021765926841734104,
+       "kl_tf": 0.004772352695045425,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.003665867278156232,
+       "kl_tf": 0.005744564915410199,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0024293566414110503,
+       "kl_tf": 0.005428815492305336,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0017415198706725058,
+       "kl_tf": 0.005422335676625934,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_166",
+   "env": "alfworld",
+   "tokens": 959,
+   "new_result": 11,
+   "cleared_tokens": {
+    "observation1": 60,
+    "observation2": 21
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 413,
+    "picked": "turn23",
+    "answer": "ACTION: put remotecontrol 1 in/on sofa 1",
+    "segment_share": {
+     "turn5": 0.02537134232883566,
+     "observation2": 0.024356892783683203,
+     "turn7": 0.01464119460371361,
+     "observation3": 0.02700496251973796,
+     "turn9": 0.013899538859420753,
+     "observation4": 0.014934979018267607,
+     "turn11": 0.022134076338433555,
+     "observation5": 0.10320168564363238,
+     "turn13": 0.03187055407919919,
+     "observation6": 0.027146741269075864,
+     "turn15": 0.10809931332512168,
+     "observation7": 0.04526477130200578,
+     "turn17": 0.021361044469904607,
+     "observation8": 0.11352556385917091,
+     "turn19": 0.037270748729993454,
+     "observation9": 0.06076319324118538,
+     "turn21": 0.04271002598571121,
+     "observation10": 0.08010962434009004,
+     "turn23": 0.1863336802050749
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0016216781341740708,
+      "kl_tf": 0.0014064136020801041,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0008635713876245046,
+      "kl_tf": 0.0019500854006910158,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0012433166602596195,
+       "kl_tf": 0.0015485848501452023,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0006068112376461719,
+       "kl_tf": 0.001139892288046722,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00028165208488298375,
+       "kl_tf": 0.001299855971619816,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0007885832739485455,
+       "kl_tf": 0.0014629358727320078,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0005820733218473493,
+       "kl_tf": 0.0016497054079486352,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 3.1556723108632265e-05,
+       "kl_tf": 0.0022406467764731946,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 374,
+    "picked": "turn23",
+    "answer": "ACTION: put remotecontrol 1 in/on sofa 1",
+    "segment_share": {
+     "turn7": 0.015853714654484215,
+     "observation3": 0.02888820114325644,
+     "turn9": 0.015148760494198305,
+     "observation4": 0.016098276111663718,
+     "turn11": 0.024421627955912094,
+     "observation5": 0.10712526893327226,
+     "turn13": 0.03377473299188308,
+     "observation6": 0.029153159579236705,
+     "turn15": 0.11557989545986161,
+     "observation7": 0.04738897549285658,
+     "turn17": 0.022815972740641056,
+     "observation8": 0.11421763788651908,
+     "turn19": 0.03902765122053167,
+     "observation9": 0.06291862671019367,
+     "turn21": 0.04480757021520715,
+     "observation10": 0.08360165711318837,
+     "turn23": 0.19917831595817587
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0002919263183655846,
+      "kl_tf": 0.0002766455366832316,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 7.482679868490267e-05,
+      "kl_tf": 0.0002760155438664465,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0003221168443069476,
+       "kl_tf": 0.0003440937145947299,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00033911638030198433,
+       "kl_tf": 0.00038468524879104946,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0005141497233286491,
+       "kl_tf": 0.0002457984404970489,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003471091187083313,
+       "kl_tf": 0.0002993327681894407,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0003571085130007238,
+       "kl_tf": 0.0003127819350614924,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00031586365321182013,
+       "kl_tf": 0.00028001389489890223,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_281",
+   "env": "alfworld",
+   "tokens": 1128,
+   "new_result": 16,
+   "cleared_tokens": {
+    "observation1": 15,
+    "observation2": 12
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 504,
+    "picked": "turn33",
+    "answer": "ACTION: put bowl 1 in/on countertop 1",
+    "segment_share": {
+     "turn5": 0.010563518072133415,
+     "observation2": 0.012602418437828026,
+     "turn7": 0.006164188651086504,
+     "observation3": 0.028307074695373715,
+     "turn9": 0.00795492981629051,
+     "observation4": 0.007684834088613581,
+     "turn11": 0.003751955771286315,
+     "observation5": 0.043669991361831216,
+     "turn13": 0.0059180972600953495,
+     "observation6": 0.004325662359483864,
+     "turn15": 0.0026706127361346282,
+     "observation7": 0.01033237050214078,
+     "turn17": 0.004889341444265927,
+     "observation8": 0.004101128054106588,
+     "turn19": 0.002862748908180897,
+     "observation9": 0.09224523865341452,
+     "turn21": 0.00990416529505565,
+     "observation10": 0.007351904993571887,
+     "turn23": 0.0042807406933237984,
+     "observation11": 0.045265375513734475,
+     "turn25": 0.029208935738826353,
+     "observation12": 0.0350177979471705,
+     "turn27": 0.02092838132288102,
+     "observation13": 0.015570331979961657,
+     "turn29": 0.008814651274879758,
+     "observation14": 0.20154558965196825,
+     "turn31": 0.06502048819772382,
+     "observation15": 0.10153763922348598,
+     "turn33": 0.20750991701434365
+    },
+    "results": {
+     "stale": {
+      "kl_first": 5.75578542569619e-05,
+      "kl_tf": 0.00013511492832103547,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 5.352680595622171e-05,
+      "kl_tf": 0.0003944344774972947,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 2.5698080030130306e-05,
+       "kl_tf": 0.0001461092680056893,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 9.952604581761162e-06,
+       "kl_tf": 9.589897125142714e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.0994045575566362e-05,
+       "kl_tf": 9.721586604334268e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 8.11902485146626e-05,
+       "kl_tf": 0.00013896023991845724,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 4.084634000585207e-05,
+       "kl_tf": 0.00015548557832953405,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.568482795479555e-05,
+       "kl_tf": 5.729834305775637e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 480,
+    "picked": "turn33",
+    "answer": "ACTION: put bowl 1 in/on countertop 1",
+    "segment_share": {
+     "turn7": 0.0067831561083938835,
+     "observation3": 0.030682313302404802,
+     "turn9": 0.008776149818212568,
+     "observation4": 0.008592013616988785,
+     "turn11": 0.004041589746534742,
+     "observation5": 0.04618694932492914,
+     "turn13": 0.006419998798355366,
+     "observation6": 0.00467649842870876,
+     "turn15": 0.002847595610961214,
+     "observation7": 0.010840479980971734,
+     "turn17": 0.00527232220626906,
+     "observation8": 0.0043743328697984,
+     "turn19": 0.0030194039305147767,
+     "observation9": 0.09543476180400053,
+     "turn21": 0.010615035209588453,
+     "observation10": 0.00785478832666571,
+     "turn23": 0.004486958552250467,
+     "observation11": 0.045919087458882187,
+     "turn25": 0.029603581539454988,
+     "observation12": 0.034366535718129414,
+     "turn27": 0.021358038325069596,
+     "observation13": 0.01577991248222452,
+     "turn29": 0.008987677466527894,
+     "observation14": 0.20052934253979662,
+     "turn31": 0.06559018357638108,
+     "observation15": 0.10175040762756717,
+     "turn33": 0.21521090573451268
+    },
+    "results": {
+     "stale": {
+      "kl_first": 3.156699778332996e-05,
+      "kl_tf": 0.0006465407785433689,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 3.061783523277525e-05,
+      "kl_tf": 0.0006264713832916132,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 9.088992224027396e-06,
+       "kl_tf": 0.0005333193355143433,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.2049526122431163e-05,
+       "kl_tf": 0.0004906604364084355,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.0834501912621556e-05,
+       "kl_tf": 0.0006058500729216195,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.276982714749352e-05,
+       "kl_tf": 0.0007960729183779113,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.2483823136786116e-05,
+       "kl_tf": 0.0005004507281940888,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.6584430314759963e-05,
+       "kl_tf": 0.0004769008491771021,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_200",
+   "env": "alfworld",
+   "tokens": 1141,
+   "new_result": 16,
+   "cleared_tokens": {
+    "observation1": 12,
+    "observation2": 31
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 503,
+    "picked": "turn33",
+    "answer": "ACTION: put bowl 1 in/on shelf 1",
+    "segment_share": {
+     "turn5": 0.011227923194065185,
+     "observation2": 0.05379129688837826,
+     "turn7": 0.0075169899855930125,
+     "observation3": 0.007175796215952721,
+     "turn9": 0.00808990365231101,
+     "observation4": 0.008533552968759,
+     "turn11": 0.004582820841317247,
+     "observation5": 0.02603253636762892,
+     "turn13": 0.004598117400626102,
+     "observation6": 0.004785619372962842,
+     "turn15": 0.005894449497984351,
+     "observation7": 0.006246649005530861,
+     "turn17": 0.003933333602528099,
+     "observation8": 0.03395545261025261,
+     "turn19": 0.0060482786948208,
+     "observation9": 0.00579682483398237,
+     "turn21": 0.006467730152143683,
+     "observation10": 0.043719364354637406,
+     "turn23": 0.014282326113141645,
+     "observation11": 0.09013511648247792,
+     "turn25": 0.015683272943283418,
+     "observation12": 0.08154374762697938,
+     "turn27": 0.03636252571045491,
+     "observation13": 0.045558181243753514,
+     "turn29": 0.034155989524394,
+     "observation14": 0.037191364904043386,
+     "turn31": 0.049120588736074174,
+     "observation15": 0.0977118791502147,
+     "turn33": 0.24985844386632436
+    },
+    "results": {
+     "stale": {
+      "kl_first": 6.053975815347739e-05,
+      "kl_tf": 0.0011414163382615545,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00019692648719801657,
+      "kl_tf": 0.00108325890688476,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.897094360173623e-05,
+       "kl_tf": 0.0005572495829361957,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.624593472302712e-05,
+       "kl_tf": 0.000490947824318813,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.385107000800789e-05,
+       "kl_tf": 0.0003907533676671432,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 4.345899201361226e-05,
+       "kl_tf": 0.0010492243901587706,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 4.238602866809449e-05,
+       "kl_tf": 0.0005398531729564753,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.3054650979149924e-05,
+       "kl_tf": 0.0003443195539466797,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 461,
+    "picked": "turn33",
+    "answer": "ACTION: put bowl 1 in/on shelf 1",
+    "segment_share": {
+     "turn7": 0.00765360429463839,
+     "observation3": 0.0075597959703517315,
+     "turn9": 0.00843872730620572,
+     "observation4": 0.009028297248967438,
+     "turn11": 0.004800812108468948,
+     "observation5": 0.028704864576555432,
+     "turn13": 0.004729688206660456,
+     "observation6": 0.0050349587133813375,
+     "turn15": 0.006191082906204242,
+     "observation7": 0.006663210707653245,
+     "turn17": 0.004124842820237376,
+     "observation8": 0.037528162188432176,
+     "turn19": 0.006217821409962344,
+     "observation9": 0.006098944998133812,
+     "turn21": 0.006786545387446427,
+     "observation10": 0.04912105948481471,
+     "turn23": 0.015234491999460658,
+     "observation11": 0.10027824862812229,
+     "turn25": 0.016524374594984216,
+     "observation12": 0.09010091081707561,
+     "turn27": 0.038481453510512666,
+     "observation13": 0.04862979944002052,
+     "turn29": 0.03563162350935951,
+     "observation14": 0.039338030213573544,
+     "turn31": 0.05169704042250602,
+     "observation15": 0.10310462987941273,
+     "turn33": 0.2622969638514854
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.5400259780352823e-05,
+      "kl_tf": 0.0004889809502634031,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 1.8872259592364713e-05,
+      "kl_tf": 0.000210620194866605,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 1.9612880255180095e-05,
+       "kl_tf": 0.0008510900812060421,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 5.660011886187642e-05,
+       "kl_tf": 0.0008604176739696579,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.7187497755609973e-05,
+       "kl_tf": 0.0006121525276437937,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 3.229273659954626e-05,
+       "kl_tf": 0.0005067760419191461,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 2.7321427615369998e-05,
+       "kl_tf": 0.0004029321107701681,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 5.903925695550379e-05,
+       "kl_tf": 6.0615398209458715e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_201",
+   "env": "alfworld",
+   "tokens": 1241,
+   "new_result": 20,
+   "cleared_tokens": {
+    "observation1": 12,
+    "observation2": 31
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 728,
+    "picked": "turn41",
+    "answer": "ACTION: put spraybottle 1 in/on toilet 1",
+    "segment_share": {
+     "turn5": 0.004490396134417873,
+     "observation2": 0.01658296315192685,
+     "turn7": 0.0036254359445843194,
+     "observation3": 0.0032515057784488453,
+     "turn9": 0.0018696982894363119,
+     "observation4": 0.017310008188279612,
+     "turn11": 0.0031225681437400516,
+     "observation5": 0.002583491624885673,
+     "turn13": 0.0014862063409050534,
+     "observation6": 0.012879558254056988,
+     "turn15": 0.003165847059301576,
+     "observation7": 0.010146019396362367,
+     "turn17": 0.0030308786896152346,
+     "observation8": 0.003087557470010509,
+     "turn19": 0.002112124141214079,
+     "observation9": 0.009682861265148095,
+     "turn21": 0.025475662703923572,
+     "observation10": 0.04763176810981792,
+     "turn23": 0.0156958339340146,
+     "observation11": 0.015922273563287705,
+     "turn25": 0.0104248789611812,
+     "observation12": 0.02218945618059168,
+     "turn27": 0.009296055016823273,
+     "observation13": 0.010691421241758937,
+     "turn29": 0.019903321461204534,
+     "observation14": 0.12566783039556362,
+     "turn31": 0.03411865510192864,
+     "observation15": 0.032276926516320775,
+     "turn33": 0.019142798321776795,
+     "observation16": 0.03802868964857146,
+     "turn35": 0.07864539570955781,
+     "observation17": 0.05995940993566574,
+     "turn37": 0.02060079158802249,
+     "observation18": 0.05896231761575789,
+     "turn39": 0.03497523476945174,
+     "observation19": 0.07080801458703527,
+     "turn41": 0.15115618426614627
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0004056867163206258,
+      "kl_tf": 9.366478695716094e-05,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00022532439003013867,
+      "kl_tf": 0.00012724146822649382,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0003095745154337061,
+       "kl_tf": 9.683311264617036e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00036957564827410586,
+       "kl_tf": 0.00011471088669186257,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00031786012780857416,
+       "kl_tf": 0.00011301152793608986,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003656374849009018,
+       "kl_tf": 9.102390536363157e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00043697000464079216,
+       "kl_tf": 8.835291734946586e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0005706786392013887,
+       "kl_tf": 0.0001218742020620416,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 686,
+    "picked": "turn41",
+    "answer": "ACTION: put spraybottle 1 in/on toilet 1",
+    "segment_share": {
+     "turn7": 0.0036566305861919462,
+     "observation3": 0.0033398297681640804,
+     "turn9": 0.0018920782937217092,
+     "observation4": 0.017749288783645758,
+     "turn11": 0.0031637384140257765,
+     "observation5": 0.002652220770192919,
+     "turn13": 0.0015034281489292962,
+     "observation6": 0.013202933290321345,
+     "turn15": 0.0031980366715127374,
+     "observation7": 0.010484785492218842,
+     "turn17": 0.00308092396601852,
+     "observation8": 0.003162035099937306,
+     "turn19": 0.0021422066999353916,
+     "observation9": 0.009914463181530057,
+     "turn21": 0.026008627593785263,
+     "observation10": 0.0487010056922178,
+     "turn23": 0.015853597350369116,
+     "observation11": 0.016170471470368642,
+     "turn25": 0.010579853144910582,
+     "observation12": 0.02261464621484586,
+     "turn27": 0.009439347473455196,
+     "observation13": 0.010870689462542832,
+     "turn29": 0.020261241962477076,
+     "observation14": 0.12933531293481906,
+     "turn31": 0.034705748151975455,
+     "observation15": 0.03283028688533547,
+     "turn33": 0.019427211540149952,
+     "observation16": 0.03890574976850472,
+     "turn35": 0.08035459869416088,
+     "observation17": 0.06140851303499111,
+     "turn37": 0.020971268999588445,
+     "observation18": 0.060128124828314415,
+     "turn39": 0.035645560679044785,
+     "observation19": 0.07215503190139488,
+     "turn41": 0.15449049597604794
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.001284352377073394,
+      "kl_tf": 0.00016694565872808173,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00048568511937350286,
+      "kl_tf": 0.00020212642283916742,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.001016735087357763,
+       "kl_tf": 0.00017173066997003156,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0006630383842218049,
+       "kl_tf": 0.00013325579232517008,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0003533410521530632,
+       "kl_tf": 8.801889183514513e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0007450401895662626,
+       "kl_tf": 0.0001521568558839674,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0005273944264235653,
+       "kl_tf": 0.00018508134501716542,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.00026284753512952844,
+       "kl_tf": 0.00011242588259490872,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_267",
+   "env": "alfworld",
+   "tokens": 1087,
+   "new_result": 12,
+   "cleared_tokens": {
+    "observation1": 21,
+    "observation2": 32
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 573,
+    "picked": "turn25",
+    "answer": "ACTION: put box 1 in/on coffeetable 1",
+    "segment_share": {
+     "turn5": 0.023421080598045388,
+     "observation2": 0.03514616740629694,
+     "turn7": 0.019991924955085696,
+     "observation3": 0.060488637795204435,
+     "turn9": 0.021026485505658873,
+     "observation4": 0.023999348240450448,
+     "turn11": 0.01397783207862849,
+     "observation5": 0.029386644373852557,
+     "turn13": 0.011181997750848643,
+     "observation6": 0.013684081579823232,
+     "turn15": 0.017686139505095577,
+     "observation7": 0.09347609611292974,
+     "turn17": 0.03348736939655176,
+     "observation8": 0.033730656797150455,
+     "turn19": 0.017128352066263057,
+     "observation9": 0.02247160407494377,
+     "turn21": 0.0839893421405035,
+     "observation10": 0.133749623262022,
+     "turn23": 0.05740797190090916,
+     "observation11": 0.08076204838238261,
+     "turn25": 0.17380664709692112
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.607432924888034e-05,
+      "kl_tf": 0.0001359526961357764,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 4.936667283468544e-05,
+      "kl_tf": 9.871651985659575e-05,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.00011432603665628184,
+       "kl_tf": 0.0001650881304335997,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0018677487497217558,
+       "kl_tf": 0.00030999506511306775,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0031955911089632215,
+       "kl_tf": 0.0004256244983525052,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0002080749317533064,
+       "kl_tf": 0.00014010798173173336,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0012573183122108686,
+       "kl_tf": 0.00020735640768057104,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0034181312150541494,
+       "kl_tf": 0.0003826807130116214,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 495,
+    "picked": "turn25",
+    "answer": "ACTION: put box 1 in/on coffeetable 1",
+    "segment_share": {
+     "turn7": 0.022243891218567055,
+     "observation3": 0.06740038629495666,
+     "turn9": 0.02306674693798224,
+     "observation4": 0.026197331316599456,
+     "turn11": 0.015074978760984684,
+     "observation5": 0.03130065841971243,
+     "turn13": 0.011838057258485184,
+     "observation6": 0.014443563136899162,
+     "turn15": 0.018943592303945645,
+     "observation7": 0.09531436568256704,
+     "turn17": 0.034617506485137686,
+     "observation8": 0.03496942292287017,
+     "turn19": 0.018263747507031417,
+     "observation9": 0.024154340441452104,
+     "turn21": 0.09077083804776818,
+     "observation10": 0.14066340012126283,
+     "turn23": 0.0603843858408967,
+     "observation11": 0.08551265634826859,
+     "turn25": 0.18484004009552624
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.00015020849376861257,
+      "kl_tf": 0.00010424910106487274,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.00024386084737582688,
+      "kl_tf": 9.57617070702695e-05,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.0003565442234427533,
+       "kl_tf": 0.00011786676933211232,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00013212715221066085,
+       "kl_tf": 7.112437458626323e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.1392036349938155e-05,
+       "kl_tf": 6.926757896108362e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0003771630608425556,
+       "kl_tf": 0.0001100919137081131,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.00030672562394289983,
+       "kl_tf": 9.162212352870912e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0001880660841917254,
+       "kl_tf": 7.121285656308538e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_326",
+   "env": "alfworld",
+   "tokens": 934,
+   "new_result": 13,
+   "cleared_tokens": {
+    "observation1": 12,
+    "observation2": 26
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 422,
+    "picked": "turn27",
+    "answer": "ACTION: put alarmclock 1 in/on desk 1",
+    "segment_share": {
+     "turn5": 0.008527381856201928,
+     "observation2": 0.032978601907824215,
+     "turn7": 0.007699807405815896,
+     "observation3": 0.006113930216377498,
+     "turn9": 0.003109353600033777,
+     "observation4": 0.011111463949503906,
+     "turn11": 0.004760747947008778,
+     "observation5": 0.004245409924276364,
+     "turn13": 0.002908604683550032,
+     "observation6": 0.0786285606346891,
+     "turn15": 0.007978667533927973,
+     "observation7": 0.005438301727066843,
+     "turn17": 0.0036413018307733113,
+     "observation8": 0.08378976948777658,
+     "turn19": 0.008511936468474778,
+     "observation9": 0.006684653828606913,
+     "turn21": 0.004807937163415599,
+     "observation10": 0.04634157173698607,
+     "turn23": 0.06573306914043846,
+     "observation11": 0.22502297361473733,
+     "turn25": 0.07991040207573885,
+     "observation12": 0.11921159162172995,
+     "turn27": 0.18284391578428438
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.267842357999686e-05,
+      "kl_tf": 0.00015046834764189746,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.405915460508318e-06,
+      "kl_tf": 0.00016449350112273176,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 5.732583287562247e-05,
+       "kl_tf": 9.208259687471497e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.964347037708338e-05,
+       "kl_tf": 6.3963201648723e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.456354045707803e-05,
+       "kl_tf": 4.324387469694911e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.3741155987481926e-06,
+       "kl_tf": 8.151382887974464e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.4075748870075085e-05,
+       "kl_tf": 7.291022707928507e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 2.1707503606627307e-05,
+       "kl_tf": 3.232562311752319e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 385,
+    "picked": "turn27",
+    "answer": "ACTION: put alarmclock 1 in/on desk 1",
+    "segment_share": {
+     "turn7": 0.00793750912147146,
+     "observation3": 0.006330599897753536,
+     "turn9": 0.0032107243662146544,
+     "observation4": 0.011742982715148354,
+     "turn11": 0.004908420175760509,
+     "observation5": 0.004415936400801784,
+     "turn13": 0.0030091245310574855,
+     "observation6": 0.0818884578605502,
+     "turn15": 0.008203770283200408,
+     "observation7": 0.005658913781358229,
+     "turn17": 0.0037746487703253324,
+     "observation8": 0.08706836451859094,
+     "turn19": 0.008781807710267328,
+     "observation9": 0.006969801520077097,
+     "turn21": 0.004979575535012636,
+     "observation10": 0.04823125998346126,
+     "turn23": 0.068222924405945,
+     "observation11": 0.23596676304902087,
+     "turn25": 0.08346832824479902,
+     "observation12": 0.1250854967772616,
+     "turn27": 0.19014451735507193
+    },
+    "results": {
+     "stale": {
+      "kl_first": 1.6689443142427337e-05,
+      "kl_tf": 1.1497696299324619e-05,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 5.821459592068233e-05,
+      "kl_tf": 5.3481496474177625e-05,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 3.4902409303646815e-05,
+       "kl_tf": 2.473053169218543e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.891250214039599e-06,
+       "kl_tf": 2.921481150492858e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.2365191066930631e-06,
+       "kl_tf": 2.6473298942895502e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.0977294122488394e-05,
+       "kl_tf": 1.4795618170111904e-05,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.533019730365451e-06,
+       "kl_tf": 9.711217271697074e-06,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.2548957478461617e-06,
+       "kl_tf": 8.63969376574369e-06,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_252",
+   "env": "alfworld",
+   "tokens": 797,
+   "new_result": 8,
+   "cleared_tokens": {
+    "observation1": 36,
+    "observation2": 58
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 278,
+    "picked": "turn17",
+    "answer": "ACTION: put remotecontrol 1 in/on sofa 1",
+    "segment_share": {
+     "turn5": 0.01821417348580348,
+     "observation2": 0.07274615577007748,
+     "turn7": 0.03488175165126342,
+     "observation3": 0.04602251046946215,
+     "turn9": 0.028558645550898612,
+     "observation4": 0.11132770213275996,
+     "turn11": 0.04951567803905389,
+     "observation5": 0.06298477771034275,
+     "turn13": 0.03429528282703364,
+     "observation6": 0.16365458534555893,
+     "turn15": 0.07115437793086916,
+     "observation7": 0.10640366007685516,
+     "turn17": 0.20024071795447373
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0034677678647616495,
+      "kl_tf": 0.00046221573768803547,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.0036681897836882,
+      "kl_tf": 0.00035322027722264936,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.003999468530693953,
+       "kl_tf": 0.0005015504526054588,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0043727178571143725,
+       "kl_tf": 0.0005490138429499672,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.0030465298176365757,
+       "kl_tf": 0.00041137203949403084,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.0018207319136468308,
+       "kl_tf": 0.00025733894534869296,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.0012980168226403794,
+       "kl_tf": 0.00024718885861418633,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.000278324991501995,
+       "kl_tf": 0.0002147891850460043,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 207,
+    "picked": "turn17",
+    "answer": "ACTION: put remotecontrol 1 in/on sofa 1",
+    "segment_share": {
+     "turn7": 0.03871369744911194,
+     "observation3": 0.05119333432429726,
+     "turn9": 0.03074617711341099,
+     "observation4": 0.12100061004203413,
+     "turn11": 0.053542671483473005,
+     "observation5": 0.06815302477242301,
+     "turn13": 0.03735597155959295,
+     "observation6": 0.18451354125148306,
+     "turn15": 0.07838623344275172,
+     "observation7": 0.11754010504475382,
+     "turn17": 0.2188546335166681
+    },
+    "results": {
+     "stale": {
+      "kl_first": 0.0037249507378189443,
+      "kl_tf": 0.0015784734628029827,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 0.004775386768881196,
+      "kl_tf": 0.0019373814496514632,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 0.004344900524972923,
+       "kl_tf": 0.0015366279810312457,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.005204115149461374,
+       "kl_tf": 0.0010638066540226952,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.006042725856736162,
+       "kl_tf": 0.0009459459066575699,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 0.004337621536670043,
+       "kl_tf": 0.0014651349670973847,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 0.003290460253557387,
+       "kl_tf": 0.0013698112695009722,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 0.004920822476874306,
+       "kl_tf": 0.0008499190249738545,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "alfworld/alfworld_161",
+   "env": "alfworld",
+   "tokens": 874,
+   "new_result": 6,
+   "cleared_tokens": {
+    "observation1": 12,
+    "observation2": 40
+   },
+   "clear1": {
+    "edit": "observation1",
+    "nS": 199,
+    "picked": "turn13",
+    "answer": "ACTION: put potato 1 in/on diningtable 1",
+    "segment_share": {
+     "turn5": 0.01617756486904593,
+     "observation2": 0.1765124739071398,
+     "turn7": 0.039489990137067735,
+     "observation3": 0.04346365408129488,
+     "turn9": 0.033704310754424247,
+     "observation4": 0.3323305343322367,
+     "turn11": 0.06993757416902543,
+     "observation5": 0.10373268075850002,
+     "turn13": 0.18465120573221014
+    },
+    "results": {
+     "stale": {
+      "kl_first": 2.906967839414327e-06,
+      "kl_tf": 0.0002906140900662025,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 1.2996499101359995e-05,
+      "kl_tf": 0.0005030464290458639,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 6.221309445043381e-06,
+       "kl_tf": 0.0003078241127682793,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 1.5896986904495936e-06,
+       "kl_tf": 0.0003394859307338605,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 4.90586268575108e-07,
+       "kl_tf": 0.00018407279834531138,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 2.1111958392641176e-06,
+       "kl_tf": 0.0002962281288600297,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 3.190470041294036e-06,
+       "kl_tf": 0.000373507555603003,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 1.271138298561207e-06,
+       "kl_tf": 0.0003061474229662856,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   },
+   "clear2": {
+    "edit": "observation2",
+    "nS": 148,
+    "picked": "turn13",
+    "answer": "ACTION: put potato 1 in/on diningtable 1",
+    "segment_share": {
+     "turn7": 0.0491938768213504,
+     "observation3": 0.054457332970953364,
+     "turn9": 0.04034839663623494,
+     "observation4": 0.4165932130291427,
+     "turn11": 0.08563192520969062,
+     "observation5": 0.1280250114803315,
+     "turn13": 0.22575032765033648
+    },
+    "results": {
+     "stale": {
+      "kl_first": 8.431546031293448e-05,
+      "kl_tf": 0.0025066312003264803,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "edit_effect": {
+      "kl_first": 2.265003726572453e-05,
+      "kl_tf": 0.0031000829151202757,
+      "top1_first": true,
+      "top1_tf": 1.0
+     },
+     "latest_exposure": {
+      "0.05": {
+       "kl_first": 7.942662558080033e-05,
+       "kl_tf": 0.0025923794671793335,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.78209263513346e-05,
+       "kl_tf": 0.0020359983150669207,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 3.870454317352011e-06,
+       "kl_tf": 0.0006200227669729647,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     },
+     "bridge": {
+      "0.05": {
+       "kl_first": 8.389135787808231e-05,
+       "kl_tf": 0.0009689865473276094,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.1": {
+       "kl_first": 7.379536088722129e-05,
+       "kl_tf": 0.0010118115276204565,
+       "top1_first": true,
+       "top1_tf": 1.0
+      },
+      "0.2": {
+       "kl_first": 6.888497485854508e-05,
+       "kl_tf": 0.000778301097553283,
+       "top1_first": true,
+       "top1_tf": 1.0
+      }
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "written": "2026-11-21T08:36:50",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "repeats": 3,
+ "rows": [
+  {
+   "name": "reader/5abf63f15542997ec76fd3ea/gold/end",
+   "n": 1992,
+   "segments": 12,
+   "device": "mps",
+   "plain": 2.439596041018376,
+   "exposure": 2.540907457994763,
+   "sketch": 2.9020524160005152
+  },
+  {
+   "name": "reader/5a7555215542996c70cfaee1/gold/end",
+   "n": 1582,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.769605417008279,
+   "exposure": 1.8396983749989886,
+   "sketch": 2.0668427500058897
+  },
+  {
+   "name": "reader/5a8595a85542992a431d1b48/gold/end",
+   "n": 1909,
+   "segments": 12,
+   "device": "mps",
+   "plain": 2.275532125000609,
+   "exposure": 2.3734562500030734,
+   "sketch": 2.70574320902233
+  },
+  {
+   "name": "reader/5a7fb7985542994857a767d2/gold/end",
+   "n": 880,
+   "segments": 12,
+   "device": "mps",
+   "plain": 0.8773439170035999,
+   "exposure": 0.8986140000051819,
+   "sketch": 0.9747561659896746
+  },
+  {
+   "name": "reader/5ae73d235542991e8301cc29/gold/end",
+   "n": 1341,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.4453815830056556,
+   "exposure": 1.4919128330075182,
+   "sketch": 1.6549029589805286
+  },
+  {
+   "name": "reader/5ab47cd75542991751b4d78d/gold/end",
+   "n": 1676,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.9564621250028722,
+   "exposure": 2.0389316249929834,
+   "sketch": 2.2951677500095684
+  },
+  {
+   "name": "reader/5a8efb5a55429918e830d172/gold/end",
+   "n": 1180,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.271418584015919,
+   "exposure": 1.307175958994776,
+   "sketch": 1.4387719169899356
+  },
+  {
+   "name": "reader/5a7ae2f2554299042af8f6aa/gold/end",
+   "n": 1228,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.34878108400153,
+   "exposure": 1.385937874991214,
+   "sketch": 1.5249853749992326
+  },
+  {
+   "name": "reader/5a7b88b45542997c3ec97201/gold/end",
+   "n": 1676,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.987181792006595,
+   "exposure": 2.0668006659834646,
+   "sketch": 2.3306225420092233
+  },
+  {
+   "name": "reader/5a8f7a135542992414482adc/gold/end",
+   "n": 1372,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.5472461659810506,
+   "exposure": 1.5855074579885695,
+   "sketch": 1.7619470829959027
+  },
+  {
+   "name": "reader/5ae554ce55429960a22e02b7/gold/end",
+   "n": 1565,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.8075165420013946,
+   "exposure": 1.876995500002522,
+   "sketch": 2.0826337079924997
+  },
+  {
+   "name": "reader/5ac07327554299012d1db5f2/gold/end",
+   "n": 1067,
+   "segments": 12,
+   "device": "mps",
+   "plain": 1.098869667010149,
+   "exposure": 1.1317122500040568,
+   "sketch": 1.2465995409875177
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "meta": {
+  "written": "2026-11-23T16:40:15",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "rows": [
+  {
+   "tokens": 512,
+   "engine32_vs_library32": {
+    "max_gap": 0.00021457672119140625,
+    "same_argmax": 1.0
+   },
+   "engine16_vs_library16": {
+    "max_gap": 18.6875,
+    "same_argmax": 0.923828125
+   },
+   "library16_vs_library32": {
+    "max_gap": 1.95699143409729,
+    "same_argmax": 0.978515625
+   },
+   "engine16_vs_library32": {
+    "max_gap": 18.617656707763672,
+    "same_argmax": 0.927734375
+   },
+   "engine16_vs_engine32": {
+    "max_gap": 18.617664337158203,
+    "same_argmax": 0.927734375
+   }
+  },
+  {
+   "tokens": 512,
+   "engine32_vs_library32": {
+    "max_gap": 0.00021457672119140625,
+    "same_argmax": 1.0
+   },
+   "engine16_vs_library16": {
+    "max_gap": 18.6875,
+    "same_argmax": 0.919921875
+   },
+   "library16_vs_library32": {
+    "max_gap": 1.95699143409729,
+    "same_argmax": 0.9765625
+   },
+   "engine16_vs_library32": {
+    "max_gap": 18.617656707763672,
+    "same_argmax": 0.916015625
+   },
+   "engine16_vs_engine32": {
+    "max_gap": 18.617664337158203,
+    "same_argmax": 0.916015625
+   }
+  },
+  {
+   "tokens": 512,
+   "engine32_vs_library32": {
+    "max_gap": 0.00021457672119140625,
+    "same_argmax": 1.0
+   },
+   "engine16_vs_library16": {
+    "max_gap": 18.6875,
+    "same_argmax": 0.919921875
+   },
+   "library16_vs_library32": {
+    "max_gap": 1.95699143409729,
+    "same_argmax": 0.9765625
+   },
+   "engine16_vs_library32": {
+    "max_gap": 18.617656707763672,
+    "same_argmax": 0.916015625
+   },
+   "engine16_vs_engine32": {
+    "max_gap": 18.617664337158203,
+    "same_argmax": 0.916015625
+   }
+  },
+  {
+   "tokens": 512,
+   "engine32_vs_library32": {
+    "max_gap": 0.00021457672119140625,
+    "same_argmax": 1.0
+   },
+   "engine16_vs_library16": {
+    "max_gap": 13.1875,
+    "same_argmax": 0.943359375
+   },
+   "library16_vs_library32": {
+    "max_gap": 1.95699143409729,
+    "same_argmax": 0.97265625
+   },
+   "engine16_vs_library32": {
+    "max_gap": 13.197649955749512,
+    "same_argmax": 0.94140625
+   },
+   "engine16_vs_engine32": {
+    "max_gap": 13.19764518737793,
+    "same_argmax": 0.94140625
+   }
+  }
+ ]
+}

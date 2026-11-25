@@ -1,0 +1,101 @@
+# Every run behind the paper, in the order we suggest. Run with:
+#   bash experiments/scripts/run_queue.sh experiments/scripts/reproduce.txt
+# Each script saves its rows as it goes and resumes from them, so an interrupted run can be restarted.
+# Rough times on an Apple M5 laptop GPU: minutes for the small checks, a few hours for each main
+# experiment on the 1.5B and 1.7B models, and several hours for each 7B run.
+
+# Section 3 and Appendix A: exactness of relocation, drift of rewritten keys, kernel timings
+e0_exactness.py exact drift
+e14_kernels.py main
+
+# Section 4 and Appendix B: where staleness lives, fresh vs cached question, position gaps
+e1_anatomy.py qwen0.5b 40 main
+e1_anatomy.py qwen1.5b 40 main
+e1_anatomy.py smol1.7b 20 main
+e1p_paired.py qwen0.5b 40 main
+e1p_paired.py qwen1.5b 40 main
+e1p_paired.py smol1.7b 40 main
+e15_gap.py qwen0.5b 20 main
+e15_gap.py qwen1.5b 20 main
+e15_gap.py smol1.7b 20 main
+
+# Section 5.2 and Appendix C: the main experiment
+e2c_ablation.py qwen0.5b 12 3 main
+e2c_ablation.py qwen1.5b 12 3 main
+e2c_ablation.py smol1.7b 12 3 main
+e2d_reader_first.py qwen0.5b 12 main
+e2d_reader_first.py qwen1.5b 12 main
+e2d_reader_first.py smol1.7b 12 main
+e22_lmcache.py qwen1.5b main
+
+# Section 5.3 and Appendix D: replication with hypotheses fixed in advance
+e16_confirm.py qwen0.5b 12 plain main
+e16_confirm.py qwen1.5b 12 plain main
+e16_confirm.py smol1.7b 12 plain main
+e16_confirm.py qwen0.5b 12 decoy main
+e16_confirm.py qwen1.5b 12 decoy main
+e16_confirm.py smol1.7b 12 decoy main
+e16_confirm.py qwen1.5b 12 long main
+
+# Section 5.3 and Appendix E: long contexts, long new input, agent traces, real transcripts, needle task
+e10_long.py qwen1.5b 12 main
+e10_long.py qwen1.5b 12 rrf 4000
+e11_longq.py qwen1.5b 12 main
+e12_agent.py qwen1.5b 40 main
+e21_traces.py qwen0.5b 8 main
+e21_traces.py qwen1.5b 8 main
+e21_traces.py smol1.7b 8 main
+e21_traces.py qwen0.5b 8 tail
+e21_traces.py qwen1.5b 8 tail
+e21_traces.py smol1.7b 8 tail
+e21_traces.py qwen0.5b 8 extra
+e21_traces.py qwen1.5b 8 extra
+e21_traces.py smol1.7b 8 extra
+e3_needle.py qwen1.5b 40 main 1000,2000
+e3_needle.py qwen1.5b 40 reader
+e3_needle.py qwen1.5b 40 rrf
+e3_needle.py qwen1.5b 40 fresh 1000
+e7_mechanism.py qwen1.5b 12 main
+e8_counterfactual.py qwen1.5b 20 main
+
+# Section 5.4 and Appendix E: inserts
+e2_insert_sketch.py qwen0.5b 24 main
+e2_insert_sketch.py qwen1.5b 16 main
+e2_insert_sketch.py smol1.7b 16 main
+e2e_insert_reader.py qwen1.5b 12 main
+e2e_insert_reader.py smol1.7b 12 main
+
+# Section 5.6 and Appendix A: cost, scattered vs contiguous recomputation, and a roofline estimate (no GPU needed)
+e6_cost.py qwen1.5b 12 main
+e6b_recording.py qwen1.5b 12 main
+e23_scatter.py qwen1.5b 12 main
+e24_cost_model.py main
+
+# Section 6 and Appendix G: the runtime
+e5_streams.py qwen1.5b 40 main
+e5_streams.py qwen1.5b 40 v2
+
+# Appendix F: numerical noise
+e17_precision.py qwen0.5b 12 main
+e17_precision.py qwen1.5b 12 main
+e17_precision.py smol1.7b 12 main
+e18_reference.py qwen0.5b main
+e18_reference.py qwen1.5b main
+e18_reference.py smol1.7b main
+
+# Appendix H: the first repair run
+e2_healing.py qwen0.5b 24 main
+e2_fill.py qwen0.5b 24 main
+e2_healing.py qwen1.5b 16 main 0.05,0.1,0.2
+e2_healing.py smol1.7b 16 main 0.05,0.1,0.2
+
+# 7B models in bfloat16 (Section 5.3, Appendices E and F). Each needs about 15 GB of free memory;
+# wait_for_memory.py holds the queue until the machine has it.
+wait_for_memory.py 15
+e9_scale.py qwen7b 12 main bf16
+wait_for_memory.py 15
+e19_family.py mistral7b 12 main bf16
+wait_for_memory.py 15
+e20_reference.py qwen7b main bf16
+wait_for_memory.py 15
+e20_reference.py mistral7b main bf16

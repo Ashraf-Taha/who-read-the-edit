@@ -1,0 +1,2172 @@
+{
+ "meta": {
+  "written": "2026-11-23T12:32:06",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "rows": [
+  {
+   "name": "hotpot/5abf63f15542997ec76fd3ea/gold/doc7",
+   "answer": "October 1922",
+   "nP": 1200,
+   "nE": 391,
+   "nD": 376,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.16028877079842055,
+    "same_top1": true
+   },
+   "truth_answer": "The Russian Civil War ended in 1922 when the Communist Reds were",
+   "kept_answer": "The Russian Civil War ended in 1923.",
+   "fresh": {
+    "kl": 0.002333707634386631,
+    "same_top1": true,
+    "answer": "The Russian Civil War ended in 1922 when the Communist Reds were",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.047185123155689825,
+    "same_top1": true,
+    "answer": "The civil war ended in 1924 when Joseph Stalin seized power.",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.647040731413911e-09
+  },
+  {
+   "name": "hotpot/5a7555215542996c70cfaee1/gold/doc2",
+   "answer": "Hey Pa! There's a Goat on the Roof",
+   "nP": 281,
+   "nE": 190,
+   "nD": 1085,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.05051826753170302,
+    "same_top1": true
+   },
+   "truth_answer": "Hey Pa! There's a Goat on the Roof",
+   "kept_answer": "Hey Pa! There's a Goat on the Roof",
+   "fresh": {
+    "kl": 0.002326291270100991,
+    "same_top1": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04489833256672855,
+    "same_top1": true,
+    "answer": "Hey Pa! There's a Goat on the Roof",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.6464528746259822e-11
+  },
+  {
+   "name": "hotpot/5a8595a85542992a431d1b48/gold/doc4",
+   "answer": "Great Exuma",
+   "nP": 946,
+   "nE": 41,
+   "nD": 900,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.48727322878535373,
+    "same_top1": false
+   },
+   "truth_answer": "Fyre Festival",
+   "kept_answer": "The music festival Billy McFarland was charged with wire fraud for was the F",
+   "fresh": {
+    "kl": 0.14373478641366602,
+    "same_top1": true,
+    "answer": "Fyre Music booking app",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.1551760830837368,
+    "same_top1": false,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for supposed to take",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.947533196121819e-11
+  },
+  {
+   "name": "hotpot/5a7fb7985542994857a767d2/gold/doc8",
+   "answer": "Claudio Javier L\u00f3pez",
+   "nP": 762,
+   "nE": 39,
+   "nD": 59,
+   "nQ": 20,
+   "deletion": {
+    "kl": 6.536365736364394,
+    "same_top1": false
+   },
+   "truth_answer": "Mariano Campod\u00f3nico",
+   "kept_answer": "Claudio L\u00f3pez",
+   "fresh": {
+    "kl": 0.02979775306623927,
+    "same_top1": true,
+    "answer": "Mariano Campod\u00f3nico",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 5.3808997160551435,
+    "same_top1": false,
+    "answer": "Claudio L\u00f3pez",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.6015338680820646e-09
+  },
+  {
+   "name": "hotpot/5ae73d235542991e8301cc29/gold/doc5",
+   "answer": "Free Range Films",
+   "nP": 714,
+   "nE": 149,
+   "nD": 457,
+   "nQ": 21,
+   "deletion": {
+    "kl": 2.0365077150242383,
+    "same_top1": false
+   },
+   "truth_answer": "WestWind Pictures",
+   "kept_answer": "Free Range Films",
+   "fresh": {
+    "kl": 0.09359523881135826,
+    "same_top1": true,
+    "answer": "WestWind Pictures",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.6054053294197517,
+    "same_top1": true,
+    "answer": "WestWind Pictures",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.059588322976145e-11
+  },
+  {
+   "name": "hotpot/5ab47cd75542991751b4d78d/gold/doc3",
+   "answer": "2002",
+   "nP": 506,
+   "nE": 148,
+   "nD": 996,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.0007118935980879479,
+    "same_top1": true
+   },
+   "truth_answer": "2002",
+   "kept_answer": "2002",
+   "fresh": {
+    "kl": 0.0001228304405278744,
+    "same_top1": true,
+    "answer": "2002",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0007376269480639342,
+    "same_top1": true,
+    "answer": "2002",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.5161994041748245e-11
+  },
+  {
+   "name": "hotpot/5a8efb5a55429918e830d172/gold/doc8",
+   "answer": "Jamnagar",
+   "nP": 969,
+   "nE": 106,
+   "nD": 90,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.0009136220051123299,
+    "same_top1": true
+   },
+   "truth_answer": "India",
+   "kept_answer": "India",
+   "fresh": {
+    "kl": 1.2162722864670308e-05,
+    "same_top1": true,
+    "answer": "India",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 6.529135437267924e-05,
+    "same_top1": true,
+    "answer": "India",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.074458076193149e-11
+  },
+  {
+   "name": "hotpot/5a7ae2f2554299042af8f6aa/gold/doc4",
+   "answer": "football",
+   "nP": 563,
+   "nE": 48,
+   "nD": 592,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.20573152337474288,
+    "same_top1": true
+   },
+   "truth_answer": "Football (soccer)",
+   "kept_answer": "Football (soccer)",
+   "fresh": {
+    "kl": 0.007175862037443242,
+    "same_top1": true,
+    "answer": "Football (soccer)",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.13636300765972487,
+    "same_top1": true,
+    "answer": "Football (soccer)",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.251009382727184e-11
+  },
+  {
+   "name": "hotpot/5a7b88b45542997c3ec97201/gold/doc2",
+   "answer": "Terrence Jones",
+   "nP": 339,
+   "nE": 53,
+   "nD": 1263,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.001104732755398077,
+    "same_top1": true
+   },
+   "truth_answer": "Salim Stoudamire",
+   "kept_answer": "Salim Stoudamire",
+   "fresh": {
+    "kl": 0.00022820405572952123,
+    "same_top1": true,
+    "answer": "Salim Stoudamire",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.00039438956483466735,
+    "same_top1": true,
+    "answer": "Salim Stoudamire",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.979820689004693e-13
+  },
+  {
+   "name": "hotpot/5a8f7a135542992414482adc/gold/doc2",
+   "answer": "12 mi southeast of Rome",
+   "nP": 421,
+   "nE": 118,
+   "nD": 811,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.11582472398814915,
+    "same_top1": false
+   },
+   "truth_answer": "Alba Longa",
+   "kept_answer": "Tel Eiton",
+   "fresh": {
+    "kl": 0.03595101796737556,
+    "same_top1": false,
+    "answer": "Tel Eiton",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.10572022436691011,
+    "same_top1": false,
+    "answer": "Tel Eiton",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.8274126293725253e-11
+  },
+  {
+   "name": "hotpot/5ae554ce55429960a22e02b7/gold/doc7",
+   "answer": "You Can Be a Star",
+   "nP": 1146,
+   "nE": 89,
+   "nD": 296,
+   "nQ": 34,
+   "deletion": {
+    "kl": 0.3352655877622921,
+    "same_top1": true
+   },
+   "truth_answer": "\"i will not say goodbye\" is a song written in part by a music",
+   "kept_answer": "\"American Idol\"",
+   "fresh": {
+    "kl": 0.0005874440568901246,
+    "same_top1": true,
+    "answer": "\"i will not say goodbye\" is a song written in part by a music",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.21514131096572406,
+    "same_top1": true,
+    "answer": "\"Never Say Goodbye\" is a song written in part by Lari Michele",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.797556505178694e-12
+  },
+  {
+   "name": "hotpot/5ac07327554299012d1db5f2/gold/doc7",
+   "answer": "an American football quarterback",
+   "nP": 712,
+   "nE": 127,
+   "nD": 215,
+   "nQ": 13,
+   "deletion": {
+    "kl": 0.035109895989915506,
+    "same_top1": true
+   },
+   "truth_answer": "Colin Kaepernick is a Finnish former footballer. His preferred nickname is \"Bone",
+   "kept_answer": "Colin Kaepernick is an American football quarterback who is currently a free agent. His",
+   "fresh": {
+    "kl": 8.587458137257192e-06,
+    "same_top1": true,
+    "answer": "Colin Kaepernick is a Finnish former footballer. His preferred nickname is \"Bone",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 2.2860322934266164,
+    "same_top1": false,
+    "answer": "Gregory Mcdonald",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.3347067147749314e-13
+  },
+  {
+   "name": "hotpot/5ade858a55429975fa854eea/gold/doc3",
+   "answer": "tennis",
+   "nP": 195,
+   "nE": 65,
+   "nD": 575,
+   "nQ": 19,
+   "deletion": {
+    "kl": 8.7906557141529e-05,
+    "same_top1": true
+   },
+   "truth_answer": "Tennis",
+   "kept_answer": "Tennis",
+   "fresh": {
+    "kl": 0.0002011515300676458,
+    "same_top1": true,
+    "answer": "Tennis",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0003918978572560595,
+    "same_top1": true,
+    "answer": "Tennis",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.035294861947838e-13
+  },
+  {
+   "name": "hotpot/5ae61e7555429929b0807adf/gold/doc5",
+   "answer": "MMA",
+   "nP": 612,
+   "nE": 214,
+   "nD": 666,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.08067694655271934,
+    "same_top1": true
+   },
+   "truth_answer": "Royce Gracie",
+   "kept_answer": "Royce Gracie",
+   "fresh": {
+    "kl": 0.020847165227982446,
+    "same_top1": true,
+    "answer": "Royce Gracie",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.09301618323145269,
+    "same_top1": true,
+    "answer": "Royce Gracie",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0775319013819618e-10
+  },
+  {
+   "name": "hotpot/5ac289ff5542996366519a02/gold/doc4",
+   "answer": "Marsilea",
+   "nP": 650,
+   "nE": 233,
+   "nD": 867,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.8180405724312916,
+    "same_top1": false
+   },
+   "truth_answer": "Marsilea",
+   "kept_answer": "Brabejum",
+   "fresh": {
+    "kl": 0.0009684028847029729,
+    "same_top1": true,
+    "answer": "Marsilea",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.6157989469771498,
+    "same_top1": false,
+    "answer": "Brabejum",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.3690949992471955e-10
+  },
+  {
+   "name": "hotpot/5ac0b1835542992a796ded65/gold/doc2",
+   "answer": "Viglen",
+   "nP": 259,
+   "nE": 32,
+   "nD": 1158,
+   "nQ": 20,
+   "deletion": {
+    "kl": 0.37463201637525484,
+    "same_top1": true
+   },
+   "truth_answer": "Viglen",
+   "kept_answer": "Viglen",
+   "fresh": {
+    "kl": 0.28111706328317665,
+    "same_top1": true,
+    "answer": "Viglen",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.3796414467132193,
+    "same_top1": true,
+    "answer": "Viglen",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.2736495049940186e-11
+  },
+  {
+   "name": "hotpot/5ae40b2b55429970de88d8b3/gold/doc5",
+   "answer": "California Polytechnic State University",
+   "nP": 1042,
+   "nE": 168,
+   "nD": 702,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.5590952352884114,
+    "same_top1": false
+   },
+   "truth_answer": "California Polytechnic State University",
+   "kept_answer": "Polytechnic University of the Philippines",
+   "fresh": {
+    "kl": 0.0034101132278260174,
+    "same_top1": true,
+    "answer": "California Polytechnic State University",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.15956092809523043,
+    "same_top1": true,
+    "answer": "California Polytechnic State University",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.4801659603973694e-11
+  },
+  {
+   "name": "hotpot/5ae7e8f55542994a481bbe06/gold/doc8",
+   "answer": "Commander James Bond RN",
+   "nP": 998,
+   "nE": 100,
+   "nD": 119,
+   "nQ": 27,
+   "deletion": {
+    "kl": 5.1649384743926285,
+    "same_top1": false
+   },
+   "truth_answer": "James Bond",
+   "kept_answer": "Commander James Bond, CMG, RNVR, is a fictional character created",
+   "fresh": {
+    "kl": 0.0007878001515902679,
+    "same_top1": true,
+    "answer": "James Bond",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.27770000654700794,
+    "same_top1": true,
+    "answer": "James Bond",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.9031573774807835e-10
+  },
+  {
+   "name": "hotpot/5adf4b335542993a75d264a5/gold/doc6",
+   "answer": "Rockstar San Diego",
+   "nP": 822,
+   "nE": 98,
+   "nD": 297,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.2771274882539994,
+    "same_top1": true
+   },
+   "truth_answer": "Rockstar Games",
+   "kept_answer": "Rockstar Games",
+   "fresh": {
+    "kl": 0.0003902065208349155,
+    "same_top1": true,
+    "answer": "Rockstar Games",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.01573297223168085,
+    "same_top1": true,
+    "answer": "Rockstar Games",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.130232740878527e-12
+  },
+  {
+   "name": "hotpot/5a78d16455429974737f78bb/gold/doc1",
+   "answer": "Ernst Willi Messerschmid",
+   "nP": 109,
+   "nE": 40,
+   "nD": 965,
+   "nQ": 19,
+   "deletion": {
+    "kl": 0.00208206934391397,
+    "same_top1": true
+   },
+   "truth_answer": "Ernst Messerschmid",
+   "kept_answer": "Ernst Messerschmid is older than Philippe Perrin. Ernst Messers",
+   "fresh": {
+    "kl": 0.00016035540984998584,
+    "same_top1": true,
+    "answer": "Ernst Messerschmid is older than Philippe Perrin. Ernst Messers",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.020728875642409904,
+    "same_top1": true,
+    "answer": "Ernst Messerschmid is older than Philippe Perrin.",
+    "same_answer": false
+   },
+   "reprefill_consistency": 6.445513303573626e-12
+  },
+  {
+   "name": "hotpot/5abd920e55429924427fd05d/gold/doc2",
+   "answer": "yes",
+   "nP": 154,
+   "nE": 44,
+   "nD": 800,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.20078628227215298,
+    "same_top1": true
+   },
+   "truth_answer": "No.",
+   "kept_answer": "No",
+   "fresh": {
+    "kl": 0.0006222044896602558,
+    "same_top1": true,
+    "answer": "No.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.2123819087329129,
+    "same_top1": true,
+    "answer": "No.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.1343156790934926e-12
+  },
+  {
+   "name": "hotpot/5ab67d2055429954757d3304/gold/doc3",
+   "answer": "Labrador Retriever",
+   "nP": 352,
+   "nE": 45,
+   "nD": 835,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.02366543540799228,
+    "same_top1": true
+   },
+   "truth_answer": "The Labrador Retriever is a type of gun dog.",
+   "kept_answer": "The Labrador Retriever is a type of gun dog.",
+   "fresh": {
+    "kl": 0.019786259183263828,
+    "same_top1": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.025234427702459115,
+    "same_top1": true,
+    "answer": "The Labrador Retriever is a type of gun dog.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.820470657963293e-12
+  },
+  {
+   "name": "hotpot/5ae5db98554299546bf82fa6/gold/doc7",
+   "answer": "1.7 billion",
+   "nP": 1113,
+   "nE": 148,
+   "nD": 350,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.43876276281117865,
+    "same_top1": false
+   },
+   "truth_answer": "1.7 billion views",
+   "kept_answer": "3.6 billion views",
+   "fresh": {
+    "kl": 0.01341510884002867,
+    "same_top1": true,
+    "answer": "1.7 billion views",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.2554271072776886,
+    "same_top1": true,
+    "answer": "13 million subscribers",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.7786153806819305e-10
+  },
+  {
+   "name": "hotpot/5ae0613d5542993d6555eb22/gold/doc1",
+   "answer": "Monticello",
+   "nP": 135,
+   "nE": 143,
+   "nD": 1363,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.039827361711978454,
+    "same_top1": true
+   },
+   "truth_answer": "Jamestown",
+   "kept_answer": "Jamestown",
+   "fresh": {
+    "kl": 0.21818775631102286,
+    "same_top1": true,
+    "answer": "Jamestown",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.013578144700031002,
+    "same_top1": true,
+    "answer": "Jamestown",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.825058814768031e-12
+  },
+  {
+   "name": "hotpot/5ae5d008554299546bf82f7d/gold/doc8",
+   "answer": "StubHub Center",
+   "nP": 1037,
+   "nE": 73,
+   "nD": 136,
+   "nQ": 32,
+   "deletion": {
+    "kl": 9.475259031549855,
+    "same_top1": false
+   },
+   "truth_answer": "United Sports",
+   "kept_answer": "StubHub Center",
+   "fresh": {
+    "kl": 1.913206262590625e-06,
+    "same_top1": true,
+    "answer": "United Sports",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 6.665669376474268,
+    "same_top1": false,
+    "answer": "The 2015 CrossFit Games were held at the StubHub Center",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.1680627876268357e-12
+  },
+  {
+   "name": "hotpot/5a8ba3ff55429971feec4744/gold/doc6",
+   "answer": "Mayor of the City of New York",
+   "nP": 827,
+   "nE": 82,
+   "nD": 271,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.019434942104153734,
+    "same_top1": true
+   },
+   "truth_answer": "The official residence of Stokely Webster is the University of Minnesota system's New",
+   "kept_answer": "The official residence of Stokely Webster is the University of Minnesota system's Government",
+   "fresh": {
+    "kl": 0.0018097285382757146,
+    "same_top1": true,
+    "answer": "The official residence of Stokely Webster is the University of Minnesota system's New",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.022275605640441443,
+    "same_top1": true,
+    "answer": "The official residence of Stokely Webster is the University of Minnesota system's New",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.3919919144916404e-11
+  },
+  {
+   "name": "hotpot/5adc5b875542996e68525328/gold/doc7",
+   "answer": "2006 season",
+   "nP": 1019,
+   "nE": 196,
+   "nD": 419,
+   "nQ": 29,
+   "deletion": {
+    "kl": 1.7975170381376822,
+    "same_top1": false
+   },
+   "truth_answer": "Jason Isringhausen",
+   "kept_answer": "2006 St. Louis Cardinals season",
+   "fresh": {
+    "kl": 0.15566169380836953,
+    "same_top1": false,
+    "answer": "1992",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.6527322263229385,
+    "same_top1": false,
+    "answer": "2007",
+    "same_answer": false
+   },
+   "reprefill_consistency": 6.743283135590089e-11
+  },
+  {
+   "name": "hotpot/5a7319e755429901807daf86/gold/doc5",
+   "answer": "most total touchdowns in NCAA history",
+   "nP": 640,
+   "nE": 102,
+   "nD": 665,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.3697331990670025,
+    "same_top1": false
+   },
+   "truth_answer": "Daniel Terrence LeFevour, the quarterback of the Minnesota Vikings, holds",
+   "kept_answer": "Casey Austin Keenum holds the NCAA record for most total touchdowns in NCAA history",
+   "fresh": {
+    "kl": 0.000857682150842946,
+    "same_top1": true,
+    "answer": "Daniel Terrence LeFevour holds the NCAA record for the most total touchdowns",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.062040977330248666,
+    "same_top1": true,
+    "answer": "Daniel Terrence LeFevour, the quarterback of the Minnesota Vikings, holds",
+    "same_answer": true
+   },
+   "reprefill_consistency": 9.261131578247105e-11
+  },
+  {
+   "name": "hotpot/5a7d61775542991319bc93b9/gold/doc7",
+   "answer": "Lord Combermere",
+   "nP": 1120,
+   "nE": 83,
+   "nD": 311,
+   "nQ": 32,
+   "deletion": {
+    "kl": 0.15691634946844066,
+    "same_top1": true
+   },
+   "truth_answer": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+   "kept_answer": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+   "fresh": {
+    "kl": 0.0129024902993752,
+    "same_top1": true,
+    "answer": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04377665846825778,
+    "same_top1": true,
+    "answer": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.2353171706439227e-11
+  },
+  {
+   "name": "hotpot/5a7730015542994aec3b7210/gold/doc5",
+   "answer": "SpongeBob SquarePants",
+   "nP": 1238,
+   "nE": 77,
+   "nD": 682,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.022905380713830123,
+    "same_top1": true
+   },
+   "truth_answer": "SpongeBob SquarePants",
+   "kept_answer": "SpongeBob SquarePants",
+   "fresh": {
+    "kl": 0.00036357065517914994,
+    "same_top1": true,
+    "answer": "SpongeBob SquarePants",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.01800233853671002,
+    "same_top1": true,
+    "answer": "SpongeBob SquarePants",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.2861559678207726e-12
+  },
+  {
+   "name": "hotpot/5a83d7535542993344746093/gold/doc4",
+   "answer": "Los Angeles Xtreme, San Francisco Demons and Memphis Maniax",
+   "nP": 605,
+   "nE": 80,
+   "nD": 1035,
+   "nQ": 17,
+   "deletion": {
+    "kl": 1.0018261116839184,
+    "same_top1": false
+   },
+   "truth_answer": "Chuck Clements played in the XFL.",
+   "kept_answer": "The Philadelphia Eagles, Denver Broncos, Berlin Thunder, Las Vegas Outlaws, Ottawa",
+   "fresh": {
+    "kl": 0.07413570295803673,
+    "same_top1": true,
+    "answer": "Chuck Clements played in the XFL, which was a professional American football league",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.4686185414645415,
+    "same_top1": false,
+    "answer": "Las Vegas Outlaws",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.2220342216718165e-10
+  },
+  {
+   "name": "hotpot/5a84574455429933447460e6/gold/doc8",
+   "answer": "2015",
+   "nP": 1607,
+   "nE": 222,
+   "nD": 115,
+   "nQ": 31,
+   "deletion": {
+    "kl": 0.028332717814561214,
+    "same_top1": true
+   },
+   "truth_answer": "2016",
+   "kept_answer": "2017",
+   "fresh": {
+    "kl": 0.008341366962170043,
+    "same_top1": true,
+    "answer": "2015",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.006963933520321926,
+    "same_top1": true,
+    "answer": "2015",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.9141519508850043e-11
+  },
+  {
+   "name": "hotpot/5ac2583b55429951e9e68565/gold/doc1",
+   "answer": "Xawery \u017bu\u0142awski",
+   "nP": 163,
+   "nE": 73,
+   "nD": 443,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.008662157519062753,
+    "same_top1": true
+   },
+   "truth_answer": "Brian G. Hutton",
+   "kept_answer": "Brian G. Hutton",
+   "fresh": {
+    "kl": 0.0018155638135302532,
+    "same_top1": true,
+    "answer": "Brian G. Hutton",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.000904467369050744,
+    "same_top1": true,
+    "answer": "Brian G. Hutton",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.304732776729565e-11
+  },
+  {
+   "name": "hotpot/5a843cf35542996488c2e51b/gold/doc2",
+   "answer": "film",
+   "nP": 239,
+   "nE": 33,
+   "nD": 703,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.2284308410197876,
+    "same_top1": true
+   },
+   "truth_answer": "Film industry.",
+   "kept_answer": "Film industry.",
+   "fresh": {
+    "kl": 0.07201528319074721,
+    "same_top1": true,
+    "answer": "Film industry.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.16651418796495865,
+    "same_top1": true,
+    "answer": "Film industry.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.954703333065585e-11
+  },
+  {
+   "name": "hotpot/5ac41b9e5542995c82c4acc4/gold/doc6",
+   "answer": "flowers",
+   "nP": 1048,
+   "nE": 92,
+   "nD": 453,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.1302635362694333,
+    "same_top1": true
+   },
+   "truth_answer": "Chamelaucium and Vanilla are both derived from orchids.",
+   "kept_answer": "Chamelaucium is derived from south western Western Australia, and Vanilla is",
+   "fresh": {
+    "kl": 9.050817112408626e-05,
+    "same_top1": true,
+    "answer": "Chamelaucium and Vanilla are both derived from orchids.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.05097741431859619,
+    "same_top1": true,
+    "answer": "Chamelaucium and Vanilla are both derived from plants in the Eup",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.6440282401890634e-11
+  },
+  {
+   "name": "hotpot/5a75b7bd5542992d0ec05fec/gold/doc2",
+   "answer": "Casablanca",
+   "nP": 244,
+   "nE": 84,
+   "nD": 700,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.01029372574282221,
+    "same_top1": true
+   },
+   "truth_answer": "Casablanca",
+   "kept_answer": "Casablanca",
+   "fresh": {
+    "kl": 0.038765594702783825,
+    "same_top1": true,
+    "answer": "Casablanca",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.03305139521483393,
+    "same_top1": true,
+    "answer": "Casablanca",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0974374263046645e-10
+  },
+  {
+   "name": "hotpot/5add433b5542997545bbbd02/gold/doc4",
+   "answer": "Shohola Falls",
+   "nP": 678,
+   "nE": 89,
+   "nD": 697,
+   "nQ": 29,
+   "deletion": {
+    "kl": 4.160555794768447,
+    "same_top1": false
+   },
+   "truth_answer": "Jap Herron: A Novel Written From The Ouija Board",
+   "kept_answer": "Shohola Falls",
+   "fresh": {
+    "kl": 0.1459118204828885,
+    "same_top1": false,
+    "answer": "The Gilded Age: A Tale of Today",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.6008039911777179,
+    "same_top1": false,
+    "answer": "Is He Dead?",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.067637614705807e-10
+  },
+  {
+   "name": "hotpot/5a82e25555429954d2e2ebbf/gold/doc4",
+   "answer": "Eva Ibbotson",
+   "nP": 337,
+   "nE": 84,
+   "nD": 1024,
+   "nQ": 35,
+   "deletion": {
+    "kl": 7.92156507125024,
+    "same_top1": false
+   },
+   "truth_answer": "Eva Ibbotson",
+   "kept_answer": "Patricia Valeria Bannister",
+   "fresh": {
+    "kl": 0.0163332286203971,
+    "same_top1": true,
+    "answer": "Eva Ibbotson",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 2.826080198087411,
+    "same_top1": false,
+    "answer": "Elizabeth Reid Boyd",
+    "same_answer": false
+   },
+   "reprefill_consistency": 8.699874080997252e-11
+  },
+  {
+   "name": "hotpot/5ae5a8435542992663a4f208/gold/doc3",
+   "answer": "Dutch",
+   "nP": 414,
+   "nE": 53,
+   "nD": 797,
+   "nQ": 15,
+   "deletion": {
+    "kl": 3.81846981113229,
+    "same_top1": false
+   },
+   "truth_answer": "The scientist who invented the Tribometer is John B. Gurdon.",
+   "kept_answer": "Dutch",
+   "fresh": {
+    "kl": 0.010923275387623919,
+    "same_top1": true,
+    "answer": "The scientist who invented the Tribometer is not mentioned in the provided documents.",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.9058812304452915,
+    "same_top1": false,
+    "answer": "Dutch",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.074777325474763e-09
+  },
+  {
+   "name": "hotpot/5a84995d5542997b5ce3fee4/gold/doc1",
+   "answer": "Alachua",
+   "nP": 225,
+   "nE": 133,
+   "nD": 1322,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.6456346662167097,
+    "same_top1": true
+   },
+   "truth_answer": "Gainesville",
+   "kept_answer": "Gainesville, Florida",
+   "fresh": {
+    "kl": 0.23259074158947907,
+    "same_top1": true,
+    "answer": "Gainesville",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.25732378517231086,
+    "same_top1": true,
+    "answer": "Gainesville",
+    "same_answer": true
+   },
+   "reprefill_consistency": 7.618036127333313e-11
+  },
+  {
+   "name": "hotpot/5a7d5c175542991319bc93b1/gold/doc4",
+   "answer": "Denise Levertov",
+   "nP": 432,
+   "nE": 39,
+   "nD": 349,
+   "nQ": 17,
+   "deletion": {
+    "kl": 0.21175773056043173,
+    "same_top1": true
+   },
+   "truth_answer": "Harvey Pekar was born earlier than Denise Levertov.",
+   "kept_answer": "Harvey Pekar was born earlier than Denise Levertov.",
+   "fresh": {
+    "kl": 0.06680801013142722,
+    "same_top1": false,
+    "answer": "Denise Levertov was born earlier than Harvey Pekar.",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.178248236667607,
+    "same_top1": true,
+    "answer": "Harvey Pekar was born earlier than Joyce Brabner.",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.4640417806717151e-10
+  },
+  {
+   "name": "hotpot/5ab2e3c45542991669774126/gold/doc5",
+   "answer": "yes",
+   "nP": 732,
+   "nE": 80,
+   "nD": 565,
+   "nQ": 19,
+   "deletion": {
+    "kl": 0.010435871996164378,
+    "same_top1": true
+   },
+   "truth_answer": "Yes.",
+   "kept_answer": "Yes.",
+   "fresh": {
+    "kl": 0.008875173950347273,
+    "same_top1": true,
+    "answer": "Yes.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.010229292595004803,
+    "same_top1": true,
+    "answer": "Yes.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.4325102980441785e-11
+  },
+  {
+   "name": "hotpot/5a8cddd1554299441c6b9f3a/gold/doc4",
+   "answer": "Japan and Hong Kong",
+   "nP": 386,
+   "nE": 160,
+   "nD": 369,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.024425925436838348,
+    "same_top1": true
+   },
+   "truth_answer": "Hong Kong and Japan",
+   "kept_answer": "Hong Kong and Japan",
+   "fresh": {
+    "kl": 0.01748065557940599,
+    "same_top1": true,
+    "answer": "Hong Kong and Japan",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.09833646510655894,
+    "same_top1": true,
+    "answer": "Hong Kong and Japan",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.105002116196984e-11
+  },
+  {
+   "name": "hotpot/5ae3f1bb5542995ad6573cbe/gold/doc6",
+   "answer": "Achimenes",
+   "nP": 800,
+   "nE": 68,
+   "nD": 258,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.19506268913836267,
+    "same_top1": true
+   },
+   "truth_answer": "Brassia",
+   "kept_answer": "Brassia",
+   "fresh": {
+    "kl": 3.270443520073042e-05,
+    "same_top1": true,
+    "answer": "Brassia",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.1453808932330197,
+    "same_top1": true,
+    "answer": "Brassia",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.7963187271873935e-12
+  },
+  {
+   "name": "hotpot/5ae56a3f5542992663a4f1f4/gold/doc3",
+   "answer": "pygmy chimpanzee",
+   "nP": 285,
+   "nE": 64,
+   "nD": 661,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.06176896297009271,
+    "same_top1": true
+   },
+   "truth_answer": "The bonobo",
+   "kept_answer": "The bonobo",
+   "fresh": {
+    "kl": 0.017332956860063146,
+    "same_top1": true,
+    "answer": "The former name of the animal whose habitat the R\u00e9serve Naturelle Lomako",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.07182220805700479,
+    "same_top1": true,
+    "answer": "The former name of the animal whose habitat the R\u00e9serve Naturelle Lomako",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.169312332352389e-11
+  },
+  {
+   "name": "hotpot/5a89da93554299669944a5cc/gold/doc3",
+   "answer": "Naval Weapons Station Yorktown",
+   "nP": 467,
+   "nE": 117,
+   "nD": 987,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.6424363769555279,
+    "same_top1": true
+   },
+   "truth_answer": "Kiskiack is a building that still stands at Naval Weapons Station Yorktown",
+   "kept_answer": "Kiskiack is a building that still stands at Naval Weapons Station Yorktown",
+   "fresh": {
+    "kl": 0.3397721096755751,
+    "same_top1": true,
+    "answer": "Kiskiack is a building that still stands at Naval Weapons Station Yorktown",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.4722810447491354,
+    "same_top1": false,
+    "answer": "Naval Weapons Station Yorktown",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.2633652916859032e-10
+  },
+  {
+   "name": "hotpot/5ae66b055542995703ce8b61/gold/doc1",
+   "answer": "Canadian comedian",
+   "nP": 86,
+   "nE": 52,
+   "nD": 1689,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.9862738229353802,
+    "same_top1": true
+   },
+   "truth_answer": "English comedian, actor, and presenter",
+   "kept_answer": "English comedian, actor and presenter",
+   "fresh": {
+    "kl": 0.3299204197713735,
+    "same_top1": true,
+    "answer": "English comedian, actor, and presenter",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 1.1587482717115432,
+    "same_top1": true,
+    "answer": "English comedian, actor, and presenter",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.8528592234219828e-11
+  },
+  {
+   "name": "hotpot/5ab2da99554299194fa93544/gold/doc8",
+   "answer": "Argentina",
+   "nP": 1214,
+   "nE": 75,
+   "nD": 296,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.010244798654170238,
+    "same_top1": true
+   },
+   "truth_answer": "The Colorado forces were aided by Argentina, which provided them with supplies, Argentine volunteers",
+   "kept_answer": "The Colorado forces were aided by the Empire of Brazil and the Uruguayan Colorado",
+   "fresh": {
+    "kl": 0.005237102119036656,
+    "same_top1": true,
+    "answer": "The Colorado forces were aided by Argentina, which provided them with supplies, Argentine volunteers",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.027563330599600658,
+    "same_top1": false,
+    "answer": "Argentina and the Argentine Confederation aided the Colorado forces in the Uruguayan War",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.9795514622077287e-11
+  },
+  {
+   "name": "hotpot/5ae4075b55429970de88d87a/gold/doc3",
+   "answer": "Nikita Khrushchev",
+   "nP": 600,
+   "nE": 202,
+   "nD": 1017,
+   "nQ": 14,
+   "deletion": {
+    "kl": 1.5733623330947595,
+    "same_top1": true
+   },
+   "truth_answer": "Nikita Khrushchev",
+   "kept_answer": "Nikita Sergeyevich Khrushchev",
+   "fresh": {
+    "kl": 0.12101632839047531,
+    "same_top1": true,
+    "answer": "Nikita Sergeyevich Khrushchev",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.863684244204397,
+    "same_top1": true,
+    "answer": "Nikita Sergeyevich Khrushchev",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.247362333055917e-11
+  },
+  {
+   "name": "hotpot/5ab45bcd5542991779162c80/gold/doc7",
+   "answer": "Lucius Verus, Marcus Aurelius",
+   "nP": 1205,
+   "nE": 77,
+   "nD": 326,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.0010379584841398906,
+    "same_top1": true
+   },
+   "truth_answer": "Marcus Aurelius and Lucius Verus",
+   "kept_answer": "Marcus Aurelius and Lucius Verus",
+   "fresh": {
+    "kl": 4.349147759159464e-05,
+    "same_top1": true,
+    "answer": "Marcus Aurelius and Lucius Verus",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.001021295974386947,
+    "same_top1": true,
+    "answer": "Marcus Aurelius and Lucius Verus",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.5435019300232428e-12
+  },
+  {
+   "name": "hotpot/5a778c215542995d831811ba/gold/doc6",
+   "answer": "end of the 18th century",
+   "nP": 1146,
+   "nE": 45,
+   "nD": 403,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.14141755703954176,
+    "same_top1": false
+   },
+   "truth_answer": "1869",
+   "kept_answer": "The L\u00e4ndler, a folk dance in 6/8 time, was",
+   "fresh": {
+    "kl": 0.0025943439246365633,
+    "same_top1": true,
+    "answer": "1869",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.028249873385637336,
+    "same_top1": true,
+    "answer": "1869-1874",
+    "same_answer": false
+   },
+   "reprefill_consistency": 9.191103011582105e-12
+  },
+  {
+   "name": "hotpot/5ab2421555429970612095cc/gold/doc8",
+   "answer": "Katarina Witt",
+   "nP": 1569,
+   "nE": 164,
+   "nD": 437,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.27103146044882226,
+    "same_top1": true
+   },
+   "truth_answer": "Katarina Witt has won the most Olympic medals for figure skating, with",
+   "kept_answer": "Katarina Witt has won the most Olympic medals for figure skating, with two",
+   "fresh": {
+    "kl": 9.802587049687701e-05,
+    "same_top1": true,
+    "answer": "Katarina Witt has won the most Olympic medals for figure skating, with",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.09815450207955125,
+    "same_top1": true,
+    "answer": "Katarina Witt has won the most Olympic medals for figure skating, with three",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.6658064427056289e-10
+  },
+  {
+   "name": "hotpot/5a8b78f055429971feec471a/gold/doc3",
+   "answer": "yes",
+   "nP": 211,
+   "nE": 109,
+   "nD": 478,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.032560000984066,
+    "same_top1": true
+   },
+   "truth_answer": "Steve Sekely was known by several names, based on his changing professional and immigration",
+   "kept_answer": "Steve Sekely was known by several names, based on his changing professional and immigration",
+   "fresh": {
+    "kl": 0.0698174501469639,
+    "same_top1": false,
+    "answer": "Yes, Steve Sekely was known by several names based on his changing professional and",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.03216288940481435,
+    "same_top1": true,
+    "answer": "Steve Sekely was known by several names, based on his changing professional and immigration",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.7270790211365867e-10
+  },
+  {
+   "name": "hotpot/5adcbc645542994d58a2f6b6/gold/doc3",
+   "answer": "1933",
+   "nP": 304,
+   "nE": 162,
+   "nD": 854,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.35466264867321207,
+    "same_top1": true
+   },
+   "truth_answer": "1973",
+   "kept_answer": "1978",
+   "fresh": {
+    "kl": 0.00040763833834942117,
+    "same_top1": true,
+    "answer": "1973",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.4379126026881558,
+    "same_top1": true,
+    "answer": "1986",
+    "same_answer": false
+   },
+   "reprefill_consistency": 6.784381855157651e-10
+  },
+  {
+   "name": "hotpot/5adc0f8d55429947ff1738ef/gold/doc6",
+   "answer": "Saul og David",
+   "nP": 774,
+   "nE": 83,
+   "nD": 585,
+   "nQ": 16,
+   "deletion": {
+    "kl": 6.064523540925399e-05,
+    "same_top1": true
+   },
+   "truth_answer": "Saul og David has more acts.",
+   "kept_answer": "Saul og David",
+   "fresh": {
+    "kl": 2.136620544951e-06,
+    "same_top1": true,
+    "answer": "Saul og David has more acts.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 9.710271669066548e-05,
+    "same_top1": true,
+    "answer": "Saul og David has more acts.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.491239348574167e-13
+  },
+  {
+   "name": "hotpot/5ae202f2554299234fd0438d/gold/doc7",
+   "answer": "The Weeknd",
+   "nP": 900,
+   "nE": 49,
+   "nD": 278,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.10590540834935928,
+    "same_top1": true
+   },
+   "truth_answer": "The Weeknd",
+   "kept_answer": "The Weeknd",
+   "fresh": {
+    "kl": 0.006115649440498616,
+    "same_top1": true,
+    "answer": "The Weeknd",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.015847937720258512,
+    "same_top1": true,
+    "answer": "The Weeknd",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.320236324169607e-10
+  },
+  {
+   "name": "hotpot/5a835478554299123d8c20ed/gold/doc7",
+   "answer": "250 million",
+   "nP": 622,
+   "nE": 120,
+   "nD": 167,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.32923242463244323,
+    "same_top1": true
+   },
+   "truth_answer": "250 million copies",
+   "kept_answer": "250 million copies",
+   "fresh": {
+    "kl": 0.003860692295287074,
+    "same_top1": true,
+    "answer": "250 million copies",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.45170440086082014,
+    "same_top1": true,
+    "answer": "250 million copies",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.6159769077628742e-09
+  },
+  {
+   "name": "hotpot/5ab98e2b5542996be202054e/gold/doc1",
+   "answer": "1887",
+   "nP": 171,
+   "nE": 206,
+   "nD": 975,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.11903085262010936,
+    "same_top1": true
+   },
+   "truth_answer": "1863",
+   "kept_answer": "1863",
+   "fresh": {
+    "kl": 0.020340813003273468,
+    "same_top1": true,
+    "answer": "1863",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.06561411231777728,
+    "same_top1": true,
+    "answer": "1863",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.3911571607854784e-11
+  },
+  {
+   "name": "hotpot/5a8dab16554299068b959d89/gold/doc2",
+   "answer": "Hills",
+   "nP": 315,
+   "nE": 31,
+   "nD": 922,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.05334916247125674,
+    "same_top1": true
+   },
+   "truth_answer": "Both Aldgate railway station, Adelaide and Aldgate, South Australia are located in",
+   "kept_answer": "Both Aldgate railway station, Adelaide and Aldgate, South Australia are located in",
+   "fresh": {
+    "kl": 0.018002724305644178,
+    "same_top1": true,
+    "answer": "Both Aldgate railway station in Adelaide and Aldgate in South Australia are located in",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.03157412363699296,
+    "same_top1": true,
+    "answer": "Both Aldgate railway station and Aldgate, South Australia are located at sea level",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.8715286798851704e-11
+  },
+  {
+   "name": "hotpot/5a79fac85542996c55b2dcc1/gold/doc6",
+   "answer": "10 October 2010",
+   "nP": 1134,
+   "nE": 40,
+   "nD": 251,
+   "nQ": 47,
+   "deletion": {
+    "kl": 0.009768453637762412,
+    "same_top1": false
+   },
+   "truth_answer": "October 10, 2010",
+   "kept_answer": "10 October 2010",
+   "fresh": {
+    "kl": 0.0003727432894989127,
+    "same_top1": true,
+    "answer": "October 10, 2010",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0017018873378482828,
+    "same_top1": true,
+    "answer": "October 10, 2010",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.6099814854274449e-12
+  },
+  {
+   "name": "hotpot/5a8314bd55429966c78a6b2a/gold/doc2",
+   "answer": "Robert Jenrick",
+   "nP": 406,
+   "nE": 64,
+   "nD": 979,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.8080964880023781,
+    "same_top1": false
+   },
+   "truth_answer": "Gayle Chaneyfield-Jenkins won the seat for Newark.",
+   "kept_answer": "Robert Jenrick of the Conservative Party won the seat for Newark in the 2",
+   "fresh": {
+    "kl": 0.011629671916420163,
+    "same_top1": true,
+    "answer": "Gayle Chaneyfield-Jenkins won the seat for Newark in the 2",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.2224189559544649,
+    "same_top1": true,
+    "answer": "Gayle Chaneyfield-Jenkins won the seat for Newark in the 2",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.369416709721399e-11
+  },
+  {
+   "name": "hotpot/5ab9debb55429955dce3ed97/gold/doc7",
+   "answer": "DI Humphrey Goodman",
+   "nP": 927,
+   "nE": 174,
+   "nD": 228,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.05452804362838133,
+    "same_top1": true
+   },
+   "truth_answer": "Kris Marshall played DI Humphrey Goodman in the highly rated comedy-drama television",
+   "kept_answer": "Kris Marshall played Detective Inspector Humphrey Goodman in the highly rated comedy-drama",
+   "fresh": {
+    "kl": 0.007428827751890448,
+    "same_top1": true,
+    "answer": "Kris Marshall played DI Humphrey Goodman in the highly rated comedy-drama television",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.013008307596274638,
+    "same_top1": true,
+    "answer": "Kris Marshall played DI Humphrey Goodman in the crime drama television series \"Death",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.274294049747773e-10
+  },
+  {
+   "name": "hotpot/5add47085542997545bbbd13/gold/doc7",
+   "answer": "Alfredo \"Alfred\" Molina",
+   "nP": 1100,
+   "nE": 122,
+   "nD": 243,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.08725158886154621,
+    "same_top1": true
+   },
+   "truth_answer": "Alfred Molina",
+   "kept_answer": "Alfred Molina",
+   "fresh": {
+    "kl": 0.024275293686279037,
+    "same_top1": true,
+    "answer": "Alfred Molina",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.03711555622799316,
+    "same_top1": true,
+    "answer": "Alfred Molina",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.097621193862231e-12
+  },
+  {
+   "name": "hotpot/5a7319e755429901807daf86/gold/doc2",
+   "answer": "most total touchdowns in NCAA history",
+   "nP": 332,
+   "nE": 111,
+   "nD": 964,
+   "nQ": 14,
+   "deletion": {
+    "kl": 2.8904790367998503,
+    "same_top1": false
+   },
+   "truth_answer": "James Bradley \"Brad\" Johnson holds the NCAA record for most total passing yards,",
+   "kept_answer": "Casey Austin Keenum holds the NCAA record for most total touchdowns in NCAA history",
+   "fresh": {
+    "kl": 0.10669566294624189,
+    "same_top1": true,
+    "answer": "James Bradley \"Brad\" Johnson holds the NCAA record for most total passing yards,",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.20963878705333297,
+    "same_top1": true,
+    "answer": "James Bradley \"Brad\" Johnson, a former American football quarterback for the Minnesota Vikings",
+    "same_answer": false
+   },
+   "reprefill_consistency": 6.432741292058293e-11
+  },
+  {
+   "name": "hotpot/5a7a06525542990198eaf04f/gold/doc6",
+   "answer": "David Michael Draiman",
+   "nP": 740,
+   "nE": 134,
+   "nD": 548,
+   "nQ": 13,
+   "deletion": {
+    "kl": 0.054160649877142426,
+    "same_top1": true
+   },
+   "truth_answer": "Terry Kath was born first.",
+   "kept_answer": "Terry Kath was born first.",
+   "fresh": {
+    "kl": 0.017901483276826904,
+    "same_top1": true,
+    "answer": "Terry Kath was born first.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.06770361680707364,
+    "same_top1": true,
+    "answer": "Terry Kath was born first.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.1642689723104932e-13
+  },
+  {
+   "name": "hotpot/5a8a1a975542992e4fca8505/gold/doc7",
+   "answer": "Preston County",
+   "nP": 762,
+   "nE": 114,
+   "nD": 239,
+   "nQ": 20,
+   "deletion": {
+    "kl": 0.8741269068149465,
+    "same_top1": true
+   },
+   "truth_answer": "Preston County",
+   "kept_answer": "Preston County",
+   "fresh": {
+    "kl": 0.02111903188403695,
+    "same_top1": true,
+    "answer": "Preston County",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.8196148882527553,
+    "same_top1": true,
+    "answer": "Preston County",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.195489146588437e-10
+  },
+  {
+   "name": "hotpot/5a8f43555542992414482a21/gold/doc7",
+   "answer": "The Tales of Hoffmann",
+   "nP": 905,
+   "nE": 70,
+   "nD": 230,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.8841162313268507,
+    "same_top1": true
+   },
+   "truth_answer": "The Life and Death of Colonel Blimp",
+   "kept_answer": "The Tales of Hoffmann",
+   "fresh": {
+    "kl": 0.0006823407737524098,
+    "same_top1": true,
+    "answer": "The Life and Death of Colonel Blimp",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.22972541543061215,
+    "same_top1": true,
+    "answer": "The Life and Death of Colonel Blimp",
+    "same_answer": true
+   },
+   "reprefill_consistency": 9.362028117797933e-12
+  },
+  {
+   "name": "hotpot/5ae08a0455429924de1b70fc/gold/doc6",
+   "answer": "Enigma",
+   "nP": 847,
+   "nE": 64,
+   "nD": 275,
+   "nQ": 20,
+   "deletion": {
+    "kl": 0.08588628582582392,
+    "same_top1": true
+   },
+   "truth_answer": "Red Nation",
+   "kept_answer": "Red Nation",
+   "fresh": {
+    "kl": 0.04816512030207209,
+    "same_top1": true,
+    "answer": "Red Nation",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.03656207562199984,
+    "same_top1": true,
+    "answer": "Red Nation",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.79061773394912e-11
+  },
+  {
+   "name": "hotpot/5a739d8c55429905862fe073/gold/doc6",
+   "answer": "Santa Fe",
+   "nP": 639,
+   "nE": 109,
+   "nD": 344,
+   "nQ": 29,
+   "deletion": {
+    "kl": 0.07323255044518563,
+    "same_top1": true
+   },
+   "truth_answer": "Monroe County, Missouri",
+   "kept_answer": "Monroe County, Missouri",
+   "fresh": {
+    "kl": 0.0004217384486119772,
+    "same_top1": true,
+    "answer": "Monroe County, Missouri",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.02190600254535444,
+    "same_top1": true,
+    "answer": "Monroe County, Missouri",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.6630236502511083e-10
+  },
+  {
+   "name": "hotpot/5a802fb8554299485f598582/gold/doc2",
+   "answer": "board game",
+   "nP": 389,
+   "nE": 39,
+   "nD": 1236,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.16071255854688823,
+    "same_top1": false
+   },
+   "truth_answer": "board game",
+   "kept_answer": "Board game",
+   "fresh": {
+    "kl": 0.0086974739126681,
+    "same_top1": true,
+    "answer": "board game",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.005980535892889513,
+    "same_top1": true,
+    "answer": "board game",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.667873775697811e-12
+  },
+  {
+   "name": "hotpot/5adcf3a45542994ed6169c38/gold/doc6",
+   "answer": "Spain, Mexico and France",
+   "nP": 656,
+   "nE": 53,
+   "nD": 291,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.3909275567792577,
+    "same_top1": true
+   },
+   "truth_answer": "Luis Bu\u00f1uel and Jos\u00e9 Baviera starred in the 196",
+   "kept_answer": "Luis Bu\u00f1uel",
+   "fresh": {
+    "kl": 0.28378587187936455,
+    "same_top1": false,
+    "answer": "Jos\u00e9 Baviera starred in the 1962 film \"The Ex",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.11726591765170927,
+    "same_top1": false,
+    "answer": "Jos\u00e9 Baviera starred in the 1962 film \"The Ex",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.067006135435382e-10
+  },
+  {
+   "name": "hotpot/5ae0345855429924de1b705f/gold/doc1",
+   "answer": "Las Vegas Sands company.",
+   "nP": 199,
+   "nE": 126,
+   "nD": 1163,
+   "nQ": 17,
+   "deletion": {
+    "kl": 4.975274415437168,
+    "same_top1": false
+   },
+   "truth_answer": "Thompson Creek Metals",
+   "kept_answer": "Las Vegas Sands",
+   "fresh": {
+    "kl": 0.38224158035360306,
+    "same_top1": true,
+    "answer": "Thompson Creek Metals",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 2.6258335922061815,
+    "same_top1": false,
+    "answer": "The Venetian Macao",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.4172103679590295e-12
+  },
+  {
+   "name": "hotpot/5ac51c2855429924173fb5b5/gold/doc8",
+   "answer": "Henry Madison Morris",
+   "nP": 1105,
+   "nE": 63,
+   "nD": 80,
+   "nQ": 29,
+   "deletion": {
+    "kl": 0.0059708355218018585,
+    "same_top1": true
+   },
+   "truth_answer": "Henry M. Morris",
+   "kept_answer": "Henry M. Morris",
+   "fresh": {
+    "kl": 2.840123043662129e-05,
+    "same_top1": true,
+    "answer": "Henry M. Morris",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.006767325918007566,
+    "same_top1": true,
+    "answer": "Henry M. Morris",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.169626641776775e-12
+  },
+  {
+   "name": "hotpot/5abb08c65542996cc5e49f61/gold/doc6",
+   "answer": "FIFA World Cup",
+   "nP": 1102,
+   "nE": 155,
+   "nD": 506,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.2487247862767161,
+    "same_top1": true
+   },
+   "truth_answer": "1970 FIFA World Cup",
+   "kept_answer": "1970 FIFA World Cup",
+   "fresh": {
+    "kl": 0.06244796260450061,
+    "same_top1": true,
+    "answer": "1970 Championship of Australia",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.03480705519025263,
+    "same_top1": true,
+    "answer": "1970 Championship of Australia",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.4368734198129988e-10
+  },
+  {
+   "name": "hotpot/5abba17a5542992ccd8e7f60/gold/doc3",
+   "answer": "Toyota Hilux",
+   "nP": 485,
+   "nE": 266,
+   "nD": 869,
+   "nQ": 33,
+   "deletion": {
+    "kl": 2.468886874503376,
+    "same_top1": true
+   },
+   "truth_answer": "The Ford Bronco",
+   "kept_answer": "The Ford Ranger is part of Toyota's IMV program with the Fortuner SUV",
+   "fresh": {
+    "kl": 0.006474130932951997,
+    "same_top1": true,
+    "answer": "The Ford Ranger is part of Toyota's IMV program with the Fortuner SUV",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.9939300431271145,
+    "same_top1": true,
+    "answer": "The Ford Explorer Sport Trac is part of Toyota's IMV program with the",
+    "same_answer": false
+   },
+   "reprefill_consistency": 8.20652014557401e-11
+  },
+  {
+   "name": "hotpot/5a7d6a2d5542991319bc93c6/gold/doc8",
+   "answer": "Southern Isles",
+   "nP": 1246,
+   "nE": 216,
+   "nD": 276,
+   "nQ": 32,
+   "deletion": {
+    "kl": 0.02759796942887269,
+    "same_top1": true
+   },
+   "truth_answer": "The Kingdom of the Isles",
+   "kept_answer": "The region that Magnus Barefoot launched aggressive military campaigns in, which was at times",
+   "fresh": {
+    "kl": 0.0009416426246313999,
+    "same_top1": true,
+    "answer": "The Kingdom of the Isles",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.016043944423747937,
+    "same_top1": true,
+    "answer": "The Kingdom of the Isles",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.1381201964580333e-11
+  },
+  {
+   "name": "hotpot/5ac048ea554299294b218f74/gold/doc5",
+   "answer": "Michael Swango",
+   "nP": 1061,
+   "nE": 184,
+   "nD": 639,
+   "nQ": 36,
+   "deletion": {
+    "kl": 0.548592094986384,
+    "same_top1": true
+   },
+   "truth_answer": "Robert Hanssen testified against Fredric Rieders, who had killed as many",
+   "kept_answer": "Robert Curley",
+   "fresh": {
+    "kl": 0.279580971917445,
+    "same_top1": true,
+    "answer": "Robert Hanssen testified against Joseph Michael Swango, who had killed as many as",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.9152182857823816,
+    "same_top1": true,
+    "answer": "Robert Philip Hanssen testified against Joseph Michael Swango, who was sentenced to three",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.0941856251189266e-11
+  },
+  {
+   "name": "hotpot/5abd0eae5542996e802b46d4/gold/doc7",
+   "answer": "no",
+   "nP": 1092,
+   "nE": 109,
+   "nD": 166,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.0003525138367362428,
+    "same_top1": true
+   },
+   "truth_answer": "Yes, Muzzle and Screaming Trees are both alternative rock bands.",
+   "kept_answer": "Yes, Muzzle and Screaming Trees are both alternative rock bands.",
+   "fresh": {
+    "kl": 2.5605450820639947e-05,
+    "same_top1": true,
+    "answer": "Yes, Muzzle and Screaming Trees are both alternative rock bands.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 5.3091477843552755e-05,
+    "same_top1": true,
+    "answer": "Yes, Muzzle and Screaming Trees are both alternative rock bands.",
+    "same_answer": true
+   },
+   "reprefill_consistency": 8.480128715484194e-12
+  },
+  {
+   "name": "hotpot/5a73d3ea5542992d56e7e3af/gold/doc6",
+   "answer": "Arlo Looking Cloud",
+   "nP": 676,
+   "nE": 230,
+   "nD": 397,
+   "nQ": 29,
+   "deletion": {
+    "kl": 3.2919398955138144,
+    "same_top1": false
+   },
+   "truth_answer": "Val Kilmer",
+   "kept_answer": "John Graham",
+   "fresh": {
+    "kl": 0.10549533103195274,
+    "same_top1": false,
+    "answer": "Arlo Looking Cloud",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 3.1601192155731788,
+    "same_top1": false,
+    "answer": "John Graham",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.309585859739844e-11
+  },
+  {
+   "name": "hotpot/5ae1c2d8554299234fd042ee/gold/doc8",
+   "answer": "in 1994",
+   "nP": 1232,
+   "nE": 147,
+   "nD": 87,
+   "nQ": 30,
+   "deletion": {
+    "kl": 0.013671099801953336,
+    "same_top1": true
+   },
+   "truth_answer": "1991",
+   "kept_answer": "1991",
+   "fresh": {
+    "kl": 0.0002800753056015334,
+    "same_top1": true,
+    "answer": "1991",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.007080422631113704,
+    "same_top1": true,
+    "answer": "1991",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.708303622570974e-12
+  }
+ ]
+}

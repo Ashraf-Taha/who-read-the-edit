@@ -1,0 +1,10 @@
+[project]
+name = "mutablekv"
+version = "0.0.1"
+description = "Reference engine for mutable LLM KV caches"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

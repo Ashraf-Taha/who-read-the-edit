@@ -1,0 +1,588 @@
+{
+ "meta": {
+  "written": "2026-11-21T12:47:26",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "rows": [
+  {
+   "name": "reader/5abf63f15542997ec76fd3ea/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0121045835396595,
+   "stored_kl_last": 0.0121045835396595,
+   "answer": "1917",
+   "truth": "1917"
+  },
+  {
+   "name": "reader/5a7555215542996c70cfaee1/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.047008531630200405,
+   "stored_kl_last": 0.047008531630200405,
+   "answer": "Pashmina",
+   "truth": "Pashmina"
+  },
+  {
+   "name": "reader/5a8595a85542992a431d1b48/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0010930553597718856,
+   "stored_kl_last": 0.0010930553597718856,
+   "answer": "Newington Armory",
+   "truth": "Newington Armory"
+  },
+  {
+   "name": "reader/5a7fb7985542994857a767d2/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.291163498123994,
+   "stored_kl_last": 0.291163498123994,
+   "answer": "Jos\u00e9 Daniel Valencia",
+   "truth": "Jos\u00e9 Daniel Valencia"
+  },
+  {
+   "name": "reader/5ae73d235542991e8301cc29/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.12005149194127337,
+   "stored_kl_last": 0.12005149194127337,
+   "answer": "Desilu Productions",
+   "truth": "Desilu Productions"
+  },
+  {
+   "name": "reader/5ab47cd75542991751b4d78d/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 1.7993983518601144e-05,
+   "stored_kl_last": 1.7993983518601144e-05,
+   "answer": "2007",
+   "truth": "2008"
+  },
+  {
+   "name": "reader/5a8efb5a55429918e830d172/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0022773797667870956,
+   "stored_kl_last": 0.0022773797667870956,
+   "answer": "India",
+   "truth": "India"
+  },
+  {
+   "name": "reader/5a7ae2f2554299042af8f6aa/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0821978540128791,
+   "stored_kl_last": 0.0821978540128791,
+   "answer": "football",
+   "truth": "football"
+  },
+  {
+   "name": "reader/5a7b88b45542997c3ec97201/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.03253693532419982,
+   "stored_kl_last": 0.03253693532419982,
+   "answer": "Terrence Alexander Jones",
+   "truth": "Terrence Alexander Jones"
+  },
+  {
+   "name": "reader/5a8f7a135542992414482adc/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.02219436747540195,
+   "stored_kl_last": 0.02219436747540195,
+   "answer": "Alba Longa",
+   "truth": "Alba Longa"
+  },
+  {
+   "name": "reader/5ae554ce55429960a22e02b7/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.09925725592340383,
+   "stored_kl_last": 0.09925725592340383,
+   "answer": "Star Search",
+   "truth": "Star Search"
+  },
+  {
+   "name": "reader/5ac07327554299012d1db5f2/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.008317602848976265,
+   "stored_kl_last": 0.008317602848976265,
+   "answer": "Colin Kaepernick",
+   "truth": "Colin Kaepernick"
+  },
+  {
+   "name": "reader/5ade858a55429975fa854eea/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.012470475451512485,
+   "stored_kl_last": 0.012470475451512485,
+   "answer": "tennis",
+   "truth": "tennis"
+  },
+  {
+   "name": "reader/5ae61e7555429929b0807adf/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0775926098274142,
+   "stored_kl_last": 0.0775926098274142,
+   "answer": "Ultimate Fighting Championship",
+   "truth": "UFC"
+  },
+  {
+   "name": "reader/5ac289ff5542996366519a02/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.06454853866065491,
+   "stored_kl_last": 0.06454853866065491,
+   "answer": "Marsilea minuta",
+   "truth": "Marsilea minuta"
+  },
+  {
+   "name": "reader/5ac0b1835542992a796ded65/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.06920581282922171,
+   "stored_kl_last": 0.06920581282922171,
+   "answer": "Fonterra",
+   "truth": "Fonterra"
+  },
+  {
+   "name": "reader/5ae40b2b55429970de88d8b3/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.01064003571555655,
+   "stored_kl_last": 0.01064003571555655,
+   "answer": "California Polytechnic State University",
+   "truth": "California Polytechnic State University"
+  },
+  {
+   "name": "reader/5ae7e8f55542994a481bbe06/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.23209652068875666,
+   "stored_kl_last": 0.23209652068875666,
+   "answer": "Roger Moore",
+   "truth": "Roger Moore"
+  },
+  {
+   "name": "reader/5adf4b335542993a75d264a5/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0745249699343757,
+   "stored_kl_last": 0.0745249699343757,
+   "answer": "Capcom",
+   "truth": "Capcom"
+  },
+  {
+   "name": "reader/5a78d16455429974737f78bb/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0013542183103082916,
+   "stored_kl_last": 0.0013542183103082916,
+   "answer": "Philippe Perrin",
+   "truth": "Philippe Perrin"
+  },
+  {
+   "name": "reader/5abd920e55429924427fd05d/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.0764963256375433,
+   "stored_kl_last": 0.0764963256375433,
+   "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+   "truth": "Yes, both Peter Duffell and Fred Niblo were actors."
+  },
+  {
+   "name": "reader/5ab67d2055429954757d3304/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.06189590605055505,
+   "stored_kl_last": 0.06189590605055505,
+   "answer": "Tibetan Terrier",
+   "truth": "Tibetan Terrier"
+  },
+  {
+   "name": "reader/5ae5db98554299546bf82fa6/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.002041213841041603,
+   "stored_kl_last": 0.002041213841041603,
+   "answer": "10",
+   "truth": "10"
+  },
+  {
+   "name": "reader/5ae0613d5542993d6555eb22/gold/adjacent",
+   "place": "adjacent",
+   "kl_last": 0.44430608566788443,
+   "stored_kl_last": 0.44430608566788443,
+   "answer": "Castle Hill",
+   "truth": "Warrenton, North Carolina"
+  },
+  {
+   "name": "reader/5abf63f15542997ec76fd3ea/gold/middle",
+   "place": "middle",
+   "kl_last": 0.018778636962857965,
+   "stored_kl_last": 0.018778636962857965,
+   "answer": "1922",
+   "truth": "1922"
+  },
+  {
+   "name": "reader/5a7555215542996c70cfaee1/gold/middle",
+   "place": "middle",
+   "kl_last": 0.013964907303342947,
+   "stored_kl_last": 0.013964907303342947,
+   "answer": "VELUX",
+   "truth": "VELUX"
+  },
+  {
+   "name": "reader/5a8595a85542992a431d1b48/gold/middle",
+   "place": "middle",
+   "kl_last": 0.0005463597489551132,
+   "stored_kl_last": 0.0005463597489551132,
+   "answer": "Newington Armory",
+   "truth": "Newington Armory"
+  },
+  {
+   "name": "reader/5a7fb7985542994857a767d2/gold/middle",
+   "place": "middle",
+   "kl_last": 0.006519456468538417,
+   "stored_kl_last": 0.006519456468538417,
+   "answer": "Jos\u00e9 Daniel Valencia",
+   "truth": "Jos\u00e9 Daniel Valencia"
+  },
+  {
+   "name": "reader/5ae73d235542991e8301cc29/gold/middle",
+   "place": "middle",
+   "kl_last": 0.015945614673710477,
+   "stored_kl_last": 0.015945614673710477,
+   "answer": "The Montecito Picture Company",
+   "truth": "The Montecito Picture Company"
+  },
+  {
+   "name": "reader/5ab47cd75542991751b4d78d/gold/middle",
+   "place": "middle",
+   "kl_last": 5.672335558275399e-05,
+   "stored_kl_last": 5.672335558275399e-05,
+   "answer": "2007",
+   "truth": "2007"
+  },
+  {
+   "name": "reader/5a8efb5a55429918e830d172/gold/middle",
+   "place": "middle",
+   "kl_last": 0.00040547884519393136,
+   "stored_kl_last": 0.00040547884519393136,
+   "answer": "India",
+   "truth": "India"
+  },
+  {
+   "name": "reader/5a7ae2f2554299042af8f6aa/gold/middle",
+   "place": "middle",
+   "kl_last": 0.01575771681943807,
+   "stored_kl_last": 0.01575771681943807,
+   "answer": "football",
+   "truth": "football"
+  },
+  {
+   "name": "reader/5a7b88b45542997c3ec97201/gold/middle",
+   "place": "middle",
+   "kl_last": 0.08844102346161652,
+   "stored_kl_last": 0.08844102346161652,
+   "answer": "Terrence Alexander Jones",
+   "truth": "Terrence Alexander Jones"
+  },
+  {
+   "name": "reader/5a8f7a135542992414482adc/gold/middle",
+   "place": "middle",
+   "kl_last": 0.009557209647250191,
+   "stored_kl_last": 0.009557209647250191,
+   "answer": "Alba Longa",
+   "truth": "Alba Longa"
+  },
+  {
+   "name": "reader/5ae554ce55429960a22e02b7/gold/middle",
+   "place": "middle",
+   "kl_last": 0.009731729960251859,
+   "stored_kl_last": 0.009731729960251859,
+   "answer": "Star Search",
+   "truth": "Star Search"
+  },
+  {
+   "name": "reader/5ac07327554299012d1db5f2/gold/middle",
+   "place": "middle",
+   "kl_last": 0.013850671112783625,
+   "stored_kl_last": 0.013850671112783625,
+   "answer": "Colin Kaepernick",
+   "truth": "Colin Kaepernick"
+  },
+  {
+   "name": "reader/5ade858a55429975fa854eea/gold/middle",
+   "place": "middle",
+   "kl_last": 0.0015176390782294241,
+   "stored_kl_last": 0.0015176390782294241,
+   "answer": "tennis",
+   "truth": "tennis"
+  },
+  {
+   "name": "reader/5ae61e7555429929b0807adf/gold/middle",
+   "place": "middle",
+   "kl_last": 0.020952816519758166,
+   "stored_kl_last": 0.020952816519758166,
+   "answer": "UFC",
+   "truth": "UFC"
+  },
+  {
+   "name": "reader/5ac289ff5542996366519a02/gold/middle",
+   "place": "middle",
+   "kl_last": 0.04657711528440853,
+   "stored_kl_last": 0.04657711528440853,
+   "answer": "Marsilea",
+   "truth": "Marsilea"
+  },
+  {
+   "name": "reader/5ac0b1835542992a796ded65/gold/middle",
+   "place": "middle",
+   "kl_last": 0.5070491679788472,
+   "stored_kl_last": 0.5070491679788472,
+   "answer": "Fonterra",
+   "truth": "Constellis Group"
+  },
+  {
+   "name": "reader/5ae40b2b55429970de88d8b3/gold/middle",
+   "place": "middle",
+   "kl_last": 0.0037140313092512284,
+   "stored_kl_last": 0.0037140313092512284,
+   "answer": "California Polytechnic State University",
+   "truth": "California Polytechnic State University"
+  },
+  {
+   "name": "reader/5ae7e8f55542994a481bbe06/gold/middle",
+   "place": "middle",
+   "kl_last": 0.17273023867437406,
+   "stored_kl_last": 0.17273023867437406,
+   "answer": "Daniel Craig",
+   "truth": "Roger Moore"
+  },
+  {
+   "name": "reader/5adf4b335542993a75d264a5/gold/middle",
+   "place": "middle",
+   "kl_last": 0.047285984418511666,
+   "stored_kl_last": 0.047285984418511666,
+   "answer": "Capcom",
+   "truth": "Capcom"
+  },
+  {
+   "name": "reader/5a78d16455429974737f78bb/gold/middle",
+   "place": "middle",
+   "kl_last": 0.003606453790453695,
+   "stored_kl_last": 0.003606453790453695,
+   "answer": "Philippe Perrin",
+   "truth": "Philippe Perrin"
+  },
+  {
+   "name": "reader/5abd920e55429924427fd05d/gold/middle",
+   "place": "middle",
+   "kl_last": 0.007794674500534499,
+   "stored_kl_last": 0.007794674500534499,
+   "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+   "truth": "Yes, both Peter Duffell and Fred Niblo were actors."
+  },
+  {
+   "name": "reader/5ab67d2055429954757d3304/gold/middle",
+   "place": "middle",
+   "kl_last": 0.01563251759533696,
+   "stored_kl_last": 0.01563251759533696,
+   "answer": "Tibetan Terrier",
+   "truth": "Tibetan Terrier"
+  },
+  {
+   "name": "reader/5ae5db98554299546bf82fa6/gold/middle",
+   "place": "middle",
+   "kl_last": 0.005971207258771996,
+   "stored_kl_last": 0.005971207258771996,
+   "answer": "10",
+   "truth": "10"
+  },
+  {
+   "name": "reader/5ae0613d5542993d6555eb22/gold/middle",
+   "place": "middle",
+   "kl_last": 0.012519536627802787,
+   "stored_kl_last": 0.012519536627802787,
+   "answer": "Castle Hill",
+   "truth": "Castle Hill"
+  },
+  {
+   "name": "reader/5abf63f15542997ec76fd3ea/gold/end",
+   "place": "end",
+   "kl_last": 0.0190105551015267,
+   "stored_kl_last": 0.0190105551015267,
+   "answer": "1922",
+   "truth": "1922"
+  },
+  {
+   "name": "reader/5a7555215542996c70cfaee1/gold/end",
+   "place": "end",
+   "kl_last": 0.0023650480042177405,
+   "stored_kl_last": 0.0023650480042177405,
+   "answer": "Hey Pa! There's a Goat on the Roof",
+   "truth": "Hey Pa! There's a Goat on the Roof"
+  },
+  {
+   "name": "reader/5a8595a85542992a431d1b48/gold/end",
+   "place": "end",
+   "kl_last": 0.0002803211711029268,
+   "stored_kl_last": 0.0002803211711029268,
+   "answer": "Newington Armory, Sydney Olympic Park",
+   "truth": "Newington Armory, Sydney Olympic Park"
+  },
+  {
+   "name": "reader/5a7fb7985542994857a767d2/gold/end",
+   "place": "end",
+   "kl_last": 0.017879312871501837,
+   "stored_kl_last": 0.017879312871501837,
+   "answer": "Claudio L\u00f3pez",
+   "truth": "Claudio L\u00f3pez"
+  },
+  {
+   "name": "reader/5ae73d235542991e8301cc29/gold/end",
+   "place": "end",
+   "kl_last": 0.23671468168169368,
+   "stored_kl_last": 0.23671468168169368,
+   "answer": "Desilu Productions",
+   "truth": "WestWind Pictures"
+  },
+  {
+   "name": "reader/5ab47cd75542991751b4d78d/gold/end",
+   "place": "end",
+   "kl_last": 0.00564514283500882,
+   "stored_kl_last": 0.00564514283500882,
+   "answer": "2002",
+   "truth": "2002"
+  },
+  {
+   "name": "reader/5a8efb5a55429918e830d172/gold/end",
+   "place": "end",
+   "kl_last": 2.4916221937001685e-05,
+   "stored_kl_last": 2.4916221937001685e-05,
+   "answer": "India",
+   "truth": "India"
+  },
+  {
+   "name": "reader/5a7ae2f2554299042af8f6aa/gold/end",
+   "place": "end",
+   "kl_last": 0.029944591571947576,
+   "stored_kl_last": 0.029944591571947576,
+   "answer": "football",
+   "truth": "football"
+  },
+  {
+   "name": "reader/5a7b88b45542997c3ec97201/gold/end",
+   "place": "end",
+   "kl_last": 0.10386842442777726,
+   "stored_kl_last": 0.10386842442777726,
+   "answer": "Terrence Alexander",
+   "truth": "Terrence Alexander"
+  },
+  {
+   "name": "reader/5a8f7a135542992414482adc/gold/end",
+   "place": "end",
+   "kl_last": 0.016947438300711326,
+   "stored_kl_last": 0.016947438300711326,
+   "answer": "Alba Longa",
+   "truth": "Tel Eiton"
+  },
+  {
+   "name": "reader/5ae554ce55429960a22e02b7/gold/end",
+   "place": "end",
+   "kl_last": 0.04087413009962991,
+   "stored_kl_last": 0.04087413009962991,
+   "answer": "\"Star Search\"",
+   "truth": "\"American Idol\""
+  },
+  {
+   "name": "reader/5ac07327554299012d1db5f2/gold/end",
+   "place": "end",
+   "kl_last": 0.15262000876610377,
+   "stored_kl_last": 0.15262000876610377,
+   "answer": "Colin Kaepernick is a fictional character on the HBO drama \"The Wire\" played",
+   "truth": "Colin Kaepernick is a fictional character on the HBO drama \"The Wire\" played"
+  },
+  {
+   "name": "reader/5ade858a55429975fa854eea/gold/end",
+   "place": "end",
+   "kl_last": 0.0021461826580140356,
+   "stored_kl_last": 0.0021461826580140356,
+   "answer": "Tennis",
+   "truth": "Tennis"
+  },
+  {
+   "name": "reader/5ae61e7555429929b0807adf/gold/end",
+   "place": "end",
+   "kl_last": 0.02549930303877751,
+   "stored_kl_last": 0.02549930303877751,
+   "answer": "Ultimate Fighting Championship",
+   "truth": "UFC"
+  },
+  {
+   "name": "reader/5ac289ff5542996366519a02/gold/end",
+   "place": "end",
+   "kl_last": 0.0008317706925473893,
+   "stored_kl_last": 0.0008317706925473893,
+   "answer": "Marsilea",
+   "truth": "Marsilea"
+  },
+  {
+   "name": "reader/5ac0b1835542992a796ded65/gold/end",
+   "place": "end",
+   "kl_last": 0.003292386415129551,
+   "stored_kl_last": 0.003292386415129551,
+   "answer": "Rackspace",
+   "truth": "Rackspace"
+  },
+  {
+   "name": "reader/5ae40b2b55429970de88d8b3/gold/end",
+   "place": "end",
+   "kl_last": 0.0230332984151497,
+   "stored_kl_last": 0.0230332984151497,
+   "answer": "California Polytechnic State University",
+   "truth": "California Polytechnic State University"
+  },
+  {
+   "name": "reader/5ae7e8f55542994a481bbe06/gold/end",
+   "place": "end",
+   "kl_last": 0.15448549086806704,
+   "stored_kl_last": 0.15448549086806704,
+   "answer": "James Bond",
+   "truth": "James Bond"
+  },
+  {
+   "name": "reader/5adf4b335542993a75d264a5/gold/end",
+   "place": "end",
+   "kl_last": 0.008201070512703613,
+   "stored_kl_last": 0.008201070512703613,
+   "answer": "Naked Angels",
+   "truth": "Naked Angels"
+  },
+  {
+   "name": "reader/5a78d16455429974737f78bb/gold/end",
+   "place": "end",
+   "kl_last": 0.0001274793169644779,
+   "stored_kl_last": 0.0001274793169644779,
+   "answer": "Ernst Messerschmid",
+   "truth": "Ernst Messerschmid"
+  },
+  {
+   "name": "reader/5abd920e55429924427fd05d/gold/end",
+   "place": "end",
+   "kl_last": 0.0008496391841342889,
+   "stored_kl_last": 0.0008496391841342889,
+   "answer": "Yes, both Peter Duffell and Fred Niblo were actors.",
+   "truth": "Yes, both Peter Duffell and Fred Niblo were actors."
+  },
+  {
+   "name": "reader/5ab67d2055429954757d3304/gold/end",
+   "place": "end",
+   "kl_last": 0.012046760577934973,
+   "stored_kl_last": 0.012046760577934973,
+   "answer": "The Tibetan Terrier is a type of gun dog.",
+   "truth": "The Tibetan Terrier is a type of gun dog."
+  },
+  {
+   "name": "reader/5ae5db98554299546bf82fa6/gold/end",
+   "place": "end",
+   "kl_last": 0.005856614110838003,
+   "stored_kl_last": 0.005856614110838003,
+   "answer": "over 1.7 billion views",
+   "truth": "more than 1.7 billion views"
+  },
+  {
+   "name": "reader/5ae0613d5542993d6555eb22/gold/end",
+   "place": "end",
+   "kl_last": 0.024164290209647776,
+   "stored_kl_last": 0.024164290209647776,
+   "answer": "Jamestown",
+   "truth": "Jamestown"
+  }
+ ]
+}

@@ -1,0 +1,2172 @@
+{
+ "meta": {
+  "written": "2026-11-23T13:28:18",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+ "rows": [
+  {
+   "name": "hotpot/5abf63f15542997ec76fd3ea/gold/doc7",
+   "answer": "October 1922",
+   "nP": 1235,
+   "nE": 408,
+   "nD": 411,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.04239395958886592,
+    "same_top1": true
+   },
+   "truth_answer": "The Bolsheviks.",
+   "kept_answer": "The Russian Civil War",
+   "fresh": {
+    "kl": 0.014522034123787017,
+    "same_top1": false,
+    "answer": "the October Revolution.",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.0336081083274848,
+    "same_top1": true,
+    "answer": "The Russian Civil War",
+    "same_answer": false
+   },
+   "reprefill_consistency": 6.553919198641393e-11
+  },
+  {
+   "name": "hotpot/5a7555215542996c70cfaee1/gold/doc2",
+   "answer": "Hey Pa! There's a Goat on the Roof",
+   "nP": 294,
+   "nE": 193,
+   "nD": 1126,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.004696586480385517,
+    "same_top1": true
+   },
+   "truth_answer": "\"Hey Pa! There's a Goat on the Roof\"",
+   "kept_answer": "\"Hey Pa! There's a Goat on the Roof\"",
+   "fresh": {
+    "kl": 0.0015210203971716611,
+    "same_top1": true,
+    "answer": "\"Hey Pa! There's a Goat on the Roof\"",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.022201005955900445,
+    "same_top1": true,
+    "answer": "\"Hey Pa! There's a Goat on the Roof\"",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0358879997527069e-10
+  },
+  {
+   "name": "hotpot/5a8595a85542992a431d1b48/gold/doc4",
+   "answer": "Great Exuma",
+   "nP": 993,
+   "nE": 42,
+   "nD": 937,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.008375469622084455,
+    "same_top1": true
+   },
+   "truth_answer": "The music festival Billy McFarland was charged with wire fraud for was supposed to",
+   "kept_answer": "The music festival Billy McFarland was charged with wire fraud for was supposed to",
+   "fresh": {
+    "kl": 0.0006650631425738469,
+    "same_top1": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was supposed to",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0016428085845352446,
+    "same_top1": true,
+    "answer": "The music festival Billy McFarland was charged with wire fraud for was supposed to",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0179530656981827e-11
+  },
+  {
+   "name": "hotpot/5a7fb7985542994857a767d2/gold/doc8",
+   "answer": "Claudio Javier L\u00f3pez",
+   "nP": 821,
+   "nE": 47,
+   "nD": 60,
+   "nQ": 21,
+   "deletion": {
+    "kl": 1.4894814377919812,
+    "same_top1": false
+   },
+   "truth_answer": "Gaizka Mendieta",
+   "kept_answer": "Claudio L\u00f3pez",
+   "fresh": {
+    "kl": 0.0031474972486116156,
+    "same_top1": true,
+    "answer": "Gaizka Mendieta",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.11936634361776668,
+    "same_top1": false,
+    "answer": "Jos\u00e9 Daniel Valencia",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.9192236366105196e-11
+  },
+  {
+   "name": "hotpot/5ae73d235542991e8301cc29/gold/doc5",
+   "answer": "Free Range Films",
+   "nP": 748,
+   "nE": 158,
+   "nD": 475,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.12412744954200092,
+    "same_top1": true
+   },
+   "truth_answer": "Desilu Productions",
+   "kept_answer": "Desilu Productions",
+   "fresh": {
+    "kl": 0.012407026534260235,
+    "same_top1": true,
+    "answer": "Desilu Productions",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.024856135047241823,
+    "same_top1": true,
+    "answer": "Desilu Productions",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.8316607562070836e-11
+  },
+  {
+   "name": "hotpot/5ab47cd75542991751b4d78d/gold/doc3",
+   "answer": "2002",
+   "nP": 542,
+   "nE": 157,
+   "nD": 1067,
+   "nQ": 27,
+   "deletion": {
+    "kl": 0.20230237567267947,
+    "same_top1": true
+   },
+   "truth_answer": "2002",
+   "kept_answer": "2002",
+   "fresh": {
+    "kl": 0.004221817453795008,
+    "same_top1": true,
+    "answer": "2002",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.00034913521432589816,
+    "same_top1": true,
+    "answer": "2002",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.9066303991289327e-11
+  },
+  {
+   "name": "hotpot/5a8efb5a55429918e830d172/gold/doc8",
+   "answer": "Jamnagar",
+   "nP": 986,
+   "nE": 112,
+   "nD": 94,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.04718645252005588,
+    "same_top1": true
+   },
+   "truth_answer": "India",
+   "kept_answer": "India",
+   "fresh": {
+    "kl": 0.00408645291033782,
+    "same_top1": true,
+    "answer": "India",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0008256696182354943,
+    "same_top1": true,
+    "answer": "India",
+    "same_answer": true
+   },
+   "reprefill_consistency": 8.801037106782667e-12
+  },
+  {
+   "name": "hotpot/5a7ae2f2554299042af8f6aa/gold/doc4",
+   "answer": "football",
+   "nP": 604,
+   "nE": 58,
+   "nD": 646,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.7450214845514835,
+    "same_top1": false
+   },
+   "truth_answer": "Football",
+   "kept_answer": "Bundesliga",
+   "fresh": {
+    "kl": 0.04139565818916496,
+    "same_top1": false,
+    "answer": "Basketball",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.6620150967113747,
+    "same_top1": false,
+    "answer": "Basketball",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.4548917453024478e-10
+  },
+  {
+   "name": "hotpot/5a7b88b45542997c3ec97201/gold/doc2",
+   "answer": "Terrence Jones",
+   "nP": 361,
+   "nE": 56,
+   "nD": 1354,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.043311049146732776,
+    "same_top1": true
+   },
+   "truth_answer": "Damon Stoudamire's cousin once played college basketball for the University of",
+   "kept_answer": "Damon Stoudamire's cousin once played college basketball for the University of",
+   "fresh": {
+    "kl": 0.002411365976089582,
+    "same_top1": true,
+    "answer": "Damon Stoudamire's cousin once played college basketball for the University of",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.008585069529716237,
+    "same_top1": true,
+    "answer": "Damon Stoudamire's cousin once played college basketball for the University of",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0035371572634076e-11
+  },
+  {
+   "name": "hotpot/5a8f7a135542992414482adc/gold/doc2",
+   "answer": "12 mi southeast of Rome",
+   "nP": 426,
+   "nE": 116,
+   "nD": 843,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.024621236552375175,
+    "same_top1": true
+   },
+   "truth_answer": "Alba Longa",
+   "kept_answer": "Alba Longa",
+   "fresh": {
+    "kl": 0.0012128327653368187,
+    "same_top1": true,
+    "answer": "Alba Longa",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.007334219358840064,
+    "same_top1": true,
+    "answer": "Alba Longa",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.2015373274411803e-11
+  },
+  {
+   "name": "hotpot/5ae554ce55429960a22e02b7/gold/doc7",
+   "answer": "You Can Be a Star",
+   "nP": 1192,
+   "nE": 96,
+   "nD": 321,
+   "nQ": 34,
+   "deletion": {
+    "kl": 1.7004896619223366,
+    "same_top1": false
+   },
+   "truth_answer": "Billy Dean",
+   "kept_answer": "Lari White",
+   "fresh": {
+    "kl": 0.011586848991138663,
+    "same_top1": true,
+    "answer": "Billy Dean",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.5422179701601926,
+    "same_top1": false,
+    "answer": "Lari White",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.3962827858532875e-11
+  },
+  {
+   "name": "hotpot/5ac07327554299012d1db5f2/gold/doc7",
+   "answer": "an American football quarterback",
+   "nP": 745,
+   "nE": 141,
+   "nD": 229,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.0009747947768149181,
+    "same_top1": true
+   },
+   "truth_answer": "Colin Kaepernick",
+   "kept_answer": "Colin Kaepernick",
+   "fresh": {
+    "kl": 4.766468022219042e-05,
+    "same_top1": true,
+    "answer": "Colin Kaepernick",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0014787900799490949,
+    "same_top1": true,
+    "answer": "Colin Kaepernick",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.3632025565428897e-12
+  },
+  {
+   "name": "hotpot/5ade858a55429975fa854eea/gold/doc3",
+   "answer": "tennis",
+   "nP": 214,
+   "nE": 70,
+   "nD": 618,
+   "nQ": 20,
+   "deletion": {
+    "kl": 0.010690343668254,
+    "same_top1": true
+   },
+   "truth_answer": "tennis",
+   "kept_answer": "tennis",
+   "fresh": {
+    "kl": 0.0224991455891924,
+    "same_top1": true,
+    "answer": "tennis",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.03323624783545008,
+    "same_top1": true,
+    "answer": "tennis",
+    "same_answer": true
+   },
+   "reprefill_consistency": 9.165733954091084e-11
+  },
+  {
+   "name": "hotpot/5ae61e7555429929b0807adf/gold/doc5",
+   "answer": "MMA",
+   "nP": 664,
+   "nE": 234,
+   "nD": 742,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.1421009146117337,
+    "same_top1": true
+   },
+   "truth_answer": "Renzo Gracie has a victory over the UFC champion who was one",
+   "kept_answer": "Renzo Gracie has a victory over the UFC champion who was one",
+   "fresh": {
+    "kl": 0.009362892568256152,
+    "same_top1": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.03302903499579092,
+    "same_top1": true,
+    "answer": "Renzo Gracie has a victory over the UFC champion who was one",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.6639172872254204e-11
+  },
+  {
+   "name": "hotpot/5ac289ff5542996366519a02/gold/doc4",
+   "answer": "Marsilea",
+   "nP": 638,
+   "nE": 237,
+   "nD": 831,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.11040516843449988,
+    "same_top1": true
+   },
+   "truth_answer": "Brabejum",
+   "kept_answer": "Brabejum",
+   "fresh": {
+    "kl": 0.004589046849426826,
+    "same_top1": true,
+    "answer": "Brabejum",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.05451413469758398,
+    "same_top1": true,
+    "answer": "Brabejum",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.526910174783451e-11
+  },
+  {
+   "name": "hotpot/5ac0b1835542992a796ded65/gold/doc2",
+   "answer": "Viglen",
+   "nP": 274,
+   "nE": 33,
+   "nD": 1199,
+   "nQ": 21,
+   "deletion": {
+    "kl": 2.114627484020625,
+    "same_top1": false
+   },
+   "truth_answer": "Rackspace",
+   "kept_answer": "Viglen",
+   "fresh": {
+    "kl": 1.2497330190822422,
+    "same_top1": false,
+    "answer": "Viglen",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.3548107445839108,
+    "same_top1": false,
+    "answer": "Viglen",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.9817013726567627e-11
+  },
+  {
+   "name": "hotpot/5ae40b2b55429970de88d8b3/gold/doc5",
+   "answer": "California Polytechnic State University",
+   "nP": 1057,
+   "nE": 169,
+   "nD": 703,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.3910280141635373,
+    "same_top1": false
+   },
+   "truth_answer": "Cal Poly SLO",
+   "kept_answer": "Polytechnic University of the Philippines",
+   "fresh": {
+    "kl": 0.00842815767072045,
+    "same_top1": true,
+    "answer": "Cal Poly San Luis Obispo",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.06516526618902865,
+    "same_top1": true,
+    "answer": "Cal Poly San Luis Obispo",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.0982280297397714e-11
+  },
+  {
+   "name": "hotpot/5ae7e8f55542994a481bbe06/gold/doc8",
+   "answer": "Commander James Bond RN",
+   "nP": 1037,
+   "nE": 104,
+   "nD": 120,
+   "nQ": 27,
+   "deletion": {
+    "kl": 0.004851744231233994,
+    "same_top1": true
+   },
+   "truth_answer": "Ian Fleming",
+   "kept_answer": "Ian Fleming",
+   "fresh": {
+    "kl": 0.0007218756739281436,
+    "same_top1": true,
+    "answer": "Ian Fleming",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.016298373891559373,
+    "same_top1": true,
+    "answer": "Ian Fleming",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.956067507453834e-11
+  },
+  {
+   "name": "hotpot/5adf4b335542993a75d264a5/gold/doc6",
+   "answer": "Rockstar San Diego",
+   "nP": 896,
+   "nE": 109,
+   "nD": 330,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.10927653411964494,
+    "same_top1": true
+   },
+   "truth_answer": "Rockstar Games",
+   "kept_answer": "Rockstar San Diego",
+   "fresh": {
+    "kl": 0.00030289540571492614,
+    "same_top1": true,
+    "answer": "Rockstar Games",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.13061647566499404,
+    "same_top1": true,
+    "answer": "Rockstar San Diego",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.8096960083468182e-11
+  },
+  {
+   "name": "hotpot/5a78d16455429974737f78bb/gold/doc1",
+   "answer": "Ernst Willi Messerschmid",
+   "nP": 114,
+   "nE": 40,
+   "nD": 981,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.7432524540752348,
+    "same_top1": false
+   },
+   "truth_answer": "Philippe Perrin",
+   "kept_answer": "Ernst Messerschmid",
+   "fresh": {
+    "kl": 0.008523945482941758,
+    "same_top1": true,
+    "answer": "Philippe Perrin",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.34985053371914043,
+    "same_top1": false,
+    "answer": "Ernst Messerschmid",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.2717460983366743e-12
+  },
+  {
+   "name": "hotpot/5abd920e55429924427fd05d/gold/doc2",
+   "answer": "yes",
+   "nP": 157,
+   "nE": 45,
+   "nD": 824,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.08414683083753664,
+    "same_top1": false
+   },
+   "truth_answer": "No",
+   "kept_answer": "Yes",
+   "fresh": {
+    "kl": 0.0021215676601338738,
+    "same_top1": true,
+    "answer": "No",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.08622757458000585,
+    "same_top1": false,
+    "answer": "Yes",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.5517604166446835e-11
+  },
+  {
+   "name": "hotpot/5ab67d2055429954757d3304/gold/doc3",
+   "answer": "Labrador Retriever",
+   "nP": 363,
+   "nE": 48,
+   "nD": 878,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.031166555947246162,
+    "same_top1": true
+   },
+   "truth_answer": "Labrador Retriever",
+   "kept_answer": "Labrador Retriever",
+   "fresh": {
+    "kl": 0.00042965873589106756,
+    "same_top1": true,
+    "answer": "Labrador Retriever",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.005281418301359413,
+    "same_top1": true,
+    "answer": "Labrador Retriever",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.977167064593778e-11
+  },
+  {
+   "name": "hotpot/5ae5db98554299546bf82fa6/gold/doc7",
+   "answer": "1.7 billion",
+   "nP": 1157,
+   "nE": 162,
+   "nD": 363,
+   "nQ": 29,
+   "deletion": {
+    "kl": 0.3277350957619385,
+    "same_top1": false
+   },
+   "truth_answer": "2.7 billion views",
+   "kept_answer": "1.5 billion views",
+   "fresh": {
+    "kl": 0.022970502701857617,
+    "same_top1": true,
+    "answer": "2.7 billion views",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.1995392380101097,
+    "same_top1": false,
+    "answer": "3.6 billion views",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.704282808657625e-11
+  },
+  {
+   "name": "hotpot/5ae0613d5542993d6555eb22/gold/doc1",
+   "answer": "Monticello",
+   "nP": 138,
+   "nE": 150,
+   "nD": 1368,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.08420406103997577,
+    "same_top1": true
+   },
+   "truth_answer": "Castle Hill is a plantation near Monticello.",
+   "kept_answer": "Castle Hill is a plantation near Thomas Jefferson's primary residence, Monticello",
+   "fresh": {
+    "kl": 0.13856899220753932,
+    "same_top1": true,
+    "answer": "Castle Hill is a plantation near Monticello.",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.13297292299668237,
+    "same_top1": true,
+    "answer": "Castle Hill",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.9417819711501456e-11
+  },
+  {
+   "name": "hotpot/5ae5d008554299546bf82f7d/gold/doc8",
+   "answer": "StubHub Center",
+   "nP": 1066,
+   "nE": 81,
+   "nD": 142,
+   "nQ": 35,
+   "deletion": {
+    "kl": 1.3134966051452222,
+    "same_top1": true
+   },
+   "truth_answer": "StubHub Center",
+   "kept_answer": "StubHub Center",
+   "fresh": {
+    "kl": 0.003428038741396319,
+    "same_top1": true,
+    "answer": "StubHub Center",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.751323027966743,
+    "same_top1": true,
+    "answer": "StubHub Center",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.266943193118321e-11
+  },
+  {
+   "name": "hotpot/5a8ba3ff55429971feec4744/gold/doc6",
+   "answer": "Mayor of the City of New York",
+   "nP": 848,
+   "nE": 88,
+   "nD": 281,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.31897808575081327,
+    "same_top1": true
+   },
+   "truth_answer": "Stokely Webster",
+   "kept_answer": "Stokely Webster's paintings can be found at the official residence of the Mayor",
+   "fresh": {
+    "kl": 0.008845385248443029,
+    "same_top1": true,
+    "answer": "Stokely Webster",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.11805212832057048,
+    "same_top1": true,
+    "answer": "Stokely Webster",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.275696057723293e-11
+  },
+  {
+   "name": "hotpot/5adc5b875542996e68525328/gold/doc7",
+   "answer": "2006 season",
+   "nP": 1065,
+   "nE": 202,
+   "nD": 439,
+   "nQ": 30,
+   "deletion": {
+    "kl": 0.6616895982247978,
+    "same_top1": false
+   },
+   "truth_answer": "1992",
+   "kept_answer": "The 2006 St. Louis Cardinals season",
+   "fresh": {
+    "kl": 0.055469820738307384,
+    "same_top1": true,
+    "answer": "1992",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.14406371148888114,
+    "same_top1": false,
+    "answer": "2012",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.510705960469183e-11
+  },
+  {
+   "name": "hotpot/5a7319e755429901807daf86/gold/doc5",
+   "answer": "most total touchdowns in NCAA history",
+   "nP": 674,
+   "nE": 110,
+   "nD": 692,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.3573411946384834,
+    "same_top1": true
+   },
+   "truth_answer": "Daniel Terrence LeFevour",
+   "kept_answer": "Daniel Terrence LeFevour",
+   "fresh": {
+    "kl": 0.0025944083225478733,
+    "same_top1": true,
+    "answer": "Daniel Terrence LeFevour",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0577768667303426,
+    "same_top1": true,
+    "answer": "Daniel Terrence LeFevour",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.032914249274376e-11
+  },
+  {
+   "name": "hotpot/5a7d61775542991319bc93b9/gold/doc7",
+   "answer": "Lord Combermere",
+   "nP": 1142,
+   "nE": 85,
+   "nD": 320,
+   "nQ": 34,
+   "deletion": {
+    "kl": 0.1696971593704797,
+    "same_top1": true
+   },
+   "truth_answer": "Stapleton Cotton and Claude Auchinleck",
+   "kept_answer": "Stapleton Cotton and Lord Combermere contributed to the storming of the",
+   "fresh": {
+    "kl": 0.004391871828719884,
+    "same_top1": true,
+    "answer": "Stapleton Cotton and Claude Auchinleck",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.08183904418202989,
+    "same_top1": true,
+    "answer": "Stapleton Cotton and Claude Auchinleck",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.6091749720697744e-11
+  },
+  {
+   "name": "hotpot/5a7730015542994aec3b7210/gold/doc5",
+   "answer": "SpongeBob SquarePants",
+   "nP": 1302,
+   "nE": 81,
+   "nD": 713,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.010726323361989006,
+    "same_top1": true
+   },
+   "truth_answer": "SpongeBob SquarePants",
+   "kept_answer": "SpongeBob SquarePants",
+   "fresh": {
+    "kl": 0.0013824597329806453,
+    "same_top1": true,
+    "answer": "SpongeBob SquarePants",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.003411085827562251,
+    "same_top1": true,
+    "answer": "SpongeBob SquarePants",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.5163146597179015e-11
+  },
+  {
+   "name": "hotpot/5a83d7535542993344746093/gold/doc4",
+   "answer": "Los Angeles Xtreme, San Francisco Demons and Memphis Maniax",
+   "nP": 640,
+   "nE": 86,
+   "nD": 1087,
+   "nQ": 17,
+   "deletion": {
+    "kl": 0.08961575262814375,
+    "same_top1": true
+   },
+   "truth_answer": "Casuals, Al-Minaa SC, Naft Al-Jan",
+   "kept_answer": "Casuals, Al-Minaa, Naft Al-Janoo",
+   "fresh": {
+    "kl": 0.037082557587510584,
+    "same_top1": true,
+    "answer": "Casuals, Huntsville High School, Philadelphia Eagles, Denver Broncos",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.06429706869504345,
+    "same_top1": true,
+    "answer": "Casuals, Al-Minaa, Naft Al-Janoo",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.69649185343659e-11
+  },
+  {
+   "name": "hotpot/5a84574455429933447460e6/gold/doc8",
+   "answer": "2015",
+   "nP": 1767,
+   "nE": 243,
+   "nD": 135,
+   "nQ": 35,
+   "deletion": {
+    "kl": 0.04070935186140697,
+    "same_top1": true
+   },
+   "truth_answer": "2015",
+   "kept_answer": "2015",
+   "fresh": {
+    "kl": 0.0021591384389226622,
+    "same_top1": true,
+    "answer": "2015",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.037971148116630916,
+    "same_top1": true,
+    "answer": "2015",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.5846802661391254e-11
+  },
+  {
+   "name": "hotpot/5ac2583b55429951e9e68565/gold/doc1",
+   "answer": "Xawery \u017bu\u0142awski",
+   "nP": 173,
+   "nE": 78,
+   "nD": 475,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.15826685337816246,
+    "same_top1": true
+   },
+   "truth_answer": "Brian G. Hutton",
+   "kept_answer": "Brian G. Hutton",
+   "fresh": {
+    "kl": 0.016004100802519194,
+    "same_top1": true,
+    "answer": "Brian G. Hutton",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.08349269245054067,
+    "same_top1": true,
+    "answer": "Brian G. Hutton",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.765172323513082e-12
+  },
+  {
+   "name": "hotpot/5a843cf35542996488c2e51b/gold/doc2",
+   "answer": "film",
+   "nP": 255,
+   "nE": 35,
+   "nD": 746,
+   "nQ": 19,
+   "deletion": {
+    "kl": 0.2048972679840932,
+    "same_top1": false
+   },
+   "truth_answer": "Film",
+   "kept_answer": "film",
+   "fresh": {
+    "kl": 0.049279674604474924,
+    "same_top1": true,
+    "answer": "Film",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.21203355205121405,
+    "same_top1": false,
+    "answer": "film",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.933826149145465e-11
+  },
+  {
+   "name": "hotpot/5ac41b9e5542995c82c4acc4/gold/doc6",
+   "answer": "flowers",
+   "nP": 1028,
+   "nE": 92,
+   "nD": 436,
+   "nQ": 17,
+   "deletion": {
+    "kl": 0.615758555661656,
+    "same_top1": true
+   },
+   "truth_answer": "Chamelaucium and Vanilla are derived from the species of plants \"Van",
+   "kept_answer": "Chamelaucium and Vanilla are derived from the species of plants belonging to",
+   "fresh": {
+    "kl": 0.0017005607872303055,
+    "same_top1": true,
+    "answer": "Chamelaucium and Vanilla are derived from Vanilla and Erioc",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.34635705296586894,
+    "same_top1": true,
+    "answer": "Chamelaucium and Vanilla are derived from the species of plants in the",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.2495387884877302e-11
+  },
+  {
+   "name": "hotpot/5a75b7bd5542992d0ec05fec/gold/doc2",
+   "answer": "Casablanca",
+   "nP": 255,
+   "nE": 84,
+   "nD": 727,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.052615013127196866,
+    "same_top1": true
+   },
+   "truth_answer": "\"The Big Shot\"",
+   "kept_answer": "\"The Big Shot\"",
+   "fresh": {
+    "kl": 0.010243359940555127,
+    "same_top1": true,
+    "answer": "\"The Big Shot\"",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.010710701066543631,
+    "same_top1": true,
+    "answer": "\"The Big Shot\"",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.569132336778786e-11
+  },
+  {
+   "name": "hotpot/5add433b5542997545bbbd02/gold/doc4",
+   "answer": "Shohola Falls",
+   "nP": 678,
+   "nE": 88,
+   "nD": 694,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.3024108622100599,
+    "same_top1": false
+   },
+   "truth_answer": "\"The Adventures of Huckleberry Finn\"",
+   "kept_answer": "A Tramp Abroad",
+   "fresh": {
+    "kl": 0.0020015001414629557,
+    "same_top1": true,
+    "answer": "\"The Adventures of Huckleberry Finn\"",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.2889986613104454,
+    "same_top1": false,
+    "answer": "A Tramp Abroad",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.708921212033383e-11
+  },
+  {
+   "name": "hotpot/5a82e25555429954d2e2ebbf/gold/doc4",
+   "answer": "Eva Ibbotson",
+   "nP": 350,
+   "nE": 86,
+   "nD": 1062,
+   "nQ": 35,
+   "deletion": {
+    "kl": 0.29468979020300456,
+    "same_top1": true
+   },
+   "truth_answer": "Ellen Buckingham Mathews",
+   "kept_answer": "Ellen Buckingham Mathews",
+   "fresh": {
+    "kl": 0.002177291201214575,
+    "same_top1": true,
+    "answer": "Ellen Buckingham Mathews",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.22510960103508046,
+    "same_top1": true,
+    "answer": "Ellen Buckingham Mathews",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.1054584554729605e-11
+  },
+  {
+   "name": "hotpot/5ae5a8435542992663a4f208/gold/doc3",
+   "answer": "Dutch",
+   "nP": 431,
+   "nE": 53,
+   "nD": 827,
+   "nQ": 15,
+   "deletion": {
+    "kl": 1.0881911121512629,
+    "same_top1": false
+   },
+   "truth_answer": "Swiss",
+   "kept_answer": "Dutch",
+   "fresh": {
+    "kl": 0.00047933483984268887,
+    "same_top1": true,
+    "answer": "Swiss",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.1341659859495058,
+    "same_top1": true,
+    "answer": "Swiss",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.534407837853373e-12
+  },
+  {
+   "name": "hotpot/5a84995d5542997b5ce3fee4/gold/doc1",
+   "answer": "Alachua",
+   "nP": 231,
+   "nE": 134,
+   "nD": 1368,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.2335968997205311,
+    "same_top1": true
+   },
+   "truth_answer": "Ellicott City",
+   "kept_answer": "Ellicott City",
+   "fresh": {
+    "kl": 0.03399335379720278,
+    "same_top1": true,
+    "answer": "Ellicott City",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.08557006368869223,
+    "same_top1": true,
+    "answer": "Ellicott City",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.780322696905941e-11
+  },
+  {
+   "name": "hotpot/5a7d5c175542991319bc93b1/gold/doc4",
+   "answer": "Denise Levertov",
+   "nP": 446,
+   "nE": 42,
+   "nD": 357,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.2786308214868985,
+    "same_top1": true
+   },
+   "truth_answer": "Harvey Pekar",
+   "kept_answer": "Harvey Pekar",
+   "fresh": {
+    "kl": 0.010190743766254767,
+    "same_top1": true,
+    "answer": "Harvey Pekar",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.09965251538575697,
+    "same_top1": true,
+    "answer": "Harvey Pekar",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.82121964021185e-12
+  },
+  {
+   "name": "hotpot/5ab2e3c45542991669774126/gold/doc5",
+   "answer": "yes",
+   "nP": 713,
+   "nE": 78,
+   "nD": 554,
+   "nQ": 19,
+   "deletion": {
+    "kl": 0.02090699139626689,
+    "same_top1": true
+   },
+   "truth_answer": "Yes",
+   "kept_answer": "Yes",
+   "fresh": {
+    "kl": 0.004225491843174765,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.002615707735081271,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "reprefill_consistency": 7.96076427626258e-11
+  },
+  {
+   "name": "hotpot/5a8cddd1554299441c6b9f3a/gold/doc4",
+   "answer": "Japan and Hong Kong",
+   "nP": 402,
+   "nE": 180,
+   "nD": 398,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.004461025765665319,
+    "same_top1": true
+   },
+   "truth_answer": "Cyprus and Hong Kong",
+   "kept_answer": "Cyprus and Hong Kong",
+   "fresh": {
+    "kl": 0.0005857820513733348,
+    "same_top1": true,
+    "answer": "Cyprus and Hong Kong",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.007122922691324647,
+    "same_top1": true,
+    "answer": "Cyprus and Hong Kong",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.4832872249098093e-12
+  },
+  {
+   "name": "hotpot/5ae3f1bb5542995ad6573cbe/gold/doc6",
+   "answer": "Achimenes",
+   "nP": 788,
+   "nE": 66,
+   "nD": 258,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.21460572186877444,
+    "same_top1": false
+   },
+   "truth_answer": "Brassia",
+   "kept_answer": "Achimenes",
+   "fresh": {
+    "kl": 0.00023443182756015192,
+    "same_top1": true,
+    "answer": "Brassia",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.23303415144888812,
+    "same_top1": false,
+    "answer": "Achimenes",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.166436190907794e-11
+  },
+  {
+   "name": "hotpot/5ae56a3f5542992663a4f1f4/gold/doc3",
+   "answer": "pygmy chimpanzee",
+   "nP": 311,
+   "nE": 66,
+   "nD": 678,
+   "nQ": 31,
+   "deletion": {
+    "kl": 0.3523943385454805,
+    "same_top1": true
+   },
+   "truth_answer": "Bonobo",
+   "kept_answer": "Bonobo",
+   "fresh": {
+    "kl": 0.058777049169504506,
+    "same_top1": true,
+    "answer": "Bonobo",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04808143455094872,
+    "same_top1": true,
+    "answer": "Bonobo",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.175330224353592e-11
+  },
+  {
+   "name": "hotpot/5a89da93554299669944a5cc/gold/doc3",
+   "answer": "Naval Weapons Station Yorktown",
+   "nP": 466,
+   "nE": 120,
+   "nD": 1015,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.2661172836527732,
+    "same_top1": true
+   },
+   "truth_answer": "Kiskiack is a building that still stands at the Naval Weapons Station York",
+   "kept_answer": "Kiskiack is a building that still stands at Naval Weapons Station Yorktown",
+   "fresh": {
+    "kl": 0.07658933833073898,
+    "same_top1": true,
+    "answer": "Kiskiack is a building that still stands at Naval Weapons Station Yorktown",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.2185315296349006,
+    "same_top1": true,
+    "answer": "Kiskiack",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.4359803055435981e-10
+  },
+  {
+   "name": "hotpot/5ae66b055542995703ce8b61/gold/doc1",
+   "answer": "Canadian comedian",
+   "nP": 90,
+   "nE": 56,
+   "nD": 1683,
+   "nQ": 16,
+   "deletion": {
+    "kl": 0.19928457166736163,
+    "same_top1": true
+   },
+   "truth_answer": "Michael Barrymore's father was an English comedian and television presenter.",
+   "kept_answer": "Michael McIntyre's father is an English comedian and television presenter.",
+   "fresh": {
+    "kl": 0.11239332958217416,
+    "same_top1": true,
+    "answer": "Michael Barrymore",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.346563415855492,
+    "same_top1": true,
+    "answer": "Michael McIntyre's father is an English comedian and actor.",
+    "same_answer": false
+   },
+   "reprefill_consistency": 2.1148680303886705e-11
+  },
+  {
+   "name": "hotpot/5ab2da99554299194fa93544/gold/doc8",
+   "answer": "Argentina",
+   "nP": 1281,
+   "nE": 75,
+   "nD": 294,
+   "nQ": 13,
+   "deletion": {
+    "kl": 0.015312222950575913,
+    "same_top1": true
+   },
+   "truth_answer": "The Argentine Confederation and the Confederation of Mountain Peoples of the Caucasus (CMPC",
+   "kept_answer": "The Argentine Confederation, Buenos Aires Province, Italian volunteers, and the British Empire.",
+   "fresh": {
+    "kl": 0.0013531204984607616,
+    "same_top1": true,
+    "answer": "The Argentine Confederation, Buenos Aires Province, Italian volunteers, Giuseppe Garibald",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.011768430911830306,
+    "same_top1": true,
+    "answer": "The Argentine president, Bartolom\u00e9 Mitre, aided the Colorado forces in",
+    "same_answer": false
+   },
+   "reprefill_consistency": 4.0990857620260506e-11
+  },
+  {
+   "name": "hotpot/5ae4075b55429970de88d87a/gold/doc3",
+   "answer": "Nikita Khrushchev",
+   "nP": 600,
+   "nE": 196,
+   "nD": 1037,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.013316541548272115,
+    "same_top1": true
+   },
+   "truth_answer": "Nikita Khrushchev",
+   "kept_answer": "Nikita Khrushchev",
+   "fresh": {
+    "kl": 0.03346623541772287,
+    "same_top1": true,
+    "answer": "Nikita Khrushchev",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.045178960877849346,
+    "same_top1": true,
+    "answer": "Nikita Khrushchev",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.941188751505712e-13
+  },
+  {
+   "name": "hotpot/5ab45bcd5542991779162c80/gold/doc7",
+   "answer": "Lucius Verus, Marcus Aurelius",
+   "nP": 1211,
+   "nE": 76,
+   "nD": 322,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.05239137355434417,
+    "same_top1": true
+   },
+   "truth_answer": "Constantine X Doukas and Michael VII Doukas",
+   "kept_answer": "Constantine X Doukas and Michael VII Doukas",
+   "fresh": {
+    "kl": 0.17995330646805185,
+    "same_top1": true,
+    "answer": "Constantine X Doukas and Michael VII Doukas",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.023225822258788498,
+    "same_top1": true,
+    "answer": "Constantine X Doukas and Michael VII Doukas",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.6101501059548094e-12
+  },
+  {
+   "name": "hotpot/5a778c215542995d831811ba/gold/doc6",
+   "answer": "end of the 18th century",
+   "nP": 1177,
+   "nE": 48,
+   "nD": 407,
+   "nQ": 24,
+   "deletion": {
+    "kl": 0.20182649011528553,
+    "same_top1": true
+   },
+   "truth_answer": "1869",
+   "kept_answer": "1869",
+   "fresh": {
+    "kl": 0.0035757221754399507,
+    "same_top1": true,
+    "answer": "1869",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.1382665033482031,
+    "same_top1": true,
+    "answer": "1869",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.9483120368940607e-11
+  },
+  {
+   "name": "hotpot/5a8b78f055429971feec471a/gold/doc3",
+   "answer": "yes",
+   "nP": 229,
+   "nE": 110,
+   "nD": 522,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.03376332837728194,
+    "same_top1": true
+   },
+   "truth_answer": "Yes",
+   "kept_answer": "Yes",
+   "fresh": {
+    "kl": 0.013444333035229048,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0392009393742396,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.449247420382582e-11
+  },
+  {
+   "name": "hotpot/5adcbc645542994d58a2f6b6/gold/doc3",
+   "answer": "1933",
+   "nP": 322,
+   "nE": 166,
+   "nD": 903,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.06390465194351896,
+    "same_top1": true
+   },
+   "truth_answer": "1933",
+   "kept_answer": "1973",
+   "fresh": {
+    "kl": 0.0014896104991128328,
+    "same_top1": true,
+    "answer": "1933",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04972133717933089,
+    "same_top1": true,
+    "answer": "1986",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.114619496520873e-11
+  },
+  {
+   "name": "hotpot/5adc0f8d55429947ff1738ef/gold/doc6",
+   "answer": "Saul og David",
+   "nP": 792,
+   "nE": 84,
+   "nD": 608,
+   "nQ": 17,
+   "deletion": {
+    "kl": 0.0016800695798049928,
+    "same_top1": true
+   },
+   "truth_answer": "Parsifal",
+   "kept_answer": "Parsifal",
+   "fresh": {
+    "kl": 0.0001790406635615461,
+    "same_top1": true,
+    "answer": "Parsifal",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0014243366644439877,
+    "same_top1": true,
+    "answer": "Parsifal",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.564481226087888e-12
+  },
+  {
+   "name": "hotpot/5ae202f2554299234fd0438d/gold/doc7",
+   "answer": "The Weeknd",
+   "nP": 950,
+   "nE": 51,
+   "nD": 288,
+   "nQ": 15,
+   "deletion": {
+    "kl": 0.013230834318604348,
+    "same_top1": true
+   },
+   "truth_answer": "The Weeknd",
+   "kept_answer": "The Weeknd",
+   "fresh": {
+    "kl": 0.0002199824757358024,
+    "same_top1": true,
+    "answer": "The Weeknd",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0007537636831678879,
+    "same_top1": true,
+    "answer": "The Weeknd",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.106184967469106e-11
+  },
+  {
+   "name": "hotpot/5a835478554299123d8c20ed/gold/doc7",
+   "answer": "250 million",
+   "nP": 641,
+   "nE": 122,
+   "nD": 173,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.036968471805785455,
+    "same_top1": false
+   },
+   "truth_answer": "10",
+   "kept_answer": "25",
+   "fresh": {
+    "kl": 0.00034137883095341397,
+    "same_top1": true,
+    "answer": "10",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.05996501160304262,
+    "same_top1": false,
+    "answer": "25",
+    "same_answer": false
+   },
+   "reprefill_consistency": 5.1980838775262405e-12
+  },
+  {
+   "name": "hotpot/5ab98e2b5542996be202054e/gold/doc1",
+   "answer": "1887",
+   "nP": 181,
+   "nE": 209,
+   "nD": 1016,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.12164540469386205,
+    "same_top1": true
+   },
+   "truth_answer": "1863",
+   "kept_answer": "1863",
+   "fresh": {
+    "kl": 0.01819763744412189,
+    "same_top1": true,
+    "answer": "1863",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.013242862000900673,
+    "same_top1": true,
+    "answer": "1863",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.3136667689581225e-11
+  },
+  {
+   "name": "hotpot/5a8dab16554299068b959d89/gold/doc2",
+   "answer": "Hills",
+   "nP": 349,
+   "nE": 33,
+   "nD": 967,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.020789745595916342,
+    "same_top1": true
+   },
+   "truth_answer": "Aldgate railway station, Adelaide and Aldgate, South Australia have a similar",
+   "kept_answer": "Aldgate railway station, Adelaide and Aldgate, South Australia have a similar",
+   "fresh": {
+    "kl": 0.02918594280543784,
+    "same_top1": true,
+    "answer": "Aldgate railway station, Adelaide and Aldgate, South Australia have a similar",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.018555830862618923,
+    "same_top1": true,
+    "answer": "Aldgate railway station, Adelaide and Aldgate, South Australia have a similar",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.400227520987236e-11
+  },
+  {
+   "name": "hotpot/5a79fac85542996c55b2dcc1/gold/doc6",
+   "answer": "10 October 2010",
+   "nP": 1146,
+   "nE": 41,
+   "nD": 245,
+   "nQ": 46,
+   "deletion": {
+    "kl": 0.021049987099726362,
+    "same_top1": true
+   },
+   "truth_answer": "10 October 2010",
+   "kept_answer": "10 October 2010",
+   "fresh": {
+    "kl": 9.993265236253208e-05,
+    "same_top1": true,
+    "answer": "10 October 2010",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.008023068038614642,
+    "same_top1": true,
+    "answer": "10 October 2010",
+    "same_answer": true
+   },
+   "reprefill_consistency": 5.5953555970720245e-11
+  },
+  {
+   "name": "hotpot/5a8314bd55429966c78a6b2a/gold/doc2",
+   "answer": "Robert Jenrick",
+   "nP": 421,
+   "nE": 71,
+   "nD": 1035,
+   "nQ": 24,
+   "deletion": {
+    "kl": 1.358445747415853,
+    "same_top1": true
+   },
+   "truth_answer": "Robert Jenrick",
+   "kept_answer": "Robert Jenrick",
+   "fresh": {
+    "kl": 0.1528701336433113,
+    "same_top1": false,
+    "answer": "Ras J. Baraka",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 1.0393052994676164,
+    "same_top1": true,
+    "answer": "Robert Jenrick",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.911916197584867e-10
+  },
+  {
+   "name": "hotpot/5ab9debb55429955dce3ed97/gold/doc7",
+   "answer": "DI Humphrey Goodman",
+   "nP": 974,
+   "nE": 180,
+   "nD": 239,
+   "nQ": 26,
+   "deletion": {
+    "kl": 0.17720166187707856,
+    "same_top1": true
+   },
+   "truth_answer": "Kris Marshall",
+   "kept_answer": "Kris Marshall",
+   "fresh": {
+    "kl": 0.01309724437850901,
+    "same_top1": true,
+    "answer": "Kris Marshall",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04546000945790377,
+    "same_top1": true,
+    "answer": "Kris Marshall",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.759501252656182e-11
+  },
+  {
+   "name": "hotpot/5add47085542997545bbbd13/gold/doc7",
+   "answer": "Alfredo \"Alfred\" Molina",
+   "nP": 1168,
+   "nE": 124,
+   "nD": 259,
+   "nQ": 28,
+   "deletion": {
+    "kl": 2.9831618132872695,
+    "same_top1": true
+   },
+   "truth_answer": "Alfred Molina",
+   "kept_answer": "Alfred Molina",
+   "fresh": {
+    "kl": 0.021871275905879915,
+    "same_top1": true,
+    "answer": "Alfred Molina",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 1.5001497452696602,
+    "same_top1": true,
+    "answer": "Alfred Molina",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.214283599673875e-11
+  },
+  {
+   "name": "hotpot/5a7319e755429901807daf86/gold/doc2",
+   "answer": "most total touchdowns in NCAA history",
+   "nP": 355,
+   "nE": 117,
+   "nD": 1004,
+   "nQ": 16,
+   "deletion": {
+    "kl": 1.2786698035707598,
+    "same_top1": false
+   },
+   "truth_answer": "Case Keenum",
+   "kept_answer": "Daniel Terrence LeFevour",
+   "fresh": {
+    "kl": 0.14458296400363213,
+    "same_top1": true,
+    "answer": "Case Keenum",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.10838858624397407,
+    "same_top1": true,
+    "answer": "Case Keenum",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.3950662547740587e-10
+  },
+  {
+   "name": "hotpot/5a7a06525542990198eaf04f/gold/doc6",
+   "answer": "David Michael Draiman",
+   "nP": 774,
+   "nE": 141,
+   "nD": 568,
+   "nQ": 13,
+   "deletion": {
+    "kl": 0.008985319010113617,
+    "same_top1": true
+   },
+   "truth_answer": "Terry Kath",
+   "kept_answer": "Terry Kath",
+   "fresh": {
+    "kl": 0.005041011802077836,
+    "same_top1": true,
+    "answer": "Terry Kath",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0036995987454831424,
+    "same_top1": true,
+    "answer": "Terry Kath",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.3773284938481852e-12
+  },
+  {
+   "name": "hotpot/5a8a1a975542992e4fca8505/gold/doc7",
+   "answer": "Preston County",
+   "nP": 771,
+   "nE": 117,
+   "nD": 242,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.21074778983374975,
+    "same_top1": true
+   },
+   "truth_answer": "West Virginia",
+   "kept_answer": "West Virginia",
+   "fresh": {
+    "kl": 0.012691060392424153,
+    "same_top1": true,
+    "answer": "West Virginia",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.1606271296681125,
+    "same_top1": true,
+    "answer": "West Virginia",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.6220996893241224e-11
+  },
+  {
+   "name": "hotpot/5a8f43555542992414482a21/gold/doc7",
+   "answer": "The Tales of Hoffmann",
+   "nP": 945,
+   "nE": 74,
+   "nD": 241,
+   "nQ": 27,
+   "deletion": {
+    "kl": 0.22244990575092818,
+    "same_top1": true
+   },
+   "truth_answer": "Offenbach",
+   "kept_answer": "Offenbach",
+   "fresh": {
+    "kl": 0.0028161156732532085,
+    "same_top1": true,
+    "answer": "Offenbach",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.07050067145348535,
+    "same_top1": true,
+    "answer": "Offenbach",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.420538157190065e-11
+  },
+  {
+   "name": "hotpot/5ae08a0455429924de1b70fc/gold/doc6",
+   "answer": "Enigma",
+   "nP": 901,
+   "nE": 67,
+   "nD": 287,
+   "nQ": 21,
+   "deletion": {
+    "kl": 0.22840331152385798,
+    "same_top1": true
+   },
+   "truth_answer": "The Borghild Project",
+   "kept_answer": "The Borghild Project",
+   "fresh": {
+    "kl": 0.07766229014846793,
+    "same_top1": true,
+    "answer": "The Borghild Project",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.13523469642689198,
+    "same_top1": true,
+    "answer": "The Borghild Project",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.050699906377283e-11
+  },
+  {
+   "name": "hotpot/5a739d8c55429905862fe073/gold/doc6",
+   "answer": "Santa Fe",
+   "nP": 674,
+   "nE": 108,
+   "nD": 355,
+   "nQ": 28,
+   "deletion": {
+    "kl": 0.01856586731823479,
+    "same_top1": true
+   },
+   "truth_answer": "Santa Fe, Missouri",
+   "kept_answer": "Santa Fe, Missouri",
+   "fresh": {
+    "kl": 8.852591514417783e-05,
+    "same_top1": true,
+    "answer": "Santa Fe, Missouri",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.008021598440526186,
+    "same_top1": true,
+    "answer": "Santa Fe, Missouri",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.2531348424389857e-11
+  },
+  {
+   "name": "hotpot/5a802fb8554299485f598582/gold/doc2",
+   "answer": "board game",
+   "nP": 408,
+   "nE": 41,
+   "nD": 1286,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.5973487958535151,
+    "same_top1": false
+   },
+   "truth_answer": "Sports",
+   "kept_answer": "Careers and The Really Nasty Horse Racing Game are both board games.",
+   "fresh": {
+    "kl": 0.04613205058527708,
+    "same_top1": true,
+    "answer": "Sports",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.09638424474885504,
+    "same_top1": true,
+    "answer": "Sports",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.85346483971591e-11
+  },
+  {
+   "name": "hotpot/5adcf3a45542994ed6169c38/gold/doc6",
+   "answer": "Spain, Mexico and France",
+   "nP": 705,
+   "nE": 55,
+   "nD": 308,
+   "nQ": 25,
+   "deletion": {
+    "kl": 0.18429357983846212,
+    "same_top1": true
+   },
+   "truth_answer": "Mexico and Guatemala",
+   "kept_answer": "Mexico and Guatemala",
+   "fresh": {
+    "kl": 0.021636160515222047,
+    "same_top1": true,
+    "answer": "Mexico and Guatemala",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.06042907347541197,
+    "same_top1": true,
+    "answer": "Mexico and Guatemala",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.1580979072439597e-10
+  },
+  {
+   "name": "hotpot/5ae0345855429924de1b705f/gold/doc1",
+   "answer": "Las Vegas Sands company.",
+   "nP": 215,
+   "nE": 117,
+   "nD": 1189,
+   "nQ": 18,
+   "deletion": {
+    "kl": 0.3481492948549223,
+    "same_top1": true
+   },
+   "truth_answer": "Comcast Spectacor",
+   "kept_answer": "Comcast Spectacor",
+   "fresh": {
+    "kl": 0.24834735576574507,
+    "same_top1": true,
+    "answer": "Comcast Spectacor",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.4654476220210287,
+    "same_top1": true,
+    "answer": "Comcast Spectacor",
+    "same_answer": true
+   },
+   "reprefill_consistency": 6.710666591582017e-11
+  },
+  {
+   "name": "hotpot/5ac51c2855429924173fb5b5/gold/doc8",
+   "answer": "Henry Madison Morris",
+   "nP": 1132,
+   "nE": 62,
+   "nD": 82,
+   "nQ": 29,
+   "deletion": {
+    "kl": 0.04283270571041712,
+    "same_top1": true
+   },
+   "truth_answer": "John C. Whitcomb",
+   "kept_answer": "John C. Whitcomb",
+   "fresh": {
+    "kl": 0.00014340462271870426,
+    "same_top1": true,
+    "answer": "John C. Whitcomb",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.021215632655714647,
+    "same_top1": true,
+    "answer": "John C. Whitcomb",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.2996098845574096e-10
+  },
+  {
+   "name": "hotpot/5abb08c65542996cc5e49f61/gold/doc6",
+   "answer": "FIFA World Cup",
+   "nP": 1139,
+   "nE": 164,
+   "nD": 531,
+   "nQ": 22,
+   "deletion": {
+    "kl": 0.03599335266692533,
+    "same_top1": false
+   },
+   "truth_answer": "The 1970 FIFA World Cup",
+   "kept_answer": "George Borba was part of the team that competed at the 19",
+   "fresh": {
+    "kl": 0.010335639140597843,
+    "same_top1": true,
+    "answer": "The 1970 FIFA World Cup",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.013796911008244723,
+    "same_top1": true,
+    "answer": "The 1970 FIFA World Cup",
+    "same_answer": true
+   },
+   "reprefill_consistency": 1.0428766243159355e-10
+  },
+  {
+   "name": "hotpot/5abba17a5542992ccd8e7f60/gold/doc3",
+   "answer": "Toyota Hilux",
+   "nP": 539,
+   "nE": 278,
+   "nD": 934,
+   "nQ": 35,
+   "deletion": {
+    "kl": 0.24558204512638857,
+    "same_top1": true
+   },
+   "truth_answer": "The Toyota Fortuner",
+   "kept_answer": "The Toyota Fortuner",
+   "fresh": {
+    "kl": 0.003274129587403522,
+    "same_top1": false,
+    "answer": "Toyota Fortuner",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.02866751038325896,
+    "same_top1": true,
+    "answer": "The Toyota Fortuner",
+    "same_answer": true
+   },
+   "reprefill_consistency": 3.988254616721609e-12
+  },
+  {
+   "name": "hotpot/5a7d6a2d5542991319bc93c6/gold/doc8",
+   "answer": "Southern Isles",
+   "nP": 1295,
+   "nE": 218,
+   "nD": 280,
+   "nQ": 34,
+   "deletion": {
+    "kl": 0.23559249919248776,
+    "same_top1": true
+   },
+   "truth_answer": "King of Norway Magnus Barefoot launched aggressive military campaigns in the Hebr",
+   "kept_answer": "King of Norway Magnus Barefoot launched aggressive military campaigns in the Hebr",
+   "fresh": {
+    "kl": 0.0016925681076548254,
+    "same_top1": true,
+    "answer": "King of Norway Magnus Barefoot launched aggressive military campaigns in the Hebr",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.04072516964569535,
+    "same_top1": true,
+    "answer": "King of Norway Magnus Barefoot launched aggressive military campaigns in the Hebr",
+    "same_answer": true
+   },
+   "reprefill_consistency": 2.242453946017115e-11
+  },
+  {
+   "name": "hotpot/5ac048ea554299294b218f74/gold/doc5",
+   "answer": "Michael Swango",
+   "nP": 1070,
+   "nE": 183,
+   "nD": 645,
+   "nQ": 39,
+   "deletion": {
+    "kl": 0.8460642734676374,
+    "same_top1": true
+   },
+   "truth_answer": "Frederic Rieders testified against Peter Dupas who had killed as many as",
+   "kept_answer": "Fredric Rieders testified against Michael Swango, who had killed as many",
+   "fresh": {
+    "kl": 0.022143965626640283,
+    "same_top1": true,
+    "answer": "Frederic Rieders testified against Michael Swango who had killed as many as",
+    "same_answer": false
+   },
+   "cached": {
+    "kl": 0.5953646763705108,
+    "same_top1": true,
+    "answer": "Fredric Rieders testified against Michael Swango who had killed as many as",
+    "same_answer": false
+   },
+   "reprefill_consistency": 1.4426130629658824e-11
+  },
+  {
+   "name": "hotpot/5abd0eae5542996e802b46d4/gold/doc7",
+   "answer": "no",
+   "nP": 1136,
+   "nE": 115,
+   "nD": 174,
+   "nQ": 14,
+   "deletion": {
+    "kl": 0.0031969432079918363,
+    "same_top1": true
+   },
+   "truth_answer": "Yes",
+   "kept_answer": "Yes",
+   "fresh": {
+    "kl": 0.0009692758570039404,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.0029550210998957127,
+    "same_top1": true,
+    "answer": "Yes",
+    "same_answer": true
+   },
+   "reprefill_consistency": 8.340310224041796e-12
+  },
+  {
+   "name": "hotpot/5a73d3ea5542992d56e7e3af/gold/doc6",
+   "answer": "Arlo Looking Cloud",
+   "nP": 691,
+   "nE": 237,
+   "nD": 412,
+   "nQ": 29,
+   "deletion": {
+    "kl": 0.08384340347858127,
+    "same_top1": false
+   },
+   "truth_answer": "Anna Mae Aquash",
+   "kept_answer": "The American Indian Movement (AIM) activist known for his involvement in the American",
+   "fresh": {
+    "kl": 0.03837693028658939,
+    "same_top1": true,
+    "answer": "Anna Mae Aquash",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.2019466528882151,
+    "same_top1": false,
+    "answer": "John Graham",
+    "same_answer": false
+   },
+   "reprefill_consistency": 8.489658452945332e-11
+  },
+  {
+   "name": "hotpot/5ae1c2d8554299234fd042ee/gold/doc8",
+   "answer": "in 1994",
+   "nP": 1263,
+   "nE": 154,
+   "nD": 99,
+   "nQ": 31,
+   "deletion": {
+    "kl": 0.22310764485879614,
+    "same_top1": true
+   },
+   "truth_answer": "Patricia Hy-Boulais became a US citizen in 19",
+   "kept_answer": "Patricia Hy-Boulais became a US citizen in 19",
+   "fresh": {
+    "kl": 0.0010836493166434453,
+    "same_top1": true,
+    "answer": "Patricia Hy-Boulais became a US citizen in 19",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.02603679410191849,
+    "same_top1": true,
+    "answer": "Patricia Hy-Boulais became a US citizen in 19",
+    "same_answer": true
+   },
+   "reprefill_consistency": 4.106080397176366e-11
+  },
+  {
+   "name": "hotpot/5ade99235542997c77adee7f/gold/doc7",
+   "answer": "Midland, Michigan, United States",
+   "nP": 974,
+   "nE": 117,
+   "nD": 237,
+   "nQ": 23,
+   "deletion": {
+    "kl": 0.22964567851976503,
+    "same_top1": true
+   },
+   "truth_answer": "Dow AgroSciences",
+   "kept_answer": "Dow Chemical Company",
+   "fresh": {
+    "kl": 0.00036374480894277425,
+    "same_top1": true,
+    "answer": "Dow AgroSciences",
+    "same_answer": true
+   },
+   "cached": {
+    "kl": 0.06163297134924718,
+    "same_top1": true,
+    "answer": "Dow Chemical Company",
+    "same_answer": false
+   },
+   "reprefill_consistency": 3.8210412716179044e-11
+  }
+ ]
+}

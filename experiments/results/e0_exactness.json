@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "written": "2026-11-13T08:34:15",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "rows": [
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "device": "cpu",
+   "dtype": "float64",
+   "tokens": 512,
+   "uniform_shift_1000_logit_gap": 3.9768188742073107e-13,
+   "uniform_shift_20000_logit_gap": 3.064215547965432e-13,
+   "relocated_query_logit_gap": 1.1723955140041653e-13,
+   "relocated_rewrite_logit_gap": 9.947598300641403e-14,
+   "query_vs_rewrite_logit_gap": 1.1723955140041653e-13
+  },
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "device": "cpu",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.00011485815048217773,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.0002288818359375,
+   "uniform_shift_20000_logit_gap": 0.00019180774688720703,
+   "relocated_query_logit_gap": 4.494190216064453e-05,
+   "relocated_rewrite_logit_gap": 5.435943603515625e-05,
+   "query_vs_rewrite_logit_gap": 7.82012939453125e-05
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "device": "cpu",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.0001583099365234375,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.00018978118896484375,
+   "uniform_shift_20000_logit_gap": 0.00029540061950683594,
+   "relocated_query_logit_gap": 7.82012939453125e-05,
+   "relocated_rewrite_logit_gap": 6.67572021484375e-05,
+   "query_vs_rewrite_logit_gap": 5.91278076171875e-05
+  },
+  {
+   "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "device": "cpu",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.00020313262939453125,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.000171661376953125,
+   "uniform_shift_20000_logit_gap": 0.0001697540283203125,
+   "relocated_query_logit_gap": 0.0001010894775390625,
+   "relocated_rewrite_logit_gap": 0.00011444091796875,
+   "query_vs_rewrite_logit_gap": 0.0002090930938720703
+  },
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "device": "mps",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.00011610984802246094,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.00019121170043945312,
+   "uniform_shift_20000_logit_gap": 0.00018072128295898438,
+   "relocated_query_logit_gap": 5.91278076171875e-05,
+   "relocated_rewrite_logit_gap": 7.05718994140625e-05,
+   "query_vs_rewrite_logit_gap": 5.2928924560546875e-05
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "device": "mps",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.00012969970703125,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.000217437744140625,
+   "uniform_shift_20000_logit_gap": 0.00021028518676757812,
+   "relocated_query_logit_gap": 4.5299530029296875e-05,
+   "relocated_rewrite_logit_gap": 5.435943603515625e-05,
+   "query_vs_rewrite_logit_gap": 4.291534423828125e-05
+  },
+  {
+   "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "device": "mps",
+   "dtype": "float32",
+   "tokens": 512,
+   "vs_library_logit_gap": 0.00020885467529296875,
+   "vs_library_argmax_agree": 1.0,
+   "uniform_shift_1000_logit_gap": 0.0001659393310546875,
+   "uniform_shift_20000_logit_gap": 0.0001544952392578125,
+   "relocated_query_logit_gap": 0.0001277923583984375,
+   "relocated_rewrite_logit_gap": 0.00012111663818359375,
+   "query_vs_rewrite_logit_gap": 0.00010204315185546875
+  }
+ ]
+}

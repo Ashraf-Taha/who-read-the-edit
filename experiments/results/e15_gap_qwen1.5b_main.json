@@ -1,0 +1,1300 @@
+{
+ "meta": {
+  "written": "2026-11-21T12:07:58",
+  "torch": "2.15.0",
+  "transformers": "5.22.2",
+  "machine": "macOS-27.2.1-arm64-arm-64bit",
+  "processor": "arm"
+ },
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "gaps": [
+  1,
+  4,
+  16,
+  64,
+  256,
+  1024
+ ],
+ "rows": [
+  {
+   "name": "hotpot/5abf63f15542997ec76fd3ea/distractor/doc2",
+   "kind": "distractor",
+   "n": 1997,
+   "boundary": 465,
+   "results": {
+    "1": {
+     "kl": 5.9446617959509545e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.004167399121186467,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.017328605717255887,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0601721116663339,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.011424342083447996,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.04786658822762165,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7555215542996c70cfaee1/distractor/doc7",
+   "kind": "distractor",
+   "n": 1587,
+   "boundary": 1314,
+   "results": {
+    "1": {
+     "kl": 2.790714090662245e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.00014911069323625493,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0014840726579233288,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.019154750592073718,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.023316491370056397,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.04422644115338252,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8595a85542992a431d1b48/distractor/doc6",
+   "kind": "distractor",
+   "n": 1914,
+   "boundary": 1172,
+   "results": {
+    "1": {
+     "kl": 0.0003622554308072488,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.016656981862076807,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.018951347060445864,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.08537375741384672,
+     "same_answer": false
+    },
+    "256": {
+     "kl": 0.32351640954872724,
+     "same_answer": false
+    },
+    "1024": {
+     "kl": 0.5586761329660412,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7fb7985542994857a767d2/distractor/doc7",
+   "kind": "distractor",
+   "n": 885,
+   "boundary": 698,
+   "results": {
+    "1": {
+     "kl": 2.6263144258985136e-07,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 5.224625704123507e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.00015861888799564562,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0002629126543874028,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.00010035429462271999,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00042781105441316164,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae73d235542991e8301cc29/distractor/doc3",
+   "kind": "distractor",
+   "n": 1346,
+   "boundary": 373,
+   "results": {
+    "1": {
+     "kl": 0.0011163827945569718,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.014963137634647591,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0029879875338136136,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.04520837028787401,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.20117571159104208,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 1.8160304357932138,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ab47cd75542991751b4d78d/distractor/doc8",
+   "kind": "distractor",
+   "n": 1681,
+   "boundary": 1319,
+   "results": {
+    "1": {
+     "kl": 0.0005144620775608359,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0016005227862531995,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.00028548847540501714,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.000795868679575136,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0004347335074864733,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.002607035574444101,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8efb5a55429918e830d172/distractor/doc3",
+   "kind": "distractor",
+   "n": 1185,
+   "boundary": 251,
+   "results": {
+    "1": {
+     "kl": 3.5986615785899277e-06,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 3.5460810526197445e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0004637779019710545,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 4.080607122899087e-06,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0014304620081418548,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00293188517023933,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7ae2f2554299042af8f6aa/distractor/doc8",
+   "kind": "distractor",
+   "n": 1233,
+   "boundary": 1022,
+   "results": {
+    "1": {
+     "kl": 6.0647959926036084e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.001064072956540777,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0024033942968802037,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.001607580298983948,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0006412829380508401,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.03225130191231958,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7b88b45542997c3ec97201/distractor/doc3",
+   "kind": "distractor",
+   "n": 1681,
+   "boundary": 392,
+   "results": {
+    "1": {
+     "kl": 6.968806876611716e-06,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 7.119441790577915e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 2.4807677084767256e-05,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 4.316649117277869e-05,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0006870111396254492,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00012081339631192609,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8f7a135542992414482adc/distractor/doc3",
+   "kind": "distractor",
+   "n": 1377,
+   "boundary": 539,
+   "results": {
+    "1": {
+     "kl": 0.00010712503601781798,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.009645554161108013,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.004180932155575853,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.00654095832545483,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.27888135731070396,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.7247732700468379,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae554ce55429960a22e02b7/distractor/doc3",
+   "kind": "distractor",
+   "n": 1570,
+   "boundary": 408,
+   "results": {
+    "1": {
+     "kl": 5.445270544571714e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0015228708540006913,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.00686421163030503,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.009263538297449678,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.009486925524082437,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.009515890865439029,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac07327554299012d1db5f2/distractor/doc5",
+   "kind": "distractor",
+   "n": 1072,
+   "boundary": 447,
+   "results": {
+    "1": {
+     "kl": 0.000852899535959345,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0007077394489661783,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0019708639267822666,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0013270503460591423,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.002834537791818503,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.02290487183467973,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ade858a55429975fa854eea/distractor/doc1",
+   "kind": "distractor",
+   "n": 859,
+   "boundary": 95,
+   "results": {
+    "1": {
+     "kl": 5.463032186839818e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.000623416278943949,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0005704304075690358,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0005357159160284951,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.002661989775094562,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.0011489126594917683,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae61e7555429929b0807adf/distractor/doc8",
+   "kind": "distractor",
+   "n": 1521,
+   "boundary": 1229,
+   "results": {
+    "1": {
+     "kl": 0.0003573638304855815,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.002984824356302073,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.005532692597491389,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.011352238655213644,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.040407546299510363,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.07977823315459,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac289ff5542996366519a02/distractor/doc8",
+   "kind": "distractor",
+   "n": 1777,
+   "boundary": 1443,
+   "results": {
+    "1": {
+     "kl": 0.0008957042206815119,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.005226108371801064,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.007894314211661464,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.033765675092386184,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.1633113989355161,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.058889440984733074,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac0b1835542992a796ded65/distractor/doc8",
+   "kind": "distractor",
+   "n": 1474,
+   "boundary": 1058,
+   "results": {
+    "1": {
+     "kl": 5.08329117030712e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0009386049832578267,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0011383497932514219,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0004986125378558687,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0062779066521790414,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.035694369909863785,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae40b2b55429970de88d8b3/distractor/doc2",
+   "kind": "distractor",
+   "n": 1945,
+   "boundary": 511,
+   "results": {
+    "1": {
+     "kl": 0.00041521164438270325,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0022040680832887305,
+     "same_answer": false
+    },
+    "16": {
+     "kl": 0.008010418623372803,
+     "same_answer": false
+    },
+    "64": {
+     "kl": 0.0035555402573172693,
+     "same_answer": false
+    },
+    "256": {
+     "kl": 0.0052537105833449504,
+     "same_answer": false
+    },
+    "1024": {
+     "kl": 0.021804497322852782,
+     "same_answer": false
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae7e8f55542994a481bbe06/distractor/doc7",
+   "kind": "distractor",
+   "n": 1249,
+   "boundary": 866,
+   "results": {
+    "1": {
+     "kl": 4.4502990016829e-05,
+     "same_answer": false
+    },
+    "4": {
+     "kl": 0.00014324829501027213,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.000849547433887752,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 6.881802314741135e-05,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0008639195383804616,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.0004582677754064432,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5adf4b335542993a75d264a5/distractor/doc2",
+   "kind": "distractor",
+   "n": 1244,
+   "boundary": 299,
+   "results": {
+    "1": {
+     "kl": 5.837918401702271e-06,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0036841867013452773,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0004927993916081804,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0704730686997197,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.006097517359405822,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.018483449962180334,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a78d16455429974737f78bb/distractor/doc8",
+   "kind": "distractor",
+   "n": 1138,
+   "boundary": 727,
+   "results": {
+    "1": {
+     "kl": 2.8604163637934575e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0002578594049650185,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0007722551400319358,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0015633107189809614,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0056493314834680465,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.011396922972146511,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5abf63f15542997ec76fd3ea/gold/doc7",
+   "kind": "gold",
+   "n": 1997,
+   "boundary": 1200,
+   "results": {
+    "1": {
+     "kl": 1.7275114358721396e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0019964831975331707,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.01645625125888328,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.05695467883806291,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.024246432577451665,
+     "same_answer": false
+    },
+    "1024": {
+     "kl": 0.06704471648263764,
+     "same_answer": false
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7555215542996c70cfaee1/gold/doc2",
+   "kind": "gold",
+   "n": 1587,
+   "boundary": 281,
+   "results": {
+    "1": {
+     "kl": 1.5092103279522023e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0013231143380652254,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0005469047085773436,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0014422138401860337,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0039015822399742664,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.0028630962267749954,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8595a85542992a431d1b48/gold/doc4",
+   "kind": "gold",
+   "n": 1914,
+   "boundary": 946,
+   "results": {
+    "1": {
+     "kl": 0.0008064275777385008,
+     "same_answer": false
+    },
+    "4": {
+     "kl": 0.013109859255538694,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.024088950008513972,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.037720959619658705,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.037341668220767746,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.12381482904641326,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7fb7985542994857a767d2/gold/doc8",
+   "kind": "gold",
+   "n": 885,
+   "boundary": 762,
+   "results": {
+    "1": {
+     "kl": 1.7766455526853545e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 6.904683983730697e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.00014691795384273176,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 7.219953920898443e-05,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.00023496320814408674,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.0001559566332916371,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae73d235542991e8301cc29/gold/doc5",
+   "kind": "gold",
+   "n": 1346,
+   "boundary": 714,
+   "results": {
+    "1": {
+     "kl": 0.008028979553304628,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.02550076956065428,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.12669096551719536,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.10606656935510178,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.10342519794668865,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.7412580290960047,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ab47cd75542991751b4d78d/gold/doc3",
+   "kind": "gold",
+   "n": 1681,
+   "boundary": 506,
+   "results": {
+    "1": {
+     "kl": 0.00024403867019314116,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0027433959387168617,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.001930267221693298,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0023937975260807567,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0014359818456106544,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00034020712403004164,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8efb5a55429918e830d172/gold/doc8",
+   "kind": "gold",
+   "n": 1185,
+   "boundary": 969,
+   "results": {
+    "1": {
+     "kl": 4.6460446699198944e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0002966915498909632,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0004399189736902591,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 1.0424199641984067e-05,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.002945226945262396,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.002346782707997968,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7ae2f2554299042af8f6aa/gold/doc4",
+   "kind": "gold",
+   "n": 1233,
+   "boundary": 563,
+   "results": {
+    "1": {
+     "kl": 0.0005339398452722578,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.003199031841498728,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0010718125943055114,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.006153212686751645,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0073677218135865495,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.014644161141404651,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a7b88b45542997c3ec97201/gold/doc2",
+   "kind": "gold",
+   "n": 1681,
+   "boundary": 339,
+   "results": {
+    "1": {
+     "kl": 6.876541435551776e-06,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 2.5787657130754192e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 8.601586301452718e-06,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0012664317995347038,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0016550794672114096,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00027016307497052916,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a8f7a135542992414482adc/gold/doc2",
+   "kind": "gold",
+   "n": 1377,
+   "boundary": 421,
+   "results": {
+    "1": {
+     "kl": 2.616824895879364e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0018678005098886534,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0007713139726977849,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.0027045426876788304,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.10785150088815625,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.27491100672434826,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae554ce55429960a22e02b7/gold/doc7",
+   "kind": "gold",
+   "n": 1570,
+   "boundary": 1146,
+   "results": {
+    "1": {
+     "kl": 0.00015310368730185042,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0031702882484168898,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.007698000341843253,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.016242670500611248,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.10994484049729865,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.8320097100345697,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac07327554299012d1db5f2/gold/doc7",
+   "kind": "gold",
+   "n": 1072,
+   "boundary": 712,
+   "results": {
+    "1": {
+     "kl": 1.1506795271044292e-06,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.0049556888085909535,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.01791779401783624,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.013075759836536957,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.017585368043106186,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.07124675488730288,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ade858a55429975fa854eea/gold/doc3",
+   "kind": "gold",
+   "n": 859,
+   "boundary": 195,
+   "results": {
+    "1": {
+     "kl": 2.265696652595756e-05,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 3.203196417390404e-05,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 5.816289619943848e-06,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 1.5397950464079703e-05,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0004985508234143444,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.00015469634517073136,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae61e7555429929b0807adf/gold/doc5",
+   "kind": "gold",
+   "n": 1521,
+   "boundary": 612,
+   "results": {
+    "1": {
+     "kl": 0.0006537979243177479,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.03839288372443821,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.0698324541781087,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.04877735995291895,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.04920754446331571,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.08156541743605117,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac289ff5542996366519a02/gold/doc4",
+   "kind": "gold",
+   "n": 1777,
+   "boundary": 650,
+   "results": {
+    "1": {
+     "kl": 0.0010089874362682438,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.15707151253068868,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.38014239561018437,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.5526888652091067,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.6166150699663411,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.6433798307685853,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ac0b1835542992a796ded65/gold/doc2",
+   "kind": "gold",
+   "n": 1474,
+   "boundary": 259,
+   "results": {
+    "1": {
+     "kl": 0.00018041683430094203,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.00764737610331243,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.021938643788450906,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.020992900499872447,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.025528219608819833,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.004900721462703062,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae40b2b55429970de88d8b3/gold/doc5",
+   "kind": "gold",
+   "n": 1945,
+   "boundary": 1042,
+   "results": {
+    "1": {
+     "kl": 0.0004670496723339531,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.028069573390833956,
+     "same_answer": false
+    },
+    "16": {
+     "kl": 0.054302759821237244,
+     "same_answer": false
+    },
+    "64": {
+     "kl": 0.1649190129789271,
+     "same_answer": false
+    },
+    "256": {
+     "kl": 0.10009139234960365,
+     "same_answer": false
+    },
+    "1024": {
+     "kl": 0.23598149015025277,
+     "same_answer": false
+    }
+   }
+  },
+  {
+   "name": "hotpot/5ae7e8f55542994a481bbe06/gold/doc8",
+   "kind": "gold",
+   "n": 1249,
+   "boundary": 998,
+   "results": {
+    "1": {
+     "kl": 2.6802590273170486e-05,
+     "same_answer": false
+    },
+    "4": {
+     "kl": 0.001367908674642388,
+     "same_answer": false
+    },
+    "16": {
+     "kl": 0.004876643561910526,
+     "same_answer": false
+    },
+    "64": {
+     "kl": 0.0004867821638754434,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0029144511875479995,
+     "same_answer": false
+    },
+    "1024": {
+     "kl": 0.00014791959789510654,
+     "same_answer": false
+    }
+   }
+  },
+  {
+   "name": "hotpot/5adf4b335542993a75d264a5/gold/doc6",
+   "kind": "gold",
+   "n": 1244,
+   "boundary": 822,
+   "results": {
+    "1": {
+     "kl": 0.0019197724635429657,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.05327326364641759,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.016548380690398892,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.03048400541490158,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.0077750880473148095,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.050926407462832515,
+     "same_answer": true
+    }
+   }
+  },
+  {
+   "name": "hotpot/5a78d16455429974737f78bb/gold/doc1",
+   "kind": "gold",
+   "n": 1138,
+   "boundary": 109,
+   "results": {
+    "1": {
+     "kl": 0.0010969858920940807,
+     "same_answer": true
+    },
+    "4": {
+     "kl": 0.005965024760760943,
+     "same_answer": true
+    },
+    "16": {
+     "kl": 0.011232800970902831,
+     "same_answer": true
+    },
+    "64": {
+     "kl": 0.004329632110321327,
+     "same_answer": true
+    },
+    "256": {
+     "kl": 0.05516419916371632,
+     "same_answer": true
+    },
+    "1024": {
+     "kl": 0.017536006442684285,
+     "same_answer": true
+    }
+   }
+  }
+ ]
+}
